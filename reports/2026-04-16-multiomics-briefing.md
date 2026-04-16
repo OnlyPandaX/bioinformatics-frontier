@@ -1,128 +1,127 @@
-# 🧬 多组学研究简报
-**2026年4月16日（周四）**
+# 多组学研究简报
+**日期：** 2026年4月16日
 
 ---
 
-## 📌 趋势评述
+## 📌 今日精选
 
-本周（4月9–16日）多组学与计算生物学领域呈现几个值得关注的动向：
+### 1. 健康人类肝脏空间转录组图谱
 
-- **AI+Bioinformatics 持续升温**：LLM 在生物信息学命令行生成（oxo-call）和单细胞注释（MAT-Cell）方向同时突破，工具化和自动化趋势明显。
-- **空间组学整合方法涌现**：INST-Align 解决了多切片空间转录组数据的对齐与批次效应问题；Cross-Modal Knowledge Distillation 则尝试从空间转录组向病理图像迁移知识。
-- **生成式 AI 加速科学发现**：BloClaw 展示了多模态智能体在下一代科学发现中的潜力，整合了组学数据分析和可视化。
-- **基础模型评估成为热点**：LABBench2 和 DrugPlayGround 分别针对"AI做生物学研究"和"AI驱动药物发现"发布了系统性基准测试。
+**标题：** A spatial atlas of the healthy human liver from live donors
 
----
+**期刊：** Nature (2026年4月15日)
 
-## 📖 精选论文
+**作者：** Oran Yakubovsky, Keren Bahar Halpern, Shalev Itzkovitz (Weizmann Institute of Science)
 
----
+**链接：** https://www.nature.com/articles/s41586-026-10377-y
 
-### 1. oxo-call: LLM 精准生成生物信息学命令行
+**一句话概要：** 首个基于活体肝移植供体的健康人类肝脏空间转录组图谱，揭示了人类特有的肝细胞功能区域化模式。
 
-**作者**：Yun Peng, Yujun Sun 等 | **Submitted: 14 Apr 2026**  
-**预印本**: [arXiv:2604.11000](https://arxiv.org/abs/2604.11000)  
-**标签**: Large Language Model · Bioinformatics · Command-line Generation
+**主要贡献：**
+- 结合10X Visium、MERFISH、Visium HD和snRNA-seq，绘制了高分辨率人类肝脏空间转录组图谱
+- 发现人类肝脏区域化模式与小鼠等哺乳动物存在显著差异：糖异生相关基因PCK2、关键尿素循环酶在人类中呈中央静脉周富集
+- 鉴定了早期脂肪肝中肝细胞基因表达的动态变化，揭示潜在的代偿性适应机制
 
-**一句话概要**  
-用文档增强的 LLM Skill 系统，为 44 类生物信息学分析（从变异检测到单细胞转录组）自动生成准确可靠的多行 Bash 命令行脚本。
-
-**主要贡献**  
-- 构建了 >150 个内置 Skill，覆盖 44 个分析类别的真实文档、常见陷阱和工作示例，编译为单一静态链接二进制文件。
-- 每条生成命令均附有溯源元数据，支持审查和复现。
-- 解决了 LLM 生成生物信息学命令时常见的不一致、参数错误和幻觉问题。
-
-**Critical 简评**  
-🧪 这是一个从"AI 能跑通"到"AI 能信任"的实用工具，在大规模组学数据处理流程中有直接应用价值。文档-grounded 的策略值得在其他生物信息学任务中推广。该工作填补了生信命令行自动化工具链的关键空白。
+**Critical简评：** 这项研究解决了长期困扰领域的一个关键问题——如何获得"真正健康"的人类肝脏参考组织。活体肝移植供体经过严格医学筛查，避免了脑死亡供体和病变周围组织的转录组偏倚。研究发现人类肝脏区域化模式的独特性，对于理解肝脏疾病的空间特征和药物代谢具有重要意义。
 
 ---
 
-### 2. MAT-Cell: 神经符号推理框架实现可验证的单细胞注释
+### 2. 早期结直肠癌中的肿瘤-胎儿可塑性
 
-**作者**：Yehui Yang, Zhen Lei, Stan Z. Li 等 | **Submitted: 7 Apr 2026**  
-**预印本**: [arXiv:2604.10602](https://arxiv.org/abs/2604.10602)  
-**标签**: Single-Cell · Neuro-symbolic · Cell Type Annotation · Reasoning
+**标题：** Emergence of oncofetal plasticity is ubiquitous in early colorectal cancers
 
-**一句话概要**  
-将单细胞注释从"黑盒分类"转变为"可构造、可验证的证明生成"过程，通过神经符号推理注入生物学先验知识。
+**期刊：** Nature (2026年4月15日)
 
-**主要贡献**  
-- 提出 MAT-Cell 框架，采用多智能体树状推理结构，在注释过程中显式建模符号化生物学约束（如细胞 marker 基因、功能通路）。
-- 针对现有方法因信噪比悖论（Signal-to-Noise Paradox）产生虚假关联的问题，引入可验证的约束传播机制。
-- 树状推理允许对每个注释决策进行回溯和解释，而非仅输出一个概率标签。
+**作者：** Julian R. Buissant des Amorie, Joris H. Hageman, Hugo J. G. Snippert (University Medical Center Utrecht)
 
-**Critical 简评**  
-🔬 这是单细胞注释方法论的一次重要范式转变。传统黑盒方法只告诉你"这是 T 细胞"，MAT-Cell 还能告诉你"为什么是 T 细胞"——这对下游生物学发现的可解释性至关重要。该工作有望推动单细胞分析从描述性走向机制性。
+**链接：** https://www.nature.com/articles/s41586-026-10344-7
 
----
+**一句话概要：** 转移相关的肿瘤-胎儿细胞状态在结直肠癌最早期的侵袭前沿即已出现，由特化的成纤维细胞亚群诱导产生。
 
-### 3. INST-Align: 空间转录组学的无监督隐式对齐
+**主要贡献：**
+- 对19例T1期结直肠癌进行空间转录组学分析，发现侵袭前沿普遍存在High Relapse Cell (HRC)特征
+- 建立多区域类器官生物库，证明侵袭前沿表型由微环境因素而非肿瘤细胞内在遗传驱动
+- 鉴定了"滋养细胞样癌相关成纤维细胞"(trophocyte-like CAFs)，通过TGFβ和前列腺素信号诱导肿瘤-胎儿可塑性
 
-**作者**：Bonian Han, Zhi Wei 等 | **Submitted: 13 Apr 2026**  
-**预印本**: [arXiv:2604.10927)  
-**标签**: Spatial Transcriptomics · Multi-Slice Integration · Alignment · Deep Learning
-
-**一句话概要**  
-解决空间转录组多切片分析中跨切片非刚性形变和批次效应耦合的核心难题，无需配对标签即可实现精准对齐与整合。
-
-**主要贡献**  
-- 将切片对齐与批次效应校正联合建模为无监督的隐式对齐问题，而非传统两步法（先对齐再整合）。
-- 利用规范表达式场（Canonical Expression Fields）处理大形变，保证空间转录组数据在整合后的生物学一致性。
-- 在多个空间转录组数据集上验证了对齐精度和下游分析（细胞类型注释、空间域识别）的提升。
-
-**Critical 简评**  
-🗺️ 空间组学的多切片整合一直是痛点——相邻组织切片间的形变和批次效应往往比生物学差异还大。INST-Align 的联合建模思路很优雅，有望成为空间组学数据预处理的标准步骤。
+**Critical简评：** 这项研究挑战了"转移能力是晚期癌症特征"的传统观念。通过精细的时空解析，作者发现转移相关的细胞状态在恶性肿瘤转化后几乎立即出现。研究还揭示了正常组织架构（隐窝轴上的成纤维细胞分区）如何在肿瘤中被"重用"来驱动侵袭前沿的细胞可塑性。这为早期干预提供了新的靶点思路。
 
 ---
 
-### 4. BloClaw: 下一代科学发现的多模态智能体工作空间
+### 3. 抗体设计的多目标贝叶斯优化
 
-**作者**：Yao Qin 等 | **Submitted: 3 Apr 2026**  
-**预印本**: [arXiv:2604.10599](https://arxiv.org/abs/2604.10599)  
-**标签**: AI Agent · Multi-Modal · Omics · Scientific Discovery · Visualization
+**标题：** BOAT: Navigating the Sea of In Silico Predictors for Antibody Design via Multi-Objective Bayesian Optimization
 
-**一句话概要**  
-一个全知的、兼容多模态数据（组学、图像、文本）的智能体工作空间，支持在最小化交互界面和交互式空间渲染引擎之间无缝切换，助力下一代科学发现。
+**期刊：** AISTATS 2026 (arXiv预印本，2026年4月15日)
 
-**主要贡献**  
-- 提出了一个智能体架构，能同时处理组学数据、显微镜图像和文献文本，在单一界面内完成从数据检索到假设生成的完整流程。
-- 集成了交互式空间渲染引擎，支持对细胞、组织或分子结构的空间可视化分析。
-- 在多组学基准测试中验证了假设生成和发现的质量。
+**作者：** Alexandra Gessner 等
 
-**Critical 简评**  
-🚀 BloClaw 代表了 AI for Science 从单点工具向集成平台的演进。真正的科学发现需要跨越数据模态——这正是当前大多数工具的短板。平台化思路与 DeepMind 的 AlphaFold 服务化有相似逻辑，但覆盖更广的多组学场景。
+**链接：** https://arxiv.org/abs/2604.13980
 
----
+**一句话概要：** 提出BOAT框架，通过贝叶斯优化联合优化多种抗体特性，实现高效的多目标抗体工程。
 
-### 5. Efficient Shapley Values: 基因调控布尔网络的关键节点识别
+**主要贡献：**
+- 开发"即插即用"的多目标贝叶斯优化框架，结合不确定性感知代理模型与遗传算法
+- 系统比较了代理驱动优化与昂贵生成式方法的性能边界
+- 建立了序列维度和Oracle成本对优化效果的实用限制
 
-**作者**：Giang Pham, Paolo Milazzo 等 | **Submitted: 10 Apr 2026**  
-**预印本**: [arXiv:2604.10900](https://arxiv.org/abs/2604.10900)  
-**标签**: Systems Biology · Boolean Networks · Gene Regulatory Networks · Shapley Value
-
-**一句话概要**  
-将博弈论中的 Shapley 值框架引入布尔网络模型，以计算优先干预目标节点，为基因调控网络中的关键节点识别提供可解释、理论保证的方法。
-
-**主要贡献**  
-- 提出了针对布尔网络的高效 Shapley 值计算方法，解决了精确计算中随网络规模指数爆炸的问题。
-- 将干预优先级量化为节点对目标表型的边际贡献，支持识别潜在的基因治疗靶点。
-- 在多个真实基因调控网络（拟南thaliana、大肠杆菌等）上验证了方法的有效性。
-
-**Critical 简评**  
-🧮 布尔网络是系统生物学的经典建模工具，但"哪个节点最重要"始终缺乏可量化的答案。Shapley 值的引入提供了博弈论层面的严格定义，值得在单细胞扰动分析中进一步拓展应用。
+**Critical简评：** 抗体优化是一个典型的多目标问题——需要同时平衡亲和力、特异性、稳定性等多个属性。传统方法采用序贯过滤流水线，计算成本高且效率低。BOAT框架提供了一个优雅的解决方案，能够同时优化多个预测特性。对于计算蛋白质设计领域，这种方法论上的进步值得关注。
 
 ---
 
-## 📊 本周数据速览
+### 4. 蛋白质优化的多目标强化学习
 
-| 论文 | 方向 | AI方法 | 领域热度 |
-|------|------|--------|---------|
-| oxo-call | Bioinformatics Tool | LLM | ⭐⭐⭐⭐⭐ |
-| MAT-Cell | Single-Cell | Neuro-symbolic | ⭐⭐⭐⭐⭐ |
-| INST-Align | Spatial Omics | Implicit Alignment | ⭐⭐⭐⭐ |
-| BloClaw | AI Agent | Multi-Modal | ⭐⭐⭐⭐ |
-| Shapley Values | Systems Biology | Game Theory | ⭐⭐⭐⭐ |
+**标题：** STOMP: Pareto-Optimal Offline Reinforcement Learning via Smooth Tchebysheff Scalarization
+
+**期刊：** arXiv预印本 (2026年4月14日)
+
+**作者：** Aadyot Bhatnagar 等
+
+**链接：** https://arxiv.org/abs/2604.13175
+
+**一句话概要：** 提出STOMP算法，通过平滑切比雪夫标量化实现蛋白质语言模型的多目标对齐，在催化活性和特异性等多属性优化中表现优异。
+
+**主要贡献：**
+- 将多目标强化学习本身框架化为一个标量化优化问题
+- 提出Smooth Tchebysheff Optimization方法，克服线性标量化无法恢复Pareto前沿非凸区域的缺陷
+- 在9个蛋白质工程任务设置中，8个达到了最高的超体积指标
+
+**Critical简评：** 与BOAT（贝叶斯优化路径）形成互补，STOMP走的是强化学习路径。两者都针对计算蛋白质设计中的多目标优化问题，但技术路线不同。STOMP的创新在于将经典的切比雪夫标量化方法平滑化，使其可与直接偏好优化(DPO)框架兼容。这对于希望用RLHF方法微调蛋白质语言模型的研究者具有参考价值。
 
 ---
 
-*报告生成时间: 2026-04-16 | 数据来源: ArXiv (cs.CV/cs.LG/q-bio) | 筛选: 最近7天发表*
+### 5. Igκ可变区编辑的线性RAG扫描机制
+
+**标题：** Linear RAG scanning mediates editing of Igκ variable region repertoires
+
+**期刊：** Nature (2026年4月15日)
+
+**作者：** Xiang Li, Hongli Hu, Frederick W. Alt (Harvard Medical School)
+
+**链接：** https://www.nature.com/articles/s41586-026-10362-5
+
+**一句话概要：** 揭示Igκ轻链二次重排采用线性RAG扫描机制，而非之前假设的扩散机制。
+
+**主要贡献：**
+- 首次阐明Igκ二次Vκ-to-Jκ重排的分子机制——线性RAG扫描
+- 发现Cer/Sis元件的删除/位移是从"双环扩散"机制转换为"单环线性扫描"的发育开关
+- 证明强RSS和转录介导的扫描障碍协同促进邻近Vκ的使用
+
+**Critical简评：** 这项工作解决了抗体轻链多样性产生机制的一个长期悬而未决的问题。研究者通过巧妙的遗传学实验，证明Igκ的二次重排采用与Igh类似的线性扫描机制，而非之前假设的扩散机制。对于理解B细胞受体编辑和自身免疫耐受具有重要意义。
+
+---
+
+## 📊 趋势评述
+
+本周研究呈现几个明显趋势：
+
+1. **空间组学走向"健康参考"**：肝脏空间图谱研究开创了使用活体移植供体作为健康参考的先例，这将成为组织图谱研究的质量标杆。
+
+2. **肿瘤-胎儿可塑性的时空解析**：结直肠癌研究表明，转移相关的细胞状态并非晚期事件，而是在恶性转化后立即出现。这改变了我们对肿瘤进展时间线的理解。
+
+3. **多目标优化方法进入蛋白质设计**：两篇独立工作（BOAT和STOMP）从不同角度解决计算蛋白质设计中的多目标优化问题，表明该问题正在成为领域焦点。
+
+4. **免疫受体编辑机制的精细化理解**：Igκ二次重排机制的阐明，为理解B细胞耐受和自身免疫提供了新的分子基础。
+
+---
+
+*本简报由AI自动生成，仅供参考*
