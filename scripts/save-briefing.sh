@@ -1,14 +1,20 @@
 #!/usr/bin/env bash
 # save-briefing.sh
 # 将多组学简报内容写入 bioinformatics-frontier 仓库并推送到 GitHub
+# 目录结构: reports/YYYY-MM/YYYY-WNN/filename.md
 # 用法: echo "简报内容" | bash save-briefing.sh
 # 或:   bash save-briefing.sh "简报内容"
+# 或:   bash save-briefing.sh "简报内容" "journal-briefing"  (指定类型后缀)
 
 set -euo pipefail
 
 REPO_DIR="$HOME/Documents/bioinformatics-frontier"
 DATE=$(date +%Y-%m-%d)
-REPORT_FILE="$REPO_DIR/reports/$DATE-multiomics-briefing.md"
+MONTH=$(date +%Y-%m)
+ISO_WEEK=$(date +%G-W%V)
+BRIEFING_TYPE="${2:-multiomics-briefing}"
+REPORT_DIR="$REPO_DIR/reports/$MONTH/$ISO_WEEK"
+REPORT_FILE="$REPORT_DIR/$DATE-$BRIEFING_TYPE.md"
 
 # 读取内容：优先从参数读，否则从 stdin 读
 if [ $# -ge 1 ]; then
@@ -23,13 +29,13 @@ if [ -z "$CONTENT" ]; then
 fi
 
 # 写入文件
-mkdir -p "$REPO_DIR/reports"
+mkdir -p "$REPORT_DIR"
 printf '%s\n' "$CONTENT" > "$REPORT_FILE"
 echo "[save-briefing] 已写入: $REPORT_FILE"
 
 # Git commit & push
 cd "$REPO_DIR"
-git add "reports/$DATE-multiomics-briefing.md"
+git add "reports/$MONTH/$ISO_WEEK/$DATE-$BRIEFING_TYPE.md"
 
 if git diff --cached --quiet; then
   echo "[save-briefing] 内容无变化，跳过 commit"
