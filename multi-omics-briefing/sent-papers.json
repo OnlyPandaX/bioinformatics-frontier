@@ -194,5 +194,84 @@
     "sent_date": "2026-04-20",
     "reason": "\u5c06\u8de8\u7269\u79cd\u8fdb\u5316\u4fe1\u53f7\u5f15\u5165DNA\u8bed\u8a00\u6a21\u578b\u5206\u8bcd\uff0c\u66f4\u597d\u4fdd\u7559\u529f\u80fdmotif\u5355\u5143",
     "notes": "ArXiv, 9 Apr 2026 - \u5206\u8bcd\u7b56\u7565\u7684\u751f\u7269\u5b66\u5148\u9a8c\u6ce8\u5165"
+  },
+  {
+    "title": "Orthrus: toward evolutionary and functional RNA foundation models",
+    "doi": "s41592-026-03064-3",
+    "sent_date": "2026-04-21",
+    "reason": "Nature Methods 2026-04-17"
+  },
+  {
+    "title": "Comprehensive profiling of clinically approved kinase inhibitors",
+    "doi": "s41587-026-03090-8",
+    "sent_date": "2026-04-21",
+    "reason": "Nature Biotechnology 2026-04-20"
+  },
+  {
+    "title": "Host-microbiome maps via in situ polyadenylation",
+    "doi": "s41592-026-03074-1",
+    "sent_date": "2026-04-21",
+    "reason": "Nature Methods 2026-04-14"
+  },
+  {
+    "title": "CUBIC Body/Organ Atlas - whole-body cellomics",
+    "doi": "s41592-026-03072-3",
+    "sent_date": "2026-04-21",
+    "reason": "Nature Methods 2026-04-14"
+  },
+  {
+    "title": "Intermediate Layers Encode Optimal Biological Representations in Single-Cell Foundation Models",
+    "doi": "arxiv-2026-04-16",
+    "sent_date": "2026-04-21",
+    "reason": "arXiv 2026-04-16"
+  },
+  {
+    "title": "Advancing AI for multi-omics and clinical data integration in basic and translational cancer research",
+    "doi": "s41568-026-00922-2",
+    "sent_date": "2026-04-22",
+    "reason": "\u591a\u7ec4\u5b66+\u591a\u6a21\u6001\u6574\u5408\u7684\u7cfb\u7edf\u6027\u6846\u67b6\u7efc\u8ff0\uff0cAI\u5728\u764c\u75c7\u7cbe\u51c6\u533b\u7597\u4e2d\u7684\u5e94\u7528",
+    "notes": "Nature Reviews Cancer, 21 Apr 2026"
+  },
+  {
+    "title": "Spatial and single-cell characterization of human glioblastoma tumor microenvironment reveals malignant cellular communities",
+    "doi": "s41593-026-02265-5",
+    "sent_date": "2026-04-22",
+    "reason": "100\u4f8bGBM\u60a3\u8005\u7a7a\u95f4+\u5355\u7ec6\u80de\u6574\u5408\u5206\u6790\uff0c\u5b9a\u4e49\u4fdd\u5b88\u6076\u6027\u7ec6\u80de\u7fa4\u843d",
+    "notes": "Nature Neuroscience, 16 Apr 2026"
+  },
+  {
+    "title": "Subcellular mRNA localization patterns across tissues resolved with spatial transcriptomics",
+    "doi": "s41467-026-72156-7",
+    "sent_date": "2026-04-22",
+    "reason": "\u7a7a\u95f4\u8f6c\u5f55\u7ec4\u89e3\u6790\u4e9a\u7ec6\u80demRNA\u5b9a\u4f4d\uff0c\u7a81\u7834\u5206\u8fa8\u7387\u6781\u9650",
+    "notes": "Nature Communications, 20 Apr 2026"
+  },
+  {
+    "title": "A multi-modal diffusion model with dual-cross-attention for multi-omics data generation and translation",
+    "doi": "s41467-026-71744-x",
+    "sent_date": "2026-04-22",
+    "reason": "\u6269\u6563\u6a21\u578b\u9996\u6b21\u5e94\u7528\u4e8e\u5355\u7ec6\u80de\u591a\u7ec4\u5b66\u6570\u636e\u751f\u6210\uff0c\u8de8\u6a21\u6001\u7ffb\u8bd1",
+    "notes": "Nature Communications, 14 Apr 2026"
+  },
+  {
+    "title": "SpatialCOC: an integrative framework for spatial continuous mapping and cross-omics correction",
+    "doi": "s41467-026-71882-2",
+    "sent_date": "2026-04-22",
+    "reason": "\u7a7a\u95f4\u591a\u7ec4\u5b66\u6574\u5408\u6846\u67b6\uff0c\u6df1\u5ea6\u5b66\u4e60\u5b9e\u73b0\u8fde\u7eed\u6620\u5c04\u548c\u8de8\u7ec4\u5b66\u6821\u6b63",
+    "notes": "Nature Communications, 16 Apr 2026"
+  },
+  {
+    "title": "Nested Atoms Model with Application to Clustering Big Population-Scale Single-Cell Data",
+    "arxiv_id": "2604.11731",
+    "sent_date": "2026-04-22",
+    "reason": "\u8d1d\u53f6\u65af\u975e\u53c2\u6570\u65b9\u6cd5\u5b9e\u73b0\u7fa4\u4f53\u89c4\u6a21\u5355\u7ec6\u80de\u53cc\u5c42\u805a\u7c7b\uff0cOneK1K\u6570\u636e\u96c6",
+    "notes": "ArXiv, 13 Apr 2026"
+  },
+  {
+    "title": "Metabolomics across scales: from single cells to population studies",
+    "doi": "s41586-026-10277-1",
+    "sent_date": "2026-04-22",
+    "reason": "\u4ee3\u8c22\u7ec4\u5b66\u8de8\u5c3a\u5ea6\u7efc\u8ff0\uff0c\u5355\u7ec6\u80de\u5230\u4eba\u7fa4\u7684\u5e94\u7528\u4e0e\u6311\u6218",
+    "notes": "Nature, 8 Apr 2026"
   }
 ]
