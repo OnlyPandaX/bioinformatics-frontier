@@ -1,6 +1,6 @@
 {
   "name": "multi-omics-briefing",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "每日多组学研究简报自动生成 Skill",
   "author": "胖达",
   "license": "MIT",
