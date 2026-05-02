@@ -1,7 +1,7 @@
 {
   "name": "ealert-tracker",
-  "version": "1.1.0",
-  "description": "科研期刊追踪器",
+  "version": "3.5.0",
+  "description": "科研期刊追踪器 - Gmail IMAP + Scholar Alerts，元数据补全，专家点评",
   "main": "scripts/tracker.js",
   "scripts": {
     "start": "node scripts/tracker.js"

@@ -10,8 +10,9 @@
 5. **Science Advances: Notification**
 6. **Nature Communications: Content**
 7. **Science: In Other Journals** (来自其他期刊的重要发现汇总)
+8. **Google Scholar Alerts** (scholaralerts-noreply@google.com)
 
-## 搜索关键词
+## 邮件搜索关键词
 
 ### 主要关键词
 ```
@@ -45,6 +46,7 @@ Communications
 - PNAS
 
 ### Nature 系列
+- Nature
 - Nature Methods
 - Nature Biotechnology
 - Nature Cancer
@@ -69,18 +71,66 @@ Communications
 - Science Advances
 - Science Translational Medicine
 
-## 过滤规则
+## 过滤关键词（v3.5 更新）
 
-### 必须排除
+### 论文筛选关键词
+```
+bioinformatics
+cancer
+tumor
+immunotherapy
+single-cell
+scRNA-seq
+AI
+deep learning
+CRISPR
+gene editing
+aging
+longevity
+microbiome
+genomics
+multi-omics
+precision medicine
+treg
+regulatory t
+foxp3
+t cell
+b cell
+immune
+epilepsy
+neural
+synthetic biology
+amino acid
+protein
+enzyme
+evolution
+chemokine
+colorectal
+immunology
+checkpoint
+tumor microenvironment
+epigenetic
+chromatin
+transcription
+spatial
+proteomics
+metabolomics
+```
+
+### 邮件排除规则
 - 中文邮件
 - 促销/广告
 - 社交媒体
-- 注册/验证邮件
+- 注册/验证邮件（verification, welcome, password reset）
+- 生活类通讯（ScienceAdviser 新闻简报）
+- Scholar 确认邮件（"Confirm your Scholar alert"）
 
-### 必须包含
-- 英文邮件
-- 来自期刊官方域名
-- 包含 "Email Alert" / "Notification" / "Contents" / "In Other Journals"
+## Google Scholar 追踪研究者
+
+- Shane Crotty (La Jolla Institute for Immunology, 疫苗/免疫学)
+- Faisal Mahmood (Harvard TH Chan School of Public Health, 计算病理学/AI for Medicine)
+
+> 更多研究者待用户指定后添加
 
 ## 目标领域关键词
 生物信息学、计算生物学、多组学、单细胞、癌生物学、免疫治疗、AI+生物学、深度学习基因组学

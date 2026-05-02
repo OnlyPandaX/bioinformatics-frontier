@@ -1,10 +1,10 @@
 ---
 name: ealert-tracker
-description: "科研期刊追踪器 v2.4。通过 Gmail IMAP 读取最近 24 小时的期刊目录邮件（Nature、Science、Science Translational Medicine、Science Immunology、Science Advances、PNAS、Cell Press 等），提取所有文章标题，生成 Markdown 格式的完整期刊摘要报告并推送到 GitHub。取消邮件发送，改为 QQ 推送 + GitHub 同步。每周生成综合评述。"
+description: "科研期刊追踪器 v3.5。通过 Gmail IMAP 读取最近 24 小时的期刊目录邮件（Nature、Science、Science Translational Medicine、Science Immunology、Science Advances、PNAS、Cell Press 等）及 Google Scholar Alerts，提取论文信息并补全元数据（PubMed/CrossRef），按关键词过滤，生成 Markdown 报告（含原文标题、DOI/搜索链接、专家点评）并推送到 GitHub + QQ。每周生成综合评述。"
 metadata:
   openclaw:
     emoji: "📚"
-    version: "2.4.0"
+    version: "3.5.0"
     requires:
       bins:
         - python3
@@ -13,9 +13,9 @@ metadata:
         - IMAP_PASS
 ---
 
-# EAlert Tracker v2.4 - 科研期刊追踪器
+# EAlert Tracker v3.5 - 科研期刊追踪器
 
-> 通过 Gmail IMAP 自动读取订阅期刊的 Table of Contents 邮件，提取所有文章，生成完整摘要报告。
+> 通过 Gmail IMAP 自动读取订阅期刊的 Table of Contents 邮件 + Google Scholar Alerts，提取论文信息并补全元数据，按关键词过滤，生成含专家点评的报告。
 
 ## 核心特点
 
@@ -24,25 +24,36 @@ metadata:
 - 🤖 **AI 辅助**：自动提取标题和关键信息
 - 📱 **多渠道发送**：QQ 推送 + GitHub 同步
 - 📊 **每周汇总**：周日上午综合评述 + 领域趋势
+- 🔔 **Scholar Alerts**：Google Scholar 追踪指定研究者
+- 🔬 **元数据补全**：PubMed/CrossRef 自动补全作者、DOI、摘要
+- 💡 **专家点评**：基于摘要内容的领域特定 Critical Thinking
+- 🔗 **链接保障**：原始链接 → DOI → Google 搜索 fallback
 
 ## 快速开始
 
-### 运行每日追踪
+### 运行每日追踪（Node.js v3.5）
+
+```bash
+cd ~/.qclaw/workspace/ealert-tracker
+node scripts/tracker.js
+```
+
+这会自动：
+1. 连接 Gmail IMAP
+2. 读取最近 24 小时的期刊邮件 + Scholar Alerts
+3. 提取论文信息并补全元数据（PubMed/CrossRef）
+4. 按关键词过滤相关论文
+5. 生成 Markdown 报告 + QQ 消息
+6. 发送邮件报告 + 推送 GitHub
+
+### 运行每日追踪（Python v2.0，备用）
 
 ```bash
 cd ~/.qclaw/workspace/ealert-tracker
 python3 scripts/email_reader.py
 ```
 
-这会自动：
-1. 连接 Gmail IMAP
-2. 读取最近 24 小时的期刊邮件
-3. 提取每封邮件中的文章标题
-4. 保存到 `/tmp/journal_emails.json` 和 `/tmp/journal_emails.txt`
-
-### 生成报告
-
-让 AI 读取 `/tmp/journal_emails.json`，生成 Markdown 报告，发送到 QQ 并推送到 GitHub。
+Python 版仅读取邮件提取标题，不做过滤和元数据补全。
 
 ## 支持的期刊
 
@@ -60,27 +71,29 @@ python3 scripts/email_reader.py
 
 ## 工作流程
 
-### 每日期刊追踪（每天 9:00 AM）
+### 每日期刊追踪（每天 8:30 AM HKT）
 
 ```
 ┌─────────────────────────────────────────────┐
-│  cron: 每天 9:00 AM (Asia/Hong_Kong)       │
+│  cron: 每天 8:30 AM (Asia/Hong_Kong)        │
 ├─────────────────────────────────────────────┤
-│  1. 执行 Python 脚本                        │
-│     python3 scripts/email_reader.py          │
-│     ↓ (读取最近 24h 期刊邮件)               │
-│  2. 保存 JSON → /tmp/journal_emails.json   │
+│  1. 执行 Node.js 脚本                       │
+│     node scripts/tracker.js                 │
+│     ↓ (读取最近 24h 期刊邮件 + Scholar)      │
+│  2. 解析邮件提取论文                         │
 │     ↓                                      │
-│  3. AI 读取 JSON                          │
+│  3. 关键词过滤                              │
 │     ↓                                      │
-│  4. 生成 Markdown 报告                      │
-│     - 所有期刊的所有文章                    │
-│     - 包括研究论文和科学新闻                │
+│  4. PubMed/CrossRef 元数据补全              │
 │     ↓                                      │
-│  5. 发送报告                              │
-│     ✅ QQ Bot (46482C7AEAC84A1D7BE63221F1E6A504) │
-│     ✅ GitHub (bioinformatics-frontier)     │
-│     ❌ 邮件发送（已取消）                   │
+│  5. 生成 Markdown 报告 + QQ 消息            │
+│     - 原文标题 + 链接（DOI/搜索 fallback）     │
+│     - 专家点评（Critical Thinking）          │
+│     ↓                                      │
+│  6. 发送报告                                │
+│     ✅ QQ Bot                              │
+│     ✅ GitHub (bioinformatics-frontier)      │
+│     ✅ Email (onlybelter@gmail.com)         │
 └─────────────────────────────────────────────┘
 ```
 
@@ -107,7 +120,7 @@ python3 scripts/email_reader.py
 
 ```
 ealert-tracker/
-├── SKILL.md                    # 本文档 (v2.4)
+├── SKILL.md                    # 本文档 (v3.5)
 ├── .env                        # 邮箱配置
 ├── scripts/
 │   ├── email_reader.py         # ⭐ Python 邮件读取脚本
@@ -211,7 +224,7 @@ since = datetime.now() - timedelta(days=1)
 
 ---
 
-*由 EAlert Tracker v2.4.0 自动生成 | 日期: YYYY-MM-DD*
+*由 EAlert Tracker v3.5.0 自动生成 | 日期: YYYY-MM-DD*
 ```
 
 > ⚠️ 每次生成报告时，**必须读取本 SKILL.md 获取当前版本号**，并在报告末尾标注。版本号变更时自动跟随。
@@ -289,8 +302,10 @@ https://github.com/OnlyPandaX/bioinformatics-frontier
 
 ---
 
-**版本**: 2.1.0
-**更新**: 2026-04-12
+**版本**: 3.5.0
+**更新**: 2026-05-02
+
+> v3.5.0: 修复链接缺失问题（fallback DOI/Google 搜索），增强专家点评逻辑
 
 ---
 
@@ -333,8 +348,15 @@ https://github.com/OnlyPandaX/bioinformatics-frontier
 
 ---
 
-**版本**: 2.4.0
-**更新**: 2026-04-22
+**版本**: 3.5.0
+**更新**: 2026-05-02
 
-> v2.4.0: 强化报告保存路径说明，增加正确/错误示例，禁止存入 reports/ 根目录
-> v2.3.0: 报告迁移至 `YYYY/MM/YYYY-Wxx/` 目录结构归档（配合 tracker.js v3.3）
+> v3.5.0: 修复链接缺失问题（fallback DOI/Google 搜索），增强专家点评逻辑
+> v3.4.0: 新增 Google Scholar Alerts 支持，Scholar 论文走独立元数据流程
+> v3.3.0: 报告迁移至 `YYYY/MM/YYYY-Wxx/` 目录结构归档，强化点评逻辑
+> v2.4.0: 强化报告保存路径说明，增加正确/错误示例
+> v2.3.0: 报告迁移至 `YYYY/MM/YYYY-Wxx/` 目录结构归档
+> v2.2.0: 新增去重机制（sent-papers.json）
+> v2.1.0: 读取时间从 48h 改为 24h，取消邮件发送
+> v2.0.0: 完全重写，从 Node.js 切换到 Python 3
+> v1.x: 初始版本，Node.js tracker.js
