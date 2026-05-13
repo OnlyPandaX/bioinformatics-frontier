@@ -26,7 +26,7 @@
 **日期**: （发表日期无法确认）
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell-symposia.com%2Fhallmarksofcancer-2026%2Findex.html/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/e5_5-WDj1fEaZwNpngW73d0qutFS1ggG_KBh4mGN1rk=452
 
-**一句话概要**: 研究Cell Press Symposia: Hallmarks of canc
+**一句话概要**: 研究Cell Press Symposia: Hallmarks的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -45,7 +45,7 @@
 **DOI**: 10.1016/j.cell.2026.03.033
 **链接**: https://doi.org/10.1016/j.cell.2026.03.033
 
-**一句话概要**: 研究The Hallmarks of Cancer: 25 years guid
+**一句话概要**: 研究Hallmarks of Cancer: 25 years guiding ...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -64,7 +64,7 @@
 **DOI**: 10.1186/s12943-024-02191-9
 **链接**: https://doi.org/10.1186/s12943-024-02191-9
 
-**一句话概要**: 研究and spatial analysis of immune-hot and
+**一句话概要**: 研究and spatial analysis of immune-hot and...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -82,7 +82,7 @@
 **日期**: 2026 May 7
 **链接**: https://www.google.com/search?q=Whole-genome%20doubling%20drives%20immune%20evasion%20by%20silencing%20antigen%20presentation.
 
-**一句话概要**: 研究Whole-genome doubling drives immune ev
+**一句话概要**: 研究Whole-genome doubling drives immune ev...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -101,7 +101,7 @@
 **DOI**: 10.1016/j.ccell.2026.03.011
 **链接**: https://doi.org/10.1016/j.ccell.2026.03.011
 
-**一句话概要**: 研究Unlocking the potential of T cell enga
+**一句话概要**: 研究Unlocking the potential of T cell enga...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -118,7 +118,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcell%2Fissue%3Fpii=S0092-8674(25)X0009-X/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/dr8Ye3iyH4I_8xvNg4SWI1JqqZhCveV1qROnbPDJXbs=452
 
-**一句话概要**: 研究Hallmarks of Cancer: 25 years guiding 
+**一句话概要**: 研究Hallmarks of Cancer: 25 years guiding ...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -135,7 +135,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00156-X/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/5d5VrwK7LI1bYT4bnX3w4-tr-tl9fiRasQFk2ggGtJI=452
 
-**一句话概要**: 研究reticular cells in pancreatic cancer的相
+**一句话概要**: 研究reticular cells in pancreatic cancer的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -152,7 +152,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00105-4%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/xUyxPG8JHCbz7Vr9hvwT0h20aN5UOFvBBME0hCBqWvQ=452
 
-**一句话概要**: 研究A closed tumor-immune-brain circuit in
+**一句话概要**: 研究closed tumor-immune-brain circuit in c...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -169,7 +169,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00162-5%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/dxoqSilsYI2xZ9xnhZqQhLTyaR3pqOGyj-Dzq6BxciM=452
 
-**一句话概要**: 研究A snapshot of the earliest stages of h
+**一句话概要**: 研究snapshot of the earliest stages of hep...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -186,7 +186,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00167-4%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/HH8wmTjImcxT3o1azACE1JT4wrGh4y0se5VIwNCDrBE=452
 
-**一句话概要**: 研究T cell extracellular vesicles go nucle
+**一句话概要**: 研究T cell extracellular vesicles go nucle...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -203,7 +203,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00158-3%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/GdXuLi01WnJixhNLtFxKZ7f-_mW6AjgstrsrLD8JcI0=452
 
-**一句话概要**: 研究A cross-kingdom alliance driving color
+**一句话概要**: 研究cross-kingdom alliance driving colorec...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -220,7 +220,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00161-3%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/z8TbBRqgsqCWaYhlhFVAMeEKHzbiSRfRvpdIqYuzUno=452
 
-**一句话概要**: 研究Redefining cancer drivers with tissue-
+**一句话概要**: 研究Redefining cancer drivers with tissue-...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -237,7 +237,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00168-6%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/9SSIIsZpm1EUCnWh_m2vaR97XwVGV0jqdkXCDbTT-64=452
 
-**一句话概要**: 研究Precancerous niches as gatekeepers of 
+**一句话概要**: 研究Precancerous niches as gatekeepers of ...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -254,7 +254,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00166-2%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/Cgm_zlzl69LXVanztjxxtM_WwmDQkdYskS5ZYsslVEE=452
 
-**一句话概要**: 研究Cancer cachexia: A tumor-driven disord
+**一句话概要**: 研究Cancer cachexia: A tumor-driven disord...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -271,7 +271,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00212-6%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/WI_PP-bnxaD2eDkt4bjR3gg1KP_PZKXQJDEXSEtN3tU=452
 
-**一句话概要**: 研究Bridging clinical gaps in personalized
+**一句话概要**: 研究Bridging clinical gaps in personalized...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -288,7 +288,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00053-X%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/78R7z0JJIqV75joTc1St-rcHXzxuB5kkmD3zrqYS9Xg=452
 
-**一句话概要**: 研究Tumor-immune-neural circuit disrupts e
+**一句话概要**: 研究Tumor-immune-neural circuit disrupts e...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -305,7 +305,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00177-7%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/sANJQTkZuZEnrpPSQqrWLf2uU1BAeneO6Lybd30Dolk=452
 
-**一句话概要**: 研究presentation and anti-tumor immunity的相
+**一句话概要**: 研究presentation and anti-tumor immunity的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -322,7 +322,7 @@
 **平台**: Cell
 **链接**: https://www.google.com/search?q=(APP)%20in%20dendritic%20and%20tumor%20cells.%20This%20immunogenicity%20is%20driven%20by%20granzyme
 
-**一句话概要**: 研究(APP) in dendritic and tumor cells. Th
+**一句话概要**: 研究(APP) in dendritic and tumor cells. Th...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -339,7 +339,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00111-X%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/ssI5NSyASJIFjN8Oj_qYd7Z8PKK5W4T2gxvANKRuHk8=452
 
-**一句话概要**: 研究program local and systemic antitumor i
+**一句话概要**: 研究program local and systemic antitumor i...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -356,7 +356,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00157-1%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/X2EHd94DTFPgMY7wE11geSHieR8F59FoidNwd7l_DPQ=452
 
-**一句话概要**: 研究Molecular insights into early malignan
+**一句话概要**: 研究Molecular insights into early malignan...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -373,7 +373,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00110-8%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/o5vbyPyauk1WO71dpaD6fGe1U9tuCY2ghajIJY-3naE=452
 
-**一句话概要**: 研究The landscape of structural variation 
+**一句话概要**: 研究landscape of structural variation in p...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -390,7 +390,7 @@
 **平台**: Cell
 **链接**: https://www.google.com/search?q=How%20does%20other%20types%20of%20microbe%20like%20fungi%20influence%20tumor-promoting%20role%20of
 
-**一句话概要**: 研究How does other types of microbe like f
+**一句话概要**: 研究How does other types of microbe like f...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -407,7 +407,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00156-X%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/nCFt21HO-ZE2pRrgNAD4xgirxEG6i_L3EJKgGN27gPE=452
 
-**一句话概要**: 研究reticular cells in pancreatic cancer的相
+**一句话概要**: 研究reticular cells in pancreatic cancer的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -424,7 +424,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcell%2Fissue%3Fpii=S0092-8674(25)X0009-X/1/0100019e1cbddeb1-2d8e38d6-0e3b-4e00-99d8-6db2dbc1d53a-000000/049bnoApw4uYj9_xJemiCCKetLUXmfAh-fTmZjQBQSo=452
 
-**一句话概要**: 研究Hallmarks of Cancer: 25 years guiding 
+**一句话概要**: 研究Hallmarks of Cancer: 25 years guiding ...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -441,7 +441,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Ftrends%2Fcancer%2Ffulltext%2FS2405-8033(26)00056-7%3Fdgcid=raven_jbs_etoc_email/1/0100019e1cbddeb1-2d8e38d6-0e3b-4e00-99d8-6db2dbc1d53a-000000/ScAYH81M7BcBOq2GZJfTgCU1viJuwJrjM3_wMQvah-k=452
 
-**一句话概要**: 研究Unexpected role of the integrated stre
+**一句话概要**: 研究Unexpected role of the integrated stre...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -458,7 +458,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Ftrends%2Fcancer%2Ffulltext%2FS2405-8033(26)00022-1%3Fdgcid=raven_jbs_etoc_email/1/0100019e1cbddeb1-2d8e38d6-0e3b-4e00-99d8-6db2dbc1d53a-000000/1LhKtgJvqKujTXj01Pckg420W-ZqQhw1CtZOOjy_AUE=452
 
-**一句话概要**: 研究IL33 in pancreatic cancer—pro- or anti
+**一句话概要**: 研究IL33 in pancreatic cancer—pro- or anti...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -475,7 +475,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Ftrends%2Fcancer%2Ffulltext%2FS2405-8033(25)00329-2%3Fdgcid=raven_jbs_etoc_email/1/0100019e1cbddeb1-2d8e38d6-0e3b-4e00-99d8-6db2dbc1d53a-000000/vDNsokWGWVFhQg9zH5kzzljHL5_R_FHFO3KCSn8fcf0=452
 
-**一句话概要**: 研究exposures to assess cancer risk的相关问题。
+**一句话概要**: 研究exposures to assess cancer risk的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -492,7 +492,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Ftrends%2Fcancer%2Ffulltext%2FS2405-8033(26)00004-X%3Fdgcid=raven_jbs_etoc_email/1/0100019e1cbddeb1-2d8e38d6-0e3b-4e00-99d8-6db2dbc1d53a-000000/TmBFmGypgz2wIrBuPfb_wOpZMyPNXb7ufiJRQYvNpNw=452
 
-**一句话概要**: 研究Cancer in 4D: toward Spatiotemporal Ha
+**一句话概要**: 研究Cancer in 4D: toward Spatiotemporal Ha...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -509,7 +509,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Ftrends%2Fcancer%2Ffulltext%2FS2405-8033(26)00007-5%3Fdgcid=raven_jbs_etoc_email/1/0100019e1cbddeb1-2d8e38d6-0e3b-4e00-99d8-6db2dbc1d53a-000000/_j4oFqfGr0ppHZZbQZDKZy4YkeWRuV5e_sAPq1BGsKo=452
 
-**一句话概要**: 研究In vivo CAR T cell engineering: design
+**一句话概要**: 研究In vivo CAR T cell engineering: design...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -526,7 +526,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Ftrends%2Fcancer%2Ffulltext%2FS2405-8033(26)00024-5%3Fdgcid=raven_jbs_etoc_email/1/0100019e1cbddeb1-2d8e38d6-0e3b-4e00-99d8-6db2dbc1d53a-000000/tXNw-bZtTfH9UsE7JkJAaHSYIA3R1QzRiUfeMhQ5EjA=452
 
-**一句话概要**: 研究Epigenetic dysregulation and microenvi
+**一句话概要**: 研究Epigenetic dysregulation and microenvi...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -543,7 +543,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell-symposia.com%2Fhallmarksofaging-2026%2Findex.html/1/0100019e1d2726ff-d6688836-e0d3-40bc-8456-b881564371c6-000000/HiKYxtiXLW730mjHZs4-dMFvg9ChEqnEuwp-dSAMPlI=452
 
-**一句话概要**: 研究Cell Press Symposia: Hallmarks of agin
+**一句话概要**: 研究Cell Press Symposia: Hallmarks of aging的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -560,7 +560,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fimmunity%2Ffulltext%2FS1074-7613(26)00169-X%3Fdgcid=raven_jbs_etoc_email/1/0100019e1d2726ff-d6688836-e0d3-40bc-8456-b881564371c6-000000/fBxmAlL35MMiqr8ox58S6pzfL5ax8Q9XE-LEBCZ3xYg=452
 
-**一句话概要**: 研究A Krüppel of factors regulate T cell r
+**一句话概要**: 研究Krüppel of factors regulate T cell res...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -577,7 +577,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fimmunity%2Ffulltext%2FS1074-7613(26)00168-8%3Fdgcid=raven_jbs_etoc_email/1/0100019e1d2726ff-d6688836-e0d3-40bc-8456-b881564371c6-000000/i1n_Qx9jEWgrfJ92CEtfFV0YA6uh5P3muc8FRSsh3Is=452
 
-**一句话概要**: 研究CD8+ T cells turn resilient under stre
+**一句话概要**: 研究CD8+ T cells turn resilient under stress的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -594,7 +594,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fimmunity%2Ffulltext%2FS1074-7613(26)00174-3%3Fdgcid=raven_jbs_etoc_email/1/0100019e1d2726ff-d6688836-e0d3-40bc-8456-b881564371c6-000000/-G0cQ71Cu8CPwBrjcVqEg_AaKULNuFyYu3im6rJ_iTg=452
 
-**一句话概要**: 研究Paving the road for CARs in pediatric 
+**一句话概要**: 研究Paving the road for CARs in pediatric ...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -611,7 +611,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fimmunity%2Ffulltext%2FS1074-7613(26)00143-3%3Fdgcid=raven_jbs_etoc_email/1/0100019e1d2726ff-d6688836-e0d3-40bc-8456-b881564371c6-000000/Nl7vxY2gKcyw_vF1KU5IDfSzYTuPxCIU-J8IWZImJ6U=452
 
-**一句话概要**: 研究uncovers a cycling subset dominant in 
+**一句话概要**: 研究uncovers a cycling subset dominant in ...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -628,7 +628,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fimmunity%2Ffulltext%2FS1074-7613(26)00116-0%3Fdgcid=raven_jbs_etoc_email/1/0100019e1d2726ff-d6688836-e0d3-40bc-8456-b881564371c6-000000/yFnsnH4HFfHYEAadvqMutLu-pGjmUj52DuuVw0Uxwzw=452
 
-**一句话概要**: 研究for effector Treg cell differentiation
+**一句话概要**: 研究for effector Treg cell differentiation的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -645,7 +645,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fimmunity%2Ffulltext%2FS1074-7613(26)00144-5%3Fdgcid=raven_jbs_etoc_email/1/0100019e1d2726ff-d6688836-e0d3-40bc-8456-b881564371c6-000000/skftamnEQD2TAhVTSEMHOsndfnvX6kLVelgiqhVq6bg=452
 
-**一句话概要**: 研究anti-tumor immunity under nutrient str
+**一句话概要**: 研究anti-tumor immunity under nutrient str...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -662,7 +662,7 @@
 **平台**: Journal
 **链接**: https://www.google.com/search?q=required%20for%20Th2%20priming.%20Instead%2C%20tuft%20cell%20effectors%20directly%20activate%20memory
 
-**一句话概要**: 研究required for Th2 priming. Instead, tuf
+**一句话概要**: 研究required for Th2 priming. Instead, tuf...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -679,7 +679,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fimmunity%2Ffulltext%2FS1074-7613(26)00075-0%3Fdgcid=raven_jbs_etoc_email/1/0100019e1d2726ff-d6688836-e0d3-40bc-8456-b881564371c6-000000/CBNmKmqn6aaMWX1JT8sjX649oCLiwr-btIAEuHgVluE=452
 
-**一句话概要**: 研究Nonsense-mediated mRNA decay inhibitio
+**一句话概要**: 研究Nonsense-mediated mRNA decay inhibitio...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -696,7 +696,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fimmunity%2Ffulltext%2FS1074-7613(26)00141-X%3Fdgcid=raven_jbs_etoc_email/1/0100019e1d2726ff-d6688836-e0d3-40bc-8456-b881564371c6-000000/E_DJxBE2fTMGf7yt-FemcWPKRNizHlHHgdlYpElsr4Q=452
 
-**一句话概要**: 研究macrophages and shapes an immunosuppre
+**一句话概要**: 研究macrophages and shapes an immunosuppre...的进展。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -729,5 +729,5 @@
 
 ---
 
-**生成时间**: 2026/5/13 11:17:58
+**生成时间**: 2026/5/13 11:23:43
 **工具**: EAlert Tracker v3.8.3（准确性优先，不捏造任何字段）
