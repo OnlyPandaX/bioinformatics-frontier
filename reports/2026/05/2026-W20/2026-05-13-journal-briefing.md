@@ -26,7 +26,7 @@
 **日期**: （发表日期无法确认）
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell-symposia.com%2Fhallmarksofcancer-2026%2Findex.html/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/e5_5-WDj1fEaZwNpngW73d0qutFS1ggG_KBh4mGN1rk=452
 
-**一句话概要**: 研究Hallmarks。
+**一句话概要**: 研究Hallmarks of Cancer: 。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -45,7 +45,7 @@
 **DOI**: 10.1016/j.cell.2026.03.033
 **链接**: https://doi.org/10.1016/j.cell.2026.03.033
 
-**一句话概要**: 研究: 25 years guiding discovery。
+**一句话概要**: 研究Hallmarks of Cancer : 25 years guiding...。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -118,7 +118,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcell%2Fissue%3Fpii=S0092-8674(25)X0009-X/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/dr8Ye3iyH4I_8xvNg4SWI1JqqZhCveV1qROnbPDJXbs=452
 
-**一句话概要**: 研究: 25 years guiding discovery。
+**一句话概要**: 研究Hallmarks of Cancer : 25 years guiding...。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -135,7 +135,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00156-X/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/5d5VrwK7LI1bYT4bnX3w4-tr-tl9fiRasQFk2ggGtJI=452
 
-**一句话概要**: 研究Reticular cells。
+**一句话概要**: 研究Reticular cells in pancreatic cancer。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -152,7 +152,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00105-4%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/xUyxPG8JHCbz7Vr9hvwT0h20aN5UOFvBBME0hCBqWvQ=452
 
-**一句话概要**: 研究Closed tumor-immune-brain circuit。
+**一句话概要**: 研究Closed tumor-immune-brain circuit in c...。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -169,7 +169,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00162-5%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/dxoqSilsYI2xZ9xnhZqQhLTyaR3pqOGyj-Dzq6BxciM=452
 
-**一句话概要**: 研究Snapshot of the earliest stages。
+**一句话概要**: 研究Snapshot of the earliest stages of hep...。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -186,7 +186,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00167-4%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/HH8wmTjImcxT3o1azACE1JT4wrGh4y0se5VIwNCDrBE=452
 
-**一句话概要**: 研究T cell extracellular vesicles go nuclear。
+**一句话概要**: 研究T cell extracellular vesicles go nucle...。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -220,7 +220,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00161-3%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/z8TbBRqgsqCWaYhlhFVAMeEKHzbiSRfRvpdIqYuzUno=452
 
-**一句话概要**: 研究Redefining cancer drivers。
+**一句话概要**: 研究Redefining cancer drivers with tissue-...。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -237,7 +237,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00168-6%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/9SSIIsZpm1EUCnWh_m2vaR97XwVGV0jqdkXCDbTT-64=452
 
-**一句话概要**: 研究Precancerous niches as gatekeepers。
+**一句话概要**: 研究Precancerous niches as gatekeepers of ...。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -254,7 +254,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00166-2%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/Cgm_zlzl69LXVanztjxxtM_WwmDQkdYskS5ZYsslVEE=452
 
-**一句话概要**: 研究Cancer cachexia: A tumor-driven disorder。
+**一句话概要**: 研究Cancer cachexia: A tumor-driven disord...。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -305,7 +305,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00177-7%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/sANJQTkZuZEnrpPSQqrWLf2uU1BAeneO6Lybd30Dolk=452
 
-**一句话概要**: 研究Presentation。
+**一句话概要**: 研究Presentation and anti-tumor immunity。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -339,7 +339,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00111-X%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/ssI5NSyASJIFjN8Oj_qYd7Z8PKK5W4T2gxvANKRuHk8=452
 
-**一句话概要**: 研究Program local。
+**一句话概要**: 研究Program local and systemic antitumor i...。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -373,7 +373,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00110-8%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/o5vbyPyauk1WO71dpaD6fGe1U9tuCY2ghajIJY-3naE=452
 
-**一句话概要**: 研究Landscape of structural variation。
+**一句话概要**: 研究Landscape of structural variation in p...。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -407,7 +407,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcancer-cell%2Ffulltext%2FS1535-6108(26)00156-X%3Fdgcid=raven_jbs_etoc_email/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/nCFt21HO-ZE2pRrgNAD4xgirxEG6i_L3EJKgGN27gPE=452
 
-**一句话概要**: 研究Reticular cells。
+**一句话概要**: 研究Reticular cells in pancreatic cancer。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -424,7 +424,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcell%2Fissue%3Fpii=S0092-8674(25)X0009-X/1/0100019e1cbddeb1-2d8e38d6-0e3b-4e00-99d8-6db2dbc1d53a-000000/049bnoApw4uYj9_xJemiCCKetLUXmfAh-fTmZjQBQSo=452
 
-**一句话概要**: 研究: 25 years guiding discovery。
+**一句话概要**: 研究Hallmarks of Cancer : 25 years guiding...。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -475,7 +475,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Ftrends%2Fcancer%2Ffulltext%2FS2405-8033(25)00329-2%3Fdgcid=raven_jbs_etoc_email/1/0100019e1cbddeb1-2d8e38d6-0e3b-4e00-99d8-6db2dbc1d53a-000000/vDNsokWGWVFhQg9zH5kzzljHL5_R_FHFO3KCSn8fcf0=452
 
-**一句话概要**: 研究Exposures。
+**一句话概要**: 研究Exposures to assess cancer risk。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -543,7 +543,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell-symposia.com%2Fhallmarksofaging-2026%2Findex.html/1/0100019e1d2726ff-d6688836-e0d3-40bc-8456-b881564371c6-000000/HiKYxtiXLW730mjHZs4-dMFvg9ChEqnEuwp-dSAMPlI=452
 
-**一句话概要**: 研究Hallmarks。
+**一句话概要**: 研究Hallmarks of Cancer: 。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -594,7 +594,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fimmunity%2Ffulltext%2FS1074-7613(26)00174-3%3Fdgcid=raven_jbs_etoc_email/1/0100019e1d2726ff-d6688836-e0d3-40bc-8456-b881564371c6-000000/-G0cQ71Cu8CPwBrjcVqEg_AaKULNuFyYu3im6rJ_iTg=452
 
-**一句话概要**: 研究Paving the road for CARs。
+**一句话概要**: 研究Paving the road for CARs in pediatric ...。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -611,7 +611,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fimmunity%2Ffulltext%2FS1074-7613(26)00143-3%3Fdgcid=raven_jbs_etoc_email/1/0100019e1d2726ff-d6688836-e0d3-40bc-8456-b881564371c6-000000/Nl7vxY2gKcyw_vF1KU5IDfSzYTuPxCIU-J8IWZImJ6U=452
 
-**一句话概要**: 研究Uncovers a cycling subset dominant。
+**一句话概要**: 研究Uncovers a cycling subset dominant in ...。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -729,5 +729,5 @@
 
 ---
 
-**生成时间**: 2026/5/13 11:35:37
+**生成时间**: 2026/5/13 11:46:46
 **工具**: EAlert Tracker v3.8.3（准确性优先，不捏造任何字段）
