@@ -26,7 +26,7 @@
 **日期**: （发表日期无法确认）
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell-symposia.com%2Fhallmarksofcancer-2026%2Findex.html/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/e5_5-WDj1fEaZwNpngW73d0qutFS1ggG_KBh4mGN1rk=452
 
-**一句话概要**: 研究Hallmarks of Cancer: 。
+**一句话概要**: 研究Hallmarks of Cancer。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -45,7 +45,7 @@
 **DOI**: 10.1016/j.cell.2026.03.033
 **链接**: https://doi.org/10.1016/j.cell.2026.03.033
 
-**一句话概要**: 研究Hallmarks of Cancer : 25 years guiding...。
+**一句话概要**: 研究Hallmarks of Cancer。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -64,7 +64,7 @@
 **DOI**: 10.1186/s12943-024-02191-9
 **链接**: https://doi.org/10.1186/s12943-024-02191-9
 
-**一句话概要**: 研究And spatial analysis of immune-hot and...。
+**一句话概要**: 研究spatial analysis of immune-hot and imm...。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -118,7 +118,7 @@
 **平台**: Cell
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcell%2Fissue%3Fpii=S0092-8674(25)X0009-X/1/0100019e17cb7eca-a5da026b-ecc9-4466-a29a-f8c185b36670-000000/dr8Ye3iyH4I_8xvNg4SWI1JqqZhCveV1qROnbPDJXbs=452
 
-**一句话概要**: 研究Hallmarks of Cancer : 25 years guiding...。
+**一句话概要**: 研究Hallmarks of Cancer。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -424,7 +424,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell.com%2Fcell%2Fissue%3Fpii=S0092-8674(25)X0009-X/1/0100019e1cbddeb1-2d8e38d6-0e3b-4e00-99d8-6db2dbc1d53a-000000/049bnoApw4uYj9_xJemiCCKetLUXmfAh-fTmZjQBQSo=452
 
-**一句话概要**: 研究Hallmarks of Cancer : 25 years guiding...。
+**一句话概要**: 研究Hallmarks of Cancer。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -543,7 +543,7 @@
 **平台**: Journal
 **链接**: https://click.notification.elsevier.com/CL0/https:%2F%2Fwww.cell-symposia.com%2Fhallmarksofaging-2026%2Findex.html/1/0100019e1d2726ff-d6688836-e0d3-40bc-8456-b881564371c6-000000/HiKYxtiXLW730mjHZs4-dMFvg9ChEqnEuwp-dSAMPlI=452
 
-**一句话概要**: 研究Hallmarks of Cancer: 。
+**一句话概要**: 研究Hallmarks of Cancer。
 
 **主要贡献**
 - 提出或优化了相关方法/模型
@@ -729,5 +729,5 @@
 
 ---
 
-**生成时间**: 2026/5/13 11:46:46
+**生成时间**: 2026/5/13 11:53:46
 **工具**: EAlert Tracker v3.8.3（准确性优先，不捏造任何字段）
