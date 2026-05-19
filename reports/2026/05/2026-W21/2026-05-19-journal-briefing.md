@@ -73,7 +73,7 @@
 **作者**: （作者信息无法确认）
 **平台**: Nature Biotechnology
 **日期**: （发表日期无法确认）
-**链接**: https://links.springernature.com/f/a/NIqVHPgZaA5aLoIiNLigdQ~~/AABE5hA~/ItDQVWq3bUS0HM9JICmRQjqXPdYugATPhWypY1I_TIlAQCYwCJqHj1lZ4kvl9l7WLsflLCxUaQ7vYO-xOoNZMwcYTpGlHPOtwg2LqDuqtxu-N81OZklFu2IxVe41zfbXGZaDrWAPa8w-cPnVrP8dXpO3Mwi-DE2O9wiuCC5A3uOkBdYM5-dEpNmV2b2_vS6c16IPDJUjCYvGUGZtc4aqsWFbj6OEOl_3in01dvHl7UMAjgAN28b1psyvSMRcyGuqpoNaO6ELm-Fdm-fuztyU7Uc_-XIB0WguK4X4g-Squi8~
+**链接**: https://nature.com/articles/s41587-026-03150-z
 
 **一句话概要**: 研究UK’s first go-ahead for CRISPR-edited ...。
 
@@ -89,7 +89,7 @@
 **作者**: （作者信息无法确认）
 **平台**: Nature Biotechnology
 **日期**: （发表日期无法确认）
-**链接**: https://links.springernature.com/f/a/aGGMJsY-jDDFT8eHtHryUw~~/AABE5hA~/ItDQVWq3bUS0HM9JICmRQjqXPdYugATPhWypY1I_TIlAQCYwCJqHj1lZ4kvl9l7WD3RjvSOYSmUg97oBg4SHW6S8jDiGWyqJIH-IDJNUPQQsM_7d9NsijwbVbriRJdE-y_-rw09Nk9jyUvYw8Jn52k0sKtTjyA7fwtLAV78MOiRPTJ1J5EOIKOGE2oKBkAxAsFCVq1zceLALwmJKHPnSr1ig5QtGHlvpyMR52LQuVVstUK1v2mmCEUxq3fQcGzg71f9SMETVJtP7SeCVAqTlb23IcniRPZEPd6ICmv8aBkg~
+**链接**: https://nature.com/articles/s41587-026-03028-0
 
 **一句话概要**: 研究Re-evaluating the site-directed nuclea...。
 
@@ -104,7 +104,7 @@
 
 **作者**: 见原文
 **平台**: Nature Biotechnology
-**链接**: https://links.springernature.com/f/a/wZcEJYWSqI3cbrCxsNBu0w~~/AABE5hA~/ItDQVWq3bUS0HM9JICmRQjqXPdYugATPhWypY1I_TIlAQCYwCJqHj1lZ4kvl9l7W2r_8vbkMnNfTvjMyK_3R3KjoJbkixb8qgB8vofVEHWsUS7kZNWn9XN69kSDRQr1tdrXN5qzDfa3MQBm1rfj7_lI-RFboCTQI3yuSp4FyGhFK80ewTvo405bn6oDXtRsAFmXla32ZZFXzlGvnFDUh7J5D4oDzKK48C4QbchghwS4Xy58K67azvWLgPf5AmJ6Apqx1xTZs0JQEGZACNJ4jBe7YhF4hvwW905OHTHrJtJY~
+**链接**: https://nature.com/articles/s41587-026-03151-y
 
 **一句话概要**: 研究Excalipoint’s trispecific T cell engag...。
 
@@ -119,7 +119,7 @@
 
 **作者**: 见原文
 **平台**: Nature Biotechnology
-**链接**: https://links.springernature.com/f/a/OrkE3P_CQIt5ZBt7V9qdYg~~/AABE5hA~/ItDQVWq3bUS0HM9JICmRQjqXPdYugATPhWypY1I_TIlAQCYwCJqHj1lZ4kvl9l7WBZP7sqoO7W3fbMDNBlw_yxMLEOfVILinJUkLj_y_9WafKyVhF6E6zPt3l5T_sZBv1u5UulJS8lHq3v4fITBuvOBZK6f4x4rSpVA8eA8VVaeUfGxHXHHFUBcKhg0vqeVzBAccxumC_48CUhMhZhOnaQKo9Eau_NAgHBl9RQzgyTi88iWfURxzQcccI9S-VnsI5YS_OCf5umszsGVgXYLGsbde9ikg1JEh-teIDrdQjws~
+**链接**: https://nature.com/articles/s41587-026-03114-3
 
 **一句话概要**: 研究Synthetic biology’s uncertain regulato...。
 
@@ -134,7 +134,7 @@
 
 **作者**: 见原文
 **平台**: Nature Biotechnology
-**链接**: https://links.springernature.com/f/a/FVlExcVG3EA6LIX2H0VXFQ~~/AABE5hA~/ItDQVWq3bUS0HM9JICmRQjqXPdYugATPhWypY1I_TIlAQCYwCJqHj1lZ4kvl9l7W-n0oN_0GayGovR8O_Vvp9IuexZm_hFq_Htm8KQWdn5uh9Snnr8woYTxCr5x52ut-AgHxlHWUhDXR7XQOcEAZ7zdr4ur-tUd01yWhsJYzvp7x_Ev0egVqgevByPoFfaI3etQzVLTLxIh4CKBBxFyqVrY1aXaGqhabJYLwZi_EqHjUDtW3604BHQq-ZlYqOYnngRrnWNmKKEA4s-KNLq7kvDxwxL2iB7aH0ZQaRcJAtbY~
+**链接**: https://nature.com/articles/s41587-026-03148-7
 
 **一句话概要**: 研究Programming B cell immunity from hemat...。
 
@@ -149,7 +149,7 @@
 
 **作者**: 见原文
 **平台**: Nature Biotechnology
-**链接**: https://links.springernature.com/f/a/0RweZFmF1bJFU5uz2eZvQg~~/AABE5hA~/ItDQVWq3bUS0HM9JICmRQjqXPdYugATPhWypY1I_TIm9QEAdi2MO4ERyGazqc20_8R4v0j0E7wG-liQqdyxCsDeXFONvIHD4BpUdGGA6XFrep6QiQYGufkB54Q5eBV_4ywA4QjFNtQ_Zhc74usbMj46CWGBid_HYyGmP082bA4-Rv6h2Kv2i-kDFoJOqXXyx3VpAI8UsAzSc8SFYDzrONFV2Ad_5ENDLg5t3GYo1h4jqhQRXZn8vovWJVLuToBHNzMKq9-CcIhdJj_w67FSYS7BG4-V7I9YOKMooLApwW80~
+**链接**: https://nature.com/articles/s41587-025-02735-4
 
 **一句话概要**: 研究Tracking microbiome-derived cell-free ...。
 
@@ -164,7 +164,7 @@
 
 **作者**: 见原文
 **平台**: Nature Biotechnology
-**链接**: https://links.springernature.com/f/a/iA7scLh1SApCBIV0AEH6HA~~/AABE5hA~/ItDQVWq3bUS0HM9JICmRQjqXPdYugATPhWypY1I_TIlAQCYwCJqHj1lZ4kvl9l7WInSWsIEU-gDa6Xb3bSIqSCA-EZB8FJCf9JaP-fUOyYFB-DfpfbeUWstK_jsK6rR06l_TtixGwHvs-8Hl3iMgQIYl20eMxl_0kAekauNsKlgiqVVv17wdYL6u_pMsXk5udhkq0y4-AmARb21-84dbkzqpDdoP_ztWjRYDsvfs3y2cyu4PG4MwcmF4xCJnGivK9KvsUNXD2HIFVRlS6TWblk8nIgnVCbWsvEoreBSaHCM~
+**链接**: https://nature.com/articles/s41587-026-03018-2
 
 **一句话概要**: 研究Promises and challenges of neoantigen ...。
 
@@ -179,7 +179,7 @@
 
 **作者**: 见原文
 **平台**: Nature Biotechnology
-**链接**: https://links.springernature.com/f/a/AwB_w7lYJ7hhvohu7FjYsQ~~/AABE5hA~/ItDQVWq3bUS0HM9JICmRQjqXPdYugATPhWypY1I_TIm9QEAdi2MO4ERyGazqc20_hGKs3auioKlod02l4bsgqcxMBqYHAA4vdY574TOA8yREjUbo3R0AzVMCy4Cn7zNrqygxKBj0Qy4KsQVs5dkSXC6VU0e0Dx1owQxw1G7xL_q4HtnD-tOXhQNXssmFBg6QPrWZThDSPHbluqQkWu0YOq-terZA3NHWDe-ht5ILogIMGFAaQAxdqQSPNQIPchdt-szS8Vm48NW2gAkV9w5milgRj6m8Lq7R3svO6JZOK-4~
+**链接**: https://nature.com/articles/s41587-025-02731-8
 
 **一句话概要**: 研究Modifications of microbiome-derived ce...。
 
@@ -194,7 +194,7 @@
 
 **作者**: 见原文
 **平台**: Nature Biotechnology
-**链接**: https://links.springernature.com/f/a/KhsOUZOTF5BEooPsxFCmOg~~/AABE5hA~/ItDQVWq3bUS0HM9JICmRQjqXPdYugATPhWypY1I_TIm9QEAdi2MO4ERyGazqc20_3h9FEXoKHJz2iPZCdk_7gnfUE8fyeuITcIxHDqhMCaAY1nlqrI3J-rjpU9Tmyk1DH6moXjx76QcYIgqwXUcw4-xjxG9VhLJYmALb6lQfCwZE9ryB5apuAYJXAC9OL-lFIxzsV7NlfyI3dNieZVe3xKb7SlgArXmHe83rBlGBLWitLV5cl3WWhBtwxB4FTicAZkWjFcFXHnYrI0iNxTxSS8vFoyT2mJRkHkm5HDFcYjk~
+**链接**: https://nature.com/articles/s41587-025-02655-3
 
 **一句话概要**: 研究Evolution-guided protein design of Isc...。
 
@@ -209,7 +209,7 @@
 
 **作者**: 见原文
 **平台**: Nature Biotechnology
-**链接**: https://links.springernature.com/f/a/I3Wey6TjAKKnOR8nvsZN2A~~/AABE5hA~/ItDQVWq3bUS0HM9JICmRQjqXPdYugATPhWypY1I_TIm9QEAdi2MO4ERyGazqc20_AlNXXesMgMq5YXW8kyO8JB5nm8ud7WLMsa-YsLMSMtKRfQ8BfTMrNmZPFL2eq4jC6pfGu_WqVKqav_xY4YtkZWW8mfFdB364BeMmdbuVkNEoMoxPDRz-61b1rYDoeWFjhNUqdK-6og5DVqPOA6xyz44Kp2ve-w63Oyrp9VxAc4UkYbB8UDCs6_oW6Bst4dWCTCx6k_BjYwE5FKShX8tr95VkY5mquGhWd0AEDGmk6Zg~
+**链接**: https://nature.com/articles/s41587-025-02725-6
 
 **一句话概要**: 研究Polygenic risk scores dissect cellular...。
 
@@ -240,5 +240,5 @@
 
 ---
 
-**生成时间**: 2026/5/19 14:47:22
+**生成时间**: 2026/5/19 14:59:17
 **工具**: EAlert Tracker v3.8.6（准确性优先，不捏造任何字段）
