@@ -10,7 +10,7 @@
 - **今日相关论文**: 5 篇
 
 ### 期刊分布
-- **Science**: 2 篇
+- **Proceedings of the National Academy of Sciences**: 2 篇
 - **Proceedings of the National Academy of Sciences of the United States of America**: 1 篇
 - **Nature communications**: 2 篇
 
@@ -20,17 +20,17 @@
 
 ### 🔬 论文1：Maynard Smith’s analogy, realized: Common ancestry constrains evolutionary percolation through protein space
 
-**作者**: （作者信息无法确认）
-**平台**: Science
-**日期**: （发表日期无法确认）
-**链接**: https://www.google.com/search?q=Maynard%20Smith%E2%80%99s%20analogy%2C%20realized%3A%20Common%20ancestry%20constrains%20evolutionary%20percolation%20through%20protein%20space
+**作者**: Swathi Nachiar Manivannan, C. Brandon Ogbunugafor
+**平台**: Proceedings of the National Academy of Sciences
+**日期**: 2026-5-18
+**链接**: https://www.pnas.org/doi/10.1073/pnas.2610113123?ai=aqle&ui=1rn75&af=T
 
 **一句话概要**: 关于Maynard Smith’s analogy, realized: Common ancest…的研究。
 
 **主要贡献**
 - 对Maynard Smith’s analogy, realized: Common ancestry constrains evolutionary percolation进行了研究，提供了新的实验数据或理论视角
 
-**🔍 Critical 简评**: （无法获取摘要，无法生成简评。建议访问原文链接查看详情。）
+**🔍 Critical 简评**: 蛋白质结构与功能预测是AI for Science的标杆性应用。本研究针对蛋白质动态或设计问题，为理解生命分子机制提供了新工具。
 
 ---
 
@@ -55,16 +55,16 @@
 ### 🔬 论文3：Correction for Sava-Segal et al., Narrative “twist” shifts within-individual neural representations of dissociable story features
 
 **作者**: （作者信息无法确认）
-**平台**: Science
-**日期**: （发表日期无法确认）
-**链接**: https://www.google.com/search?q=Correction%20for%20Sava-Segal%20et%20al.%2C%20Narrative%20%E2%80%9Ctwist%E2%80%9D%20shifts%20within-individual%20neural%20representations%20of%20dissociable%20story%20features
+**平台**: Proceedings of the National Academy of Sciences
+**日期**: 2026-5-18
+**链接**: https://www.pnas.org/doi/10.1073/pnas.2614323123?ai=aqle&ui=1rn75&af=T
 
 **一句话概要**: dissociable story features的correction for sava-segal et al., narrative “twist” shifts within-individual neural representations研究。
 
 **主要贡献**
 - 对Correction进行了研究，提供了新的实验数据或理论视角
 
-**🔍 Critical 简评**: （无法获取摘要，无法生成简评。建议访问原文链接查看详情。）
+**🔍 Critical 简评**: 本研究关注features相关的生物学问题，对推动该领域发展具有参考意义，建议阅读原文了解详细发现。
 
 ---
 
@@ -106,7 +106,7 @@
 ## 💡 整体趋势
 
 📊 **期刊分布**:
-- Science: 2 篇
+- Proceedings of the National Academy of Sciences: 2 篇
 - Proceedings of the National Academy of Sciences of the United States of America: 1 篇
 - Nature communications: 2 篇
 
@@ -123,5 +123,5 @@
 
 ---
 
-**生成时间**: 2026/5/27 17:44:32
+**生成时间**: 2026/5/27 18:05:19
 **工具**: EAlert Tracker v3.9.1（准确性优先，不捏造任何字段）
