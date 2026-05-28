@@ -10,11 +10,10 @@
 - **今日相关论文**: 7 篇
 
 ### 期刊分布
-- **Science translational medicine**: 2 篇
+- **Science Translational Medicine**: 2 篇
 - **Proceedings of the National Academy of Sciences**: 2 篇
-- **Proceedings of the National Academy of Sciences of the United States of America**: 1 篇
-- **Nature communications**: 1 篇
-- **Nature Communications**: 1 篇
+- **PNAS**: 1 篇
+- **Nature Communications**: 2 篇
 
 ---
 
@@ -23,7 +22,7 @@
 ### 🔬 论文1：Genomic instability drives POSTN(+) myofibroblasts via STING-WNT axis to promote immunosuppression and PARPi resistance in ovarian cancer.
 
 **作者**: Liu D, Tao K, Cai C, Lin Y, Yu R, Xiong K, Yang W, Li X, Luo Y, Song C, Chi J, Peng Z, Pan W, Zhong Q, Li H, Xu C, Liu X, Zhao GN, Xia Y, Ma D, Fang Y, Gao Q
-**平台**: Science translational medicine
+**平台**: Science Translational Medicine
 **日期**: 2026 May 27
 **DOI**: 10.1126/scitranslmed.ady2719
 **链接**: https://doi.org/10.1126/scitranslmed.ady2719
@@ -58,7 +57,7 @@
 ### 🔬 论文3：Leveraging health care settings to strengthen trust in light-touch benefit outreach.
 
 **作者**: Guido MC, Maier MP, Martin AF
-**平台**: Proceedings of the National Academy of Sciences of the United States of America
+**平台**: PNAS
 **日期**: 2026 May 26
 **DOI**: 10.1073/pnas.2537008123
 **链接**: https://doi.org/10.1073/pnas.2537008123
@@ -92,7 +91,7 @@
 ### 🔬 论文5：Pathogenic variants in the autophagy-tethering factor EPG5 drive neurodegeneration through mitochondrial dysfunction and innate immune activation.
 
 **作者**: Singh K, Dafsari HS, Gillham O, Chi H, Mandzhukova I, Kourouzidou I, Sheshadri P, Chung CY, Pingitore V, Vansenne F, Selwood DL, Pendin D, Szabadkai G, Fanto M, Jungbluth H, Duchen MR
-**平台**: Nature communications
+**平台**: Nature Communications
 **日期**: 2026 May 26
 **DOI**: 10.1038/s41467-026-73538-7
 **链接**: https://doi.org/10.1038/s41467-026-73538-7
@@ -110,7 +109,7 @@
 ### 🔬 论文6：Genomic instability drives POSTN(+) myofibroblasts via STING-WNT axis to promote immunosuppression and PARPi resistance in ovarian cancer.
 
 **作者**: Liu D, Tao K, Cai C, Lin Y, Yu R, Xiong K, Yang W, Li X, Luo Y, Song C, Chi J, Peng Z, Pan W, Zhong Q, Li H, Xu C, Liu X, Zhao GN, Xia Y, Ma D, Fang Y, Gao Q
-**平台**: Science translational medicine
+**平台**: Science Translational Medicine
 **日期**: 2026 May 27
 **DOI**: 10.1126/scitranslmed.ady2719
 **链接**: https://doi.org/10.1126/scitranslmed.ady2719
@@ -144,11 +143,10 @@
 ## 💡 整体趋势
 
 📊 **期刊分布**:
-- Science translational medicine: 2 篇
+- Science Translational Medicine: 2 篇
 - Proceedings of the National Academy of Sciences: 2 篇
-- Proceedings of the National Academy of Sciences of the United States of America: 1 篇
-- Nature communications: 1 篇
-- Nature Communications: 1 篇
+- PNAS: 1 篇
+- Nature Communications: 2 篇
 
 📈 **领域热度**:
 - 肿瘤/免疫: 4 篇
@@ -164,5 +162,5 @@
 
 ---
 
-**生成时间**: 2026/5/28 08:01:25
+**生成时间**: 2026/5/28 08:27:30
 **工具**: EAlert Tracker v3.9.1（准确性优先，不捏造任何字段）
