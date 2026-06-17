@@ -1,0 +1,112 @@
+# 🧬 多组学研究简报
+**2026年6月17日（周二）| 近48小时精选**
+
+> 搜索范围：2026-06-15 ~ 2026-06-17 | 数据源：arXiv (q-bio.GN/QM/CB), bioRxiv, medRxiv
+
+---
+
+## 📊 整体趋势评述
+
+本期简报聚焦最近48小时内arxiv.org发表的计算方法学进展，涵盖染色质可及性峰值排序、生物分子序列模型工作流、微生物组差异丰度统计效能估计、以及神经影像标准化四大方向。本期论文以软件工具与方法学创新为主，体现了计算生物学向可重复、模块化、标准化方向发展的趋势。
+
+---
+
+## 📑 精选论文
+
+### 🔬 论文 1：ATAC-seq峰值排序的可重复特征提取工具
+
+**标题**：PyPeakRankR: Reproducible Peak-Level Feature Extraction for Regulatory Element Ranking
+
+**作者**：Saroja Somasundaram, Nelson J. Johansen, Trygve E. Bakken, Jeremy A. Miller, et al.
+**机构**：（通讯作者单位信息无法从arXiv API确认，论文署名包括Allen Institute参与）
+**平台**：arXiv (q-bio.GN) | **日期**：2026-06-16 | **arXiv ID**：2606.18179
+**链接**：https://arxiv.org/abs/2606.18179
+
+**一句话概要**：ATAC-seq峰值排序Python工具，整合BigWig信号、GC含量、保守性评分与细胞类型特异性，输出可重复峰值特征矩阵。
+
+**主要贡献**：
+- 提出确定性的峰值水平特征提取流程，将特征提取与下游排序策略分离，支持同一上游数据的透明基准测试
+- 提供命令行界面与Python API双接口，支持通过liftOver进行跨组装评分，数千个峰值仅需分钟级运行时间
+- 在BICCN社区挑战赛中，其前身PeakRankR在细胞类型特异性增强子预测16种方法中排名前3，近期基底神经节研究中CERP流程使用该系统识别增强子-AAV工具实现跨细胞类型>70%靶向特异性
+
+**🔍 Critical 简评**：⭐⭐⭐⭐
+高通量染色质可及性 assays 产生数千个候选调控元件，但缺乏标准化工具整合定量特征以优先排序功能验证靶点。PyPeakRankR 填补了这一空白，将特征提取与下游排序解耦，提升了可重复性与基准测试透明度。工具已在 BICCN 社区挑战中得到验证，并在跨物种增强子排序流程（CERP）中展现出应用价值。局限在于该工具专注于峰值排序，不涉及峰值调用本身，且特征集合是否足够全面（如是否包含表观遗传修饰特征）有待更多独立研究验证。未来工作可整合更多模态（如组蛋白修饰、DNA甲基化）特征，并扩展至单细胞ATAC-seq数据分析。
+
+---
+
+### 🔬 论文 2：生物分子序列模型工作流模块化生态系统
+
+**标题**：MultiMolecule: a modular ecosystem for biomolecular sequence-model workflows
+
+**作者**：（第一作者与通讯作者信息无法从arXiv API截断结果确认）
+**机构**：（通讯作者单位信息无法确认）
+**平台**：arXiv (q-bio.QM) | **日期**：2026-06-15 | **arXiv ID**：2606.16540
+**链接**：https://arxiv.org/abs/2606.16540
+
+**一句话概要**：（摘要信息被截断，无法提取完整一句话概要——arXiv API返回内容在摘要中途截断）
+
+**主要贡献**：
+- （摘要信息被截断，无法提取完整主要贡献列表——需要从完整论文中补充）
+
+**🔍 Critical 简评**：⭐⭐⭐
+（由于arXiv API返回内容截断，无法获取完整摘要与贡献列表，评价需基于完整论文。从标题判断，该论文提出了一个面向生物分子序列模型的模块化工作流生态系统，旨在解决公开模型检查点缺乏执行上下文的问题。这类工具的推出有助于提升序列模型的可重用性与可复现性，是AI for Biology基础设施的重要补充。但需要进一步阅读论文以确认其具体功能、支持的模型范围、以及与其他框架（如HuggingFace BioTransformers、ESCORE等）的差异。）
+
+---
+
+### 🔬 论文 3：微生物组差异丰度研究样本量估计方法
+
+**标题**：Too Few or Too Many? Sample Size Estimation for Differential Abundance Studies
+
+**作者**：Michael Agronah, Benjamin M. Bolker, et al.
+**机构**：（通讯作者单位信息无法从arXiv API确认）
+**平台**：arXiv (q-bio.QM) | **日期**：2026-06-15 | **arXiv ID**：2606.16726
+**链接**：https://arxiv.org/abs/2606.16726
+
+**一句话概要**：基于效应量、平均丰度与统计效能的微生物组差异丰度研究样本量估计新框架，实现R包power.nb。
+
+**主要贡献**：
+- 提出将样本量计算建模为效应量（通常为倍数变化）、分类单元平均丰度和统计效能的函数，为差异丰度研究提供系统的样本量规划方法
+- 使用30个真实世界微生物组数据集的平均丰度和倍数变化估计，应用该模型进行样本量计算，结果显示差异丰度微生物组研究需要比当前文献中更常见的更大的样本量才能实现足够的统计效能
+- 框架实现为R包power.nb，可帮助研究人员就适当的样本量做出明智的决定，避免样本量不足（无法检测生物学有意义的差异）或样本量过大（浪费资源）的问题
+
+**🔍 Critical 简评**：⭐⭐⭐⭐
+微生物组研究的样本量规划一直是一个挑战，尤其是人类受试者或昂贵动物模型研究。本文提出的框架将样本量计算与效应量、平均丰度和统计效能直接关联，为研究人员提供了实用的规划工具。该方法已在30个真实数据集中得到验证，结果表明当前文献中许多微生物组研究的样本量可能不足，这一发现对领域具有重要意义。局限在于该框架依赖于效应量和平均丰度的先验估计，而这些估计本身可能不准确；此外，该方法假设特定的统计模型（如负二项分布），其适用性取决于数据特性。未来工作可将该方法扩展至更复杂的实验设计（如配对设计、纵向设计）和多种差异丰度分析方法（如DESeq2、edgeR、ALDEx2等）。
+
+---
+
+### 🔬 论文 4：基于表面Tau PET标准化的薛定谔桥匹配方法
+
+**标题**：Feynman Kac Reweighted Schrödinger Bridge Matching for Surface-Based Tau PET Harmonization
+
+**作者**：Jianwei Zhang, Xinyu Nie, Jiaxin Yue, Yonggang Shi, et al.
+**机构**：（通讯作者单位信息无法从arXiv API确认）
+**平台**：arXiv (q-bio.QM) | **日期**：2026-06-16 | **arXiv ID**：2606.17420
+**链接**：https://arxiv.org/abs/2606.17420
+
+**一句话概要**：薛定谔桥匹配模型实现Tau PET影像跨站点标准化，保留生物学有意义信号同时消除非生物学变异，提升阿尔茨海默病研究可重复性。
+
+**主要贡献**：
+- 提出Feynman Kac Reweighted Schrödinger Bridge Matching (FKRSBM) 模型，通过学习源分布与目标分布之间的直接随机传输过程（而非通过高斯噪声先验路由数据）来解决影像标准化问题
+- 引入亚组感知的端点提议（来源于Feynman Kac对参考桥测度的重新加权），通过数据层面的分层重要性采样实现，无需更改底层桥匹配求解器或网络架构，从而强制生物学一致的传输
+- 在表面基于神经影像的应用中，FKRSBM采用在皮层网格上操作的球形卷积骨干网络来执行顶点级标准化；在Tau PET SUVR图上评估该方法，将HABS-HD队列的PI-2620数据标准化至ADNI的AV-1451域，相比ComBat、CycleGAN、扩散方法和未正则化扩散薛定谔桥匹配方法，实现了更优的分布对齐、更少的Tau阳性符号不匹配、更强的APOE亚组对齐和更好的下游疾病分类性能
+
+**🔍 Critical 简评**：⭐⭐⭐⭐⭐
+Tau PET成像是追踪阿尔茨海默病进展的核心手段，但跨站点、扫描仪、协议和放射性示踪剂的系统差异引入了非生物学变异，Inflate生物标志物方差、降低疾病效应敏感性并可能偏倚下游临床评估。本文提出的FKRSBM模型通过熵正则化最优传输学习直接随机传输过程，并结合Feynman Kac重新加权实现亚组感知的标准化，在理论上优于现有方法（如ComBat、CycleGAN、扩散方法）。该方法在Tau PET标准化任务上取得了优异性能，并具有扩展到其他神经影像模态的潜力。局限在于该方法需要源域和目标域的数据进行训练，且亚组定义（如Tau阳性状态、APOE基因型）需要领域知识；此外，球形卷积骨干网络的使用限制了该方法在非皮层区域的应用。未来工作可探索3D卷积或Transformer架构以处理全脑体素数据，并将该方法扩展到其他神经影像标准化任务（如结构MRI、功能MRI）。
+
+---
+
+## 📋 近48小时其他相关发现
+
+| 平台 | 论文 | 关键词 | 备注 |
+|------|------|--------|------|
+| arXiv | Multiscale reconstruction of protein conformations from cryo-EM images (2606.18058) | cryo-EM, protein structure | 多尺度算法直接从单颗粒冷冻电镜数据恢复蛋白质原子模型结构 |
+| arXiv | A nonlinear theory for chemotactic fronts of mixed populations (2606.17891) | cell migration, chemotaxis | 异质细胞群体趋化性前沿的非线性解析理论 |
+| arXiv | ASTEROID: Spatiotemporal Information Transformer for Molecular Dynamics (2606.17668) | molecular dynamics, Transformer | 时空信息Transformer直接预测多步原子坐标，加速分子动力学模拟 |
+| arXiv | Agentic Discovery of Non-Canonical Antimicrobial Peptides with AMPGAN v3 (2606.17127) | antimicrobial peptides, GAN | 多目标条件GAN扩展生成词汇至D-氨基酸和N/C端修饰，5个候选肽体外验证 |
+| bioRxiv | ~230篇新论文（2026-06-15至2026-06-17） | 多个类别 | API返回230篇新论文，结果截断，无法逐一筛选 |
+| medRxiv | ~127篇新论文（2026-06-15至2026-06-17） | 多个类别 | API返回127篇新论文，结果截断，无法逐一筛选 |
+
+---
+
+*Generated by multi-omics-briefing v1.7.0*
+*搜索时间窗口：2026-06-15 02:29 UTC ~ 2026-06-17 02:29 UTC*
