@@ -1,10 +1,10 @@
 ---
 name: ealert-tracker
-description: "科研期刊追踪器 v3.5。通过 Gmail IMAP 读取最近 24 小时的期刊目录邮件（Nature、Science、Science Translational Medicine、Science Immunology、Science Advances、PNAS、Cell Press 等）及 Google Scholar Alerts，提取论文信息并补全元数据（PubMed/CrossRef），按关键词过滤，生成 Markdown 报告（含原文标题、DOI/搜索链接、专家点评）并推送到 GitHub + QQ。每周生成综合评述。"
+description: "科研期刊追踪器 v3.8.7。通过 Gmail IMAP 读取最近 48 小时的期刊目录邮件（Nature、Science、Science Translational Medicine、Science Immunology、Science Advances、PNAS、Cell Press 等），提取所有文章标题，生成 Markdown 格式的完整期刊摘要报告。⚠️ 准确性优先原则：绝不捏造任何字段，无法确认时明确标注占位符。由 AI 发送 QQ + 推送 GitHub。"
 metadata:
   openclaw:
     emoji: "📚"
-    version: "3.5.0"
+    version: "3.9.2"
     requires:
       bins:
         - python3
@@ -13,25 +13,23 @@ metadata:
         - IMAP_PASS
 ---
 
-# EAlert Tracker v3.5 - 科研期刊追踪器
+# EAlert Tracker v3.9.2 - 科研期刊追踪器
 
-> 通过 Gmail IMAP 自动读取订阅期刊的 Table of Contents 邮件 + Google Scholar Alerts，提取论文信息并补全元数据，按关键词过滤，生成含专家点评的报告。
+> ⚠️ **准确性原则（最高优先级）**：提供的信息必须经过确认，绝不捏造任何字段。所有字段（DOI、作者、日期、摘要）必须从可靠 API 验证获取，无法提取时明确标注「（XXX信息无法确认）」，绝不猜测。
+
+> 通过 Gmail IMAP 自动读取订阅期刊的 Table of Contents 邮件，提取所有文章，生成完整摘要报告。准确性优先——不捏造任何字段。
 
 ## 核心特点
 
-- 📅 **最近 24 小时**：每天早上 9:00 读取当日新邮件
+- 📅 **最近 48 小时**：每天早上读取最近两天的期刊邮件
 - 📰 **全部内容**：研究论文 + 科学新闻，不过滤
 - 🤖 **AI 辅助**：自动提取标题和关键信息
-- 📱 **多渠道发送**：QQ 推送 + GitHub 同步
+- 📱 **多渠道发送**：QQ 推送 + GitHub 同步（由 AI 负责）
 - 📊 **每周汇总**：周日上午综合评述 + 领域趋势
-- 🔔 **Scholar Alerts**：Google Scholar 追踪指定研究者
-- 🔬 **元数据补全**：PubMed/CrossRef 自动补全作者、DOI、摘要
-- 💡 **专家点评**：基于摘要内容的领域特定 Critical Thinking
-- 🔗 **链接保障**：原始链接 → DOI → Google 搜索 fallback
 
 ## 快速开始
 
-### 运行每日追踪（Node.js v3.5）
+### 运行每日追踪
 
 ```bash
 cd ~/.qclaw/workspace/ealert-tracker
@@ -40,20 +38,13 @@ node scripts/tracker.js
 
 这会自动：
 1. 连接 Gmail IMAP
-2. 读取最近 24 小时的期刊邮件 + Scholar Alerts
-3. 提取论文信息并补全元数据（PubMed/CrossRef）
-4. 按关键词过滤相关论文
-5. 生成 Markdown 报告 + QQ 消息
-6. 发送邮件报告 + 推送 GitHub
+2. 读取最近 48 小时的期刊邮件
+3. 提取每封邮件中的文章标题和元数据
+4. 生成 Markdown 报告保存到 `reports/YYYY/MM/YYYY-Wxx/`
 
-### 运行每日追踪（Python v2.0，备用）
+### 发送报告
 
-```bash
-cd ~/.qclaw/workspace/ealert-tracker
-python3 scripts/email_reader.py
-```
-
-Python 版仅读取邮件提取标题，不做过滤和元数据补全。
+AI 读取生成的报告，通过 message 工具发送到 QQ，并推送到 GitHub。
 
 ## 支持的期刊
 
@@ -71,29 +62,27 @@ Python 版仅读取邮件提取标题，不做过滤和元数据补全。
 
 ## 工作流程
 
-### 每日期刊追踪（每天 8:30 AM HKT）
+### 每日期刊追踪（每天 9:00 AM）
 
 ```
 ┌─────────────────────────────────────────────┐
-│  cron: 每天 8:30 AM (Asia/Hong_Kong)        │
+│  cron: 每天 9:00 AM (Asia/Hong_Kong)       │
 ├─────────────────────────────────────────────┤
-│  1. 执行 Node.js 脚本                       │
-│     node scripts/tracker.js                 │
-│     ↓ (读取最近 24h 期刊邮件 + Scholar)      │
-│  2. 解析邮件提取论文                         │
+│  1. 执行 Python 脚本                        │
+│     python3 scripts/email_reader.py          │
+│     ↓ (读取最近 48h 期刊邮件)               │
+│  2. 保存 JSON → /tmp/journal_emails.json   │
 │     ↓                                      │
-│  3. 关键词过滤                              │
+│  3. AI 读取 JSON                          │
 │     ↓                                      │
-│  4. PubMed/CrossRef 元数据补全              │
+│  4. 生成 Markdown 报告                      │
+│     - 所有期刊的所有文章                    │
+│     - 包括研究论文和科学新闻                │
 │     ↓                                      │
-│  5. 生成 Markdown 报告 + QQ 消息            │
-│     - 原文标题 + 链接（DOI/搜索 fallback）     │
-│     - 专家点评（Critical Thinking）          │
-│     ↓                                      │
-│  6. 发送报告                                │
-│     ✅ QQ Bot                              │
-│     ✅ GitHub (bioinformatics-frontier)      │
-│     ✅ Email (onlybelter@gmail.com)         │
+│  5. 发送报告                              │
+│     ✅ QQ Bot (46482C7AEAC84A1D7BE63221F1E6A504) │
+│     ✅ GitHub (bioinformatics-frontier)     │
+│     ❌ 邮件发送（已取消）                   │
 └─────────────────────────────────────────────┘
 ```
 
@@ -120,8 +109,9 @@ Python 版仅读取邮件提取标题，不做过滤和元数据补全。
 
 ```
 ealert-tracker/
-├── SKILL.md                    # 本文档 (v3.5)
+├── SKILL.md                    # 本文档 (v3.8.6)
 ├── .env                        # 邮箱配置
+├── template.md                 # 每日报告模板（生成前必读）
 ├── scripts/
 │   ├── email_reader.py         # ⭐ Python 邮件读取脚本
 │   └── tracker.js              # 旧版 Node.js 脚本 (备用)
@@ -130,13 +120,10 @@ ealert-tracker/
 ├── reports/                    # 本地报告备份
 ├── node_modules/               # (不再使用)
 └── assets/
-```
-
-## 定时任务
 
 | 任务 | ID | 时间 | 功能 |
 |------|-----|------|------|
-| 每日期刊追踪 | `d7e631a3-be6c-422f-a74a-f61c5641c23e` | 每天 9:00 AM | 读取 24h 邮件 → 生成报告 → QQ + GitHub |
+| 每日期刊追踪 | `d7e631a3-be6c-422f-a74a-f61c5641c23e` | 每天 9:00 AM | 读取 48h 邮件 → 生成报告 → QQ + GitHub |
 | 每周综合汇总 | `weekly-journal-summary` | 每周日 10:00 AM | 汇总一周 → 综合评述 → QQ + GitHub |
 
 ## Python 脚本详解
@@ -145,21 +132,39 @@ ealert-tracker/
 
 **功能**：
 - 连接 Gmail IMAP (SSL 端口 993)
-- 搜索最近 **24 小时**期刊邮件
+- 搜索最近 **48 小时**期刊邮件
 - 支持的域名：nature.com, aaas.org, sciencepubs.org, cell.com, pnas.org, elsevier.com
-- HTML 转纯文本
-- 提取文章标题（通过分析文本行特征）
+- 优先解析 HTML 结构（`<a href>`）提取「标题 + 链接」，文本启发式作为兜底
+- HTML → 纯文本（仅用于预览与兜底）
 - 保存 JSON 和 TXT 两种格式
 
 **关键配置**：
 ```python
-# 读取最近 24 小时
-since = datetime.now() - timedelta(days=1)
+# 读取最近 48 小时
+since = datetime.now() - timedelta(days=2)
 ```
 
 **输出**：
 - `/tmp/journal_emails.json` - 结构化 JSON
 - `/tmp/journal_emails.txt` - 纯文本预览
+
+### Gmail 邮件结构化解析（重点）
+
+目标：把 Gmail 邮件的「半结构化 HTML」稳定转换成可用于下游生成报告的结构化 JSON，并在无法确认时输出空字符串而不是猜测。
+
+推荐解析顺序：
+1. **解析 MIME**：优先选择 `text/html`，没有再退回 `text/plain`。
+2. **HTML 结构提取**：遍历所有 `<a href="...">anchor_text</a>`：
+   - `anchor_text` 满足长度范围（避免导航按钮 / “Read more”）
+   - `href` 必须是 http(s) 链接
+   - 域名在允许列表内（或 `doi.org`）
+3. **URL 规范化**：尽量去掉跟踪参数并解包常见跳转参数（例如 `url=` / `redirect=`），得到更稳定的去重键。
+4. **兜底策略**：若 HTML 结构提取为空，再使用纯文本启发式：识别疑似标题行 + 向后查找紧邻链接行。
+
+输出字段约束：
+- `title`：必须来自邮件正文（HTML anchor 文本或文本行），禁止改写、禁止猜测。
+- `url`：必须来自邮件正文中的可见链接或 href，无法确认时输出空字符串。
+- `date`：邮件中无法确认时输出空字符串（报告阶段再从 DOI/官网/API 验证）。
 
 ### journal_emails.json 结构
 
@@ -182,52 +187,22 @@ since = datetime.now() - timedelta(days=1)
 }
 ```
 
-## 每周综合评述格式
+## 报告模板
 
-```markdown
-# 📊 本周期刊汇总综合评述 - YYYY年第NN周
+模板保存在独立文件 [`template.md`](./template.md)。**生成报告前必须先读取该文件**，严格按其结构输出，版本号用 `{version}` 占位（运行时替换为当前版本）。
 
-**日期范围**: YYYY-MM-DD ~ YYYY-MM-DD
-
----
-
-## 📈 本周概览
-本周共追踪 X 封期刊邮件，覆盖 [期刊列表]。
-
-### 研究领域分布
-- [领域1]: X 篇
-- [领域2]: X 篇
-...
-
-### 本周亮点
-[选取本周最重要的 3-5 个研究发现]
-
----
-
-## 🔬 重点研究评述
-
-### 1. [研究标题]
-**期刊**: [期刊名]
-**研究问题**: [一句话描述研究想回答的问题]
-**主要发现**: [2-3 个关键发现]
-**点评**: [Critical thinking：历史背景、motivation、价值、future work]
-
----
-
-## 🧭 领域趋势
-[基于本周所有文献，评述该领域的发展趋势]
-
----
-
-## 🎯 下周关注方向
-[基于本周文献，预测或建议下周值得关注的领域/关键词]
-
----
-
-*由 EAlert Tracker v3.5.0 自动生成 | 日期: YYYY-MM-DD*
-```
+模板要点速查：
+- **日期**：从 DOI 页面或期刊官网提取，**禁止写"见邮件"**
+- **作者**：从页面提取，**禁止把摘要片段当成作者**
+- **链接**：使用 DOI 直链，**禁止用跟踪跳转链接**
+- **摘要要点**：**提炼 + 翻译成中文**，禁止完全照搬英文原文
+- **点评**：基于摘要内容写，**不同文章禁止用相同评语**，必须包含 5 个维度（背景→动机→突破→局限→future work）
 
 > ⚠️ 每次生成报告时，**必须读取本 SKILL.md 获取当前版本号**，并在报告末尾标注。版本号变更时自动跟随。
+
+## 每日报告模板
+
+模板保存在独立文件 [`template.md`](./template.md)，生成报告前必须先读取该文件作为参考基准。
 
 ## 报告保存位置
 
@@ -252,6 +227,7 @@ since = datetime.now() - timedelta(days=1)
 - 如需创建目录：`mkdir -p ~/Documents/bioinformatics-frontier/reports/YYYY/MM/YYYY-Wxx/`
 
 > ⚠️ **v3.3 更新**：报告已迁移至按 `YYYY/MM/YYYY-Wxx/` 目录结构归档。所有报告必须存放在此结构下，禁止存放在 reports/ 根目录。
+> ⚠️ **v3.6 更新**：模板独立为 template.md；日期/作者/链接必须从页面提取；摘要须提炼翻译，禁止照搬；不同文章禁止相同评语。
 
 ## GitHub 仓库
 
@@ -284,7 +260,13 @@ https://github.com/OnlyPandaX/bioinformatics-frontier
 
 ## 更新日志
 
-### v2.1.0 (2026-04-12)
+### v3.9.2 (2026-05-27)
+- 🔧 修复 PNAS 邮件解析 bug（标题截断导致 PubMed 匹配错误）
+- 🔧 新增 PubMed 标题相似度校验（避免截断标题匹配到错误论文）
+- 🔧 修复 email_reader.py datetime 时区比较错误
+- 🔧 修复 URL 提取逻辑（正确跳过作者行）
+
+### v3.9.1 (2026-05-20)
 - 📅 读取时间从 48h 改为 **24h**（每天早上读取当日新邮件）
 - 📧 **取消邮件发送**，只保留 QQ + GitHub
 - 🆕 新增每周汇总任务（每周日 10:00 AM）
@@ -302,20 +284,24 @@ https://github.com/OnlyPandaX/bioinformatics-frontier
 
 ---
 
-**版本**: 3.5.0
-**更新**: 2026-05-02
-
-> v3.5.0: 修复链接缺失问题（fallback DOI/Google 搜索），增强专家点评逻辑
+**版本**: 2.1.0
+**更新**: 2026-04-12
 
 ---
 
-## ⚠️ 去重机制（v2.2 新增）
+## ⚠️ 去重机制（v3.6 强化）
+
+> ⚠️ **v3.6 重要更新**：去重不能只看标题，必须同时比对 URL/DOI。
+> - 标题不同但 URL/DOI 相同 → 判定为**重复**，只保留一篇（保留标题更完整的那条）
+> - 标题相同但 URL/DOI 不同 → 保留两条（可能是不同期刊的同名文章）
+> - 生成报告前先扫描 sent-papers.json，相同 URL/DOI 的论文跳过
 
 ### 工作原理
 
-1. **发送前检查**：每次生成报告前，读取 `sent-papers.json`
-2. **只发一次**：每篇文章只发送一次，除非有正当理由
-3. **强制理由**：重新发送时必须说明原因
+1. **URL/DOI 去重**：标题 + URL 双重比对，不能只靠标题
+2. **发送前检查**：每次生成报告前，读取 `sent-papers.json`
+3. **只发一次**：每篇文章只发送一次，除非有正当理由
+4. **强制理由**：重新发送时必须说明原因
 
 ### 去重列表文件
 
@@ -348,15 +334,16 @@ https://github.com/OnlyPandaX/bioinformatics-frontier
 
 ---
 
-**版本**: 3.5.0
-**更新**: 2026-05-02
+**版本**: 3.9.2
+**更新**: 2026-05-27
 
-> v3.5.0: 修复链接缺失问题（fallback DOI/Google 搜索），增强专家点评逻辑
-> v3.4.0: 新增 Google Scholar Alerts 支持，Scholar 论文走独立元数据流程
-> v3.3.0: 报告迁移至 `YYYY/MM/YYYY-Wxx/` 目录结构归档，强化点评逻辑
-> v2.4.0: 强化报告保存路径说明，增加正确/错误示例
-> v2.3.0: 报告迁移至 `YYYY/MM/YYYY-Wxx/` 目录结构归档
-> v2.2.0: 新增去重机制（sent-papers.json）
-> v2.1.0: 读取时间从 48h 改为 24h，取消邮件发送
-> v2.0.0: 完全重写，从 Node.js 切换到 Python 3
-> v1.x: 初始版本，Node.js tracker.js
+> **⚠️ 准确性原则（v3.7.0 — 最高优先级）**:
+> 提供的信息必须经过确认，绝不捏造任何字段。所有字段（DOI、作者、日期、摘要）必须从可靠 API 验证获取，无法提取时明确标注占位符，绝不猜测。
+>
+> v3.7.0:
+> - 删除 extractDOI 捏造假 DOI 逻辑（abc123、def456 等格式不再出现）
+> - 新增 validateDOI() 通过 CrossRef API 验证 DOI 真实性
+> - ensureFields → ensureAccurateFields：无确认字段时明确标注「（作者信息无法确认）」
+> - 无 DOI 时显示 Google 学术搜索链接替代，不再显示假 DOI
+> v3.6.2: 删除重复的 assets/template.md，整理目录结构
+> v3.6.1: 修复去重逻辑（URL+DOI 双重比对）、点评套话、日期/摘要问题
