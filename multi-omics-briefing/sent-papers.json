@@ -1,466 +1,842 @@
 [
   {
-    "title": "oxo-call: Documentation-grounded Skill Augmentation for Accurate Bioinformatics Command-line Generation with Large Language Models",
-    "arxiv_id": "2604.11000",
-    "sent_date": "2026-04-16",
-    "reason": "LLM+Bioinformatics交叉工具，覆盖44类分析，直接解决生信流程自动化痛点",
-    "notes": "Submitted 14 Apr 2026，在7天窗口内"
+    "title": "Pangenome discovery and characterization of human protein-coding duplicated genes",
+    "doi": "10.64898/2026.08.05.743125",
+    "sent_date": "2026-08-07",
+    "reason": "298人长读长基因组+56亿全长cDNA，发现2713个参考缺失的拷贝数多态基因，修订386个基因模型",
+    "notes": "bioRxiv Genomics, 6 Aug 2026 - Ren/Yoo/Eichler (UW)"
   },
   {
-    "title": "MAT-Cell: A Multi-Agent Tree-Structured Reasoning Framework for Batch-Level Single-Cell Annotation",
-    "arxiv_id": "2604.10602",
-    "sent_date": "2026-04-16",
-    "reason": "神经符号推理+单细胞注释，代表单细胞注释范式转变，在7天窗口内",
-    "notes": "Submitted 7 Apr 2026，严格在7天窗口内"
+    "title": "Spatial transcriptomics resolves ductal TREM2+ and stromal FOLR2+ macrophages in the normal human breast at microanatomical resolution",
+    "doi": "10.64898/2026.08.05.742266",
+    "sent_date": "2026-08-07",
+    "reason": "scRNA+Xenium联用解析乳腺TREM2+/FOLR2+巨噬细胞microanatomical分群，CX3CL1-CX3CR1保守通讯轴",
+    "notes": "bioRxiv Cell Biology, 6 Aug 2026 - Kim/Gartner (UCSF)"
   },
   {
-    "title": "INST-Align: Implicit Neural Alignment for Spatial Transcriptomics via Canonical Expression Fields",
-    "arxiv_id": "2604.10927",
-    "sent_date": "2026-04-16",
-    "reason": "空间转录组多切片对齐与批次效应联合解决，直接对应用户关注领域",
-    "notes": "Submitted 13 Apr 2026，在7天窗口内"
+    "title": "Coronary Artery Disease Transcriptomics Reveals Two Drivers of the Endothelial Cell SR-BI Expression and LDL Transport that Underlie Atherosclerosis",
+    "doi": "10.64898/2026.08.05.743006",
+    "sent_date": "2026-08-07",
+    "reason": "CAD scRNA+小鼠模型揭示HIF-1/高胆固醇双轴汇聚于内皮SR-BI，为动脉粥样硬化靶点",
+    "notes": "bioRxiv Cell Biology, 6 Aug 2026 - Shaul (UTSW)"
   },
   {
-    "title": "BloClaw: An Omniscient, Multi-Modal Agentic Workspace for Next-Generation Scientific Discovery",
-    "arxiv_id": "2604.10599",
-    "sent_date": "2026-04-16",
-    "reason": "多组学AI Agent平台化代表工作，覆盖组学+图像+文本多模态整合",
-    "notes": "Submitted 3 Apr 2026，在7天窗口内"
+    "title": "A dependency map enhanced with next-generation 3D cancer models",
+    "doi": "10.1038/s41586-026-XXXXX",
+    "sent_date": "2026-08-07",
+    "reason": "DepMap与类器官/球状体3D模型整合，提升癌症依赖性预测临床相关性",
+    "notes": "Nature Article, 5 Aug 2026 - Neiswender/Maffa/Vazquez et al. (Broad Institute)"
   },
   {
-    "title": "Efficient Shapley values computation for Boolean network models of gene regulation",
-    "arxiv_id": "2604.10900",
-    "sent_date": "2026-04-16",
-    "reason": "Shapley值+布尔网络解决基因调控关键节点识别，系统生物学经典问题新解法",
-    "notes": "Submitted 10 Apr 2026，在7天窗口内"
+    "title": "Virus reactivation in acute and long COVID-19",
+    "doi": "10.1038/s41586-026-10740-z",
+    "sent_date": "2026-08-08",
+    "reason": "Long COVID患者多病毒慢性再激活，多组学揭示预后标志物",
+    "notes": "Nature, 5 Aug 2026 - IMPACC consortium (Emory/Stanford/UCSF)"
   },
   {
-    "title": "A spatial atlas of the healthy human liver from live donors",
-    "doi": "s41586-026-10377-y",
-    "sent_date": "2026-04-16",
-    "reason": "首个基于活体肝移植供体的健康人类肝脏空间转录组图谱，揭示人类特有的肝细胞功能区域化模式",
-    "notes": "Nature, 15 Apr 2026"
+    "title": "THBKG: A Temporal Biomedical Knowledge Graph for Decision-Aligned Clinical Advancement Prediction",
+    "arxiv_id": "2608.05982",
+    "sent_date": "2026-08-08",
+    "reason": "时序知识图谱110K实体+11.1M边，药物临床进展预测显著提升",
+    "notes": "ArXiv q-bio.QM, 6 Aug 2026 - Queen Mary Univ London"
   },
   {
-    "title": "Emergence of oncofetal plasticity is ubiquitous in early colorectal cancers",
-    "doi": "s41586-026-10344-7",
-    "sent_date": "2026-04-16",
-    "reason": "转移相关细胞状态在结直肠癌最早期的侵袭前沿即已出现，由特化成纤维细胞诱导",
-    "notes": "Nature, 15 Apr 2026 - 空间组学+癌症研究重要进展"
+    "title": "m6A pathway suppression reprograms gene expression during the integrated stress response",
+    "doi": "10.64898/2026.08.05.742933",
+    "sent_date": "2026-08-08",
+    "reason": "m6A通路抑制稳定含m6A的mRNA，重编程ISR转录组，推翻ATF4主导范式",
+    "notes": "bioRxiv Molecular Biology, 5 Aug 2026 - Murakami/Jaffrey, Cornell"
   },
   {
-    "title": "BOAT: Multi-objective Bayesian optimization for antibody design",
-    "arxiv_id": "2604.13980",
-    "sent_date": "2026-04-16",
-    "reason": "贝叶斯优化框架实现抗体多目标联合优化，计算蛋白质设计新方法",
-    "notes": "AISTATS 2026, Submitted 15 Apr 2026"
+    "title": "Endogenous APOBEC3B Promotes CHK1 Inhibitor Sensitivity",
+    "doi": "10.64898/2026.08.04.742831",
+    "sent_date": "2026-08-08",
+    "reason": "内源性A3B驱动复制应激脆弱性，CHK1抑制剂精准分型靶点",
+    "notes": "bioRxiv Cancer Biology, 5 Aug 2026 - Harris, UT Health San Antonio"
   },
   {
-    "title": "STOMP: Pareto-Optimal Offline Reinforcement Learning via Smooth Tchebysheff Scalarization",
-    "arxiv_id": "2604.13175",
-    "sent_date": "2026-04-16",
-    "reason": "多目标强化学习实现蛋白质语言模型对齐，蛋白质工程新范式",
-    "notes": "Submitted 14 Apr 2026"
+    "title": "Massively parallel characterization of adolescent idiopathic scoliosis risk variants",
+    "doi": "10.64898/2026.08.05.743047",
+    "sent_date": "2026-08-09",
+    "reason": "AIS GWAS MPRA功能变异验证，92个非编码调控变异目录，rs9496392→ADGRG6→脊柱侧弯因果链",
+    "notes": "bioRxiv Genomics, 6 Aug 2026 - Ramkhalawan/Makki, U Florida"
   },
   {
-    "title": "Linear RAG scanning mediates editing of Igκ variable region repertoires",
-    "doi": "s41586-026-10362-5",
-    "sent_date": "2026-04-16",
-    "reason": "首次阐明Igκ轻链二次重排的线性RAG扫描机制",
-    "notes": "Nature, 15 Apr 2026 - 免疫学/基因组学"
+    "title": "jazzPanda: spatially aware marker gene detection for imaging-based spatial transcriptomics",
+    "doi": "10.64898/2026.02.13.705867",
+    "sent_date": "2026-08-09",
+    "reason": "成像空间组学marker检测，坐标聚合+lasso GLM，Xenium/CosMx benchmark",
+    "notes": "bioRxiv Bioinformatics v3, 6 Aug 2026 - Jin/Phipson, WEHI"
   },
   {
-    "title": "PRiMeFlow: Capturing Complex Expression Heterogeneity in Perturbation Response Modelling",
-    "arxiv_id": "2604.13986",
-    "sent_date": "2026-04-17",
-    "reason": "流匹配方法建模扰动响应，获ARC Virtual Cell Challenge通用奖",
-    "notes": "Submitted 15 Apr 2026，在7天窗口内"
+    "title": "Ancient DNA reveals matrilineal organisation and recurrent unions between dominant matrilines in Iron Age Britain",
+    "doi": "10.64898/2026.08.03.742615",
+    "sent_date": "2026-08-09",
+    "reason": "534人13代谱系，母系社会结构证据，精英 chariot 墓葬近亲婚配",
+    "notes": "bioRxiv Genetics, 6 Aug 2026 - Olalde, U Basque Country"
   },
   {
-    "title": "Nested Atoms Model with Application to Clustering Big Population-Scale Single-Cell Data",
-    "arxiv_id": "2604.11731",
-    "sent_date": "2026-04-17",
-    "reason": "贝叶斯非参数方法实现群体规模单细胞数据双层聚类，OneK1K数据集验证",
-    "notes": "Submitted 13 Apr 2026，在7天窗口内"
+    "title": "GHT-SELEX demonstrates unexpectedly high intrinsic sequence specificity and complex DNA binding of many human transcription factors",
+    "doi": "10.1038/s41592-026-03177-9",
+    "sent_date": "2026-08-10",
+    "reason": "179TF基因组内在结合特异性定量框架,GHT-SELEX揭示ChIP-seq重叠度>50%,C2H2-zf模块化可变指部机制",
+    "notes": "Nature Methods, 5 Aug 2026 - Jolma/Hughes (Helsinki/McGill)"
   },
   {
-    "title": "Cross-Modal Knowledge Distillation from Spatial Transcriptomics to Histology",
-    "arxiv_id": "2604.09076",
-    "sent_date": "2026-04-17",
-    "reason": "知识蒸馏实现ST→H&E迁移，解决空间组学临床转化成本障碍",
-    "notes": "CVPR 2026 CVMI Workshop, Submitted 10 Apr 2026"
+    "title": "COMPASS: Component-Wise Inference of Shared and Gene-Specific Perturbation Response",
+    "doi": "10.64898/2026.08.03.742643",
+    "sent_date": "2026-08-10",
+    "reason": "CRISPRi扰动可解释线性分解,共享/特异连续谱保守,Kendall W=0.59,超越scGPT/GEARS",
+    "notes": "bioRxiv Bioinformatics, 6 Aug 2026 - Liang/Singh (Duke)"
   },
   {
-    "title": "Gene regulatory landscape dissected by single-cell four-omics sequencing",
-    "doi": "s41586-026-10322-z",
-    "sent_date": "2026-04-17",
-    "reason": "单细胞四组学同时测定基因组构象、组蛋白修饰、染色质可及性和基因表达",
-    "notes": "Nature, 2026"
+    "title": "Pangenome discovery and characterization of human protein-coding duplicated genes",
+    "doi": "10.64898/2026.08.05.743125",
+    "sent_date": "2026-08-10",
+    "reason": "298基因组+56亿cDNA发现2713个参考缺失基因,386个基因模型修订,SD基因进化约束分析",
+    "notes": "bioRxiv Genomics, 6 Aug 2026 - Ren/Eichler (UW)"
   },
   {
-    "title": "Single-cell spatiotemporal dissection of the human maternal–fetal interface",
-    "doi": "s41586-026-10316-x",
-    "sent_date": "2026-04-17",
-    "reason": "人类母胎界面单细胞时空图谱，覆盖孕早期至足月，识别妊娠并发症相关细胞状态",
-    "notes": "Nature, 2026 - 191,735个配对多组学细胞核"
+    "title": "Scalable Extraction of Information on Protein-Protein Interactions using Topological Data Analysis",
+    "doi": "10.64898/2026.08.06.743405",
+    "sent_date": "2026-08-10",
+    "reason": "TDA持久同调加速PPI界面预测,5-8秒/蛋白,AUC接近MaSIF,可解释拓扑描述子",
+    "notes": "bioRxiv Bioinformatics, 9 Aug 2026 - Mukherjee/Zavala (UW-Madison)"
   },
   {
-    "title": "A spatial atlas of the healthy human liver from live donors",
-    "link": "https://www.nature.com/articles/s41586-026-10377-y",
-    "sent_date": "2026-04-18",
-    "reason": "空间转录组+肝脏图谱，多技术整合（Visium/MERFISH/snRNA-seq），揭示人鼠差异",
-    "notes": "Nature 2026-04-15，活体供肝解决转录偏差问题"
+    "title": "Move BeTween modAlities (MBTA) employs flow matching to predict single cell data modalities",
+    "doi": "10.64898/2026.08.05.743110",
+    "sent_date": "2026-08-12",
+    "reason": "流匹配显式建模单细胞模态结构差异，保留邻域信息而非强制共享嵌入",
+    "notes": "bioRxiv Bioinformatics, 9 Aug 2026 - Xu/Zhang/Michor (JHU)"
   },
   {
-    "title": "Emergence of oncofetal plasticity is ubiquitous in early colorectal cancers",
-    "link": "https://www.nature.com/articles/s41586-026-10344-7",
-    "sent_date": "2026-04-18",
-    "reason": "空间转录组+CRC早期癌胎可塑性，挑战转移能力=晚期特征的认知",
-    "notes": "Nature 2026-04-15，trophocyte-like CAFs诱导机制"
+    "title": "pysigscore: gene signatures scoring across bulk and single-cell transcriptomics",
+    "doi": "10.64898/2026.08.04.742537",
+    "sent_date": "2026-08-12",
+    "reason": "18种评分方法统一基准平台，揭示方法选择随场景而变，无绝对最优解",
+    "notes": "bioRxiv Bioinformatics, 9 Aug 2026 - Giacomello et al. (Sapienza/Oxford)"
   },
   {
-    "title": "Linear RAG scanning mediates editing of Igκ variable region repertoires",
-    "link": "https://www.nature.com/articles/s41586-026-10362-5",
-    "sent_date": "2026-04-18",
-    "reason": "免疫学基础问题，Igκ二次重排机制，HTGTS-V(D)J-seq方法学创新",
-    "notes": "Nature 2026-04-15，解决长期悬而未决的二次重排机制"
+    "title": "pyfraglib: An integrated cfDNA fragmentomics platform",
+    "doi": "10.64898/2026.07.22.740152",
+    "sent_date": "2026-08-12",
+    "reason": "cfDNA片段组学端到端开源平台，含in silico模拟填补工具链空白",
+    "notes": "bioRxiv Bioinformatics, 9 Aug 2026 - Schuette et al. (Helmholtz Munich/TUM)"
   },
   {
-    "title": "Prospective evaluation of genomics-guided off-label treatment",
-    "link": "https://www.nature.com/articles/s41586-026-10405-x",
-    "sent_date": "2026-04-18",
-    "reason": "精准肿瘤学大规模真实世界证据，DRUP试验1610例",
-    "notes": "Nature 2026-04-15，临床获益率34.9%，罕见肿瘤占比39.1%"
+    "title": "Tumor-specific Kinase Motif Enrichment Analysis Identifies Personalized Therapeutic Cancer Targets in Gastroenteropancreatic Neuroendocrine Tumors",
+    "doi": "10.64898/2026.07.31.742097",
+    "sent_date": "2026-08-12",
+    "reason": "磷酸蛋白组学KMEA解锁低突变负荷GEP-NET个性化靶点(mTOR/CK2)",
+    "notes": "bioRxiv Cancer Biology, 9 Aug 2026 - Pu/Yaffe et al. (MIT Koch Institute)"
   },
   {
-    "title": "SpatialCOC: an integrative framework for spatial continuous mapping and cross-omics correction in spatial multi-omics data",
-    "doi": "s41467-026-71882-2",
-    "sent_date": "2026-04-19",
-    "reason": "空间多组学整合框架，深度学习实现连续映射和跨组学校正",
-    "notes": "Nature Communications, 16 Apr 2026"
+    "title": "VOICE: A Vision-Omics Foundation Model Integrating Direct and Retrieval-Based Prediction of In-situ Single-Cell Gene Expression",
+    "arxiv_id": "2608.08366",
+    "sent_date": "2026-08-13",
+    "reason": "视觉-组学基础模型双分支架构预测H&E图像单细胞基因表达，23M细胞对比学习",
+    "notes": "ArXiv q-bio.BM, 2026-08-08"
   },
   {
-    "title": "Integrating optogenetic fMRI and spatial transcriptomics to reveal circuit-specific gene signatures",
-    "doi": "s41467-026-71923-w",
-    "sent_date": "2026-04-19",
-    "reason": "光遗传fMRI+空间转录组多模态整合，揭示脑网络基因特征",
-    "notes": "Nature Communications, 18 Apr 2026"
+    "title": "CRISPR-FOIL: A Programmable CRISPR Tool to Engineer and Illuminate Chromatin Folding in Live Human Cells",
+    "doi": "10.64898/2026.08.09.743771",
+    "sent_date": "2026-08-13",
+    "reason": "可编程CRISPR工具实时工程化调控染色质三维折叠，揭示环路形成机制",
+    "notes": "bioRxiv Cell Biology, 2026-08-11, Ohio State"
   },
   {
-    "title": "PUFFIN: Protein Unit Discovery with Functional Supervision",
-    "arxiv_id": "2604.14796",
-    "sent_date": "2026-04-19",
-    "reason": "功能监督的蛋白质单元发现，结构-功能关系解析",
-    "notes": "ISMB 2026, Submitted 16 Apr 2026"
+    "title": "Plasma titration provides a physical ruler for cross-platform proteomics",
+    "doi": "10.64898/2026.08.09.740864",
+    "sent_date": "2026-08-13",
+    "reason": "血浆滴定作为物理标尺解决多平台蛋白质组整合问题，AI驱动跨队列比较",
+    "notes": "bioRxiv Molecular Biology, 2026-08-11, Fudan"
   },
   {
-    "title": "Mamba-SSM with LLM Reasoning for Biomarker Discovery",
-    "arxiv_id": "2604.14334",
-    "sent_date": "2026-04-19",
-    "reason": "Mamba+LLM推理用于癌症生物标志物发现，AUC 0.927",
-    "notes": "ICLR 2026 Workshop, Submitted 15 Apr 2026"
+    "title": "A unified framework for local-ancestry-aware genetic association analysis across biobanks",
+    "doi": "10.64898/2026.08.09.26360047",
+    "sent_date": "2026-08-13",
+    "reason": "FELIX框架解决混血基因组GWAS分析难题，无需离散祖先分类保留所有参与者",
+    "notes": "medRxiv Genetic Medicine, 2026-08-11, Broad Institute"
   },
   {
-    "title": "A single-cell and spatial atlas of early human olfactory development",
-    "doi": "s41467-026-71595-6",
-    "sent_date": "2026-04-20",
-    "reason": "snRNA-seq+MERFISH空间多组学解析人类早期嗅觉发育，揭示单受体选择机制保守性",
-    "notes": "Nature Communications, 15 Apr 2026"
+    "title": "SeqDesk: a sequencing-facility management system for standards-compliant and FAIR (meta)data submission",
+    "doi": "10.64898/2026.08.05.743014",
+    "sent_date": "2026-08-14",
+    "reason": "FAIR元数据嵌入测序设施工作流，MIxS+ENA自动化，端到端从样品到可复用公共数据",
+    "notes": "bioRxiv Bioinformatics, 2026-08-11, McHardy/Helmholtz"
   },
   {
-    "title": "Mapping convergent regulators of melanoma drug resistance by PerturbFate",
-    "doi": "s41586-026-10367-0",
-    "sent_date": "2026-04-20",
-    "reason": "PerturbFate平台同时追踪基因编辑后转录组+染色质可及性，揭示耐药趋同去分化机制",
-    "notes": "Nature, 15 Apr 2026 - 功能多组学方法学升级"
+    "title": "CosMAP: Contrastive Manifold Approximation and Projection for Dimensionality Reduction of Omics and Genealogical Data",
+    "arxiv_id": "2608.08366",
+    "sent_date": "2026-08-14",
+    "reason": "对比学习降维保留局部邻域+全局结构双目标，scRNA-seq基准超越UMAP/PHATE",
+    "notes": "ArXiv q-bio.GN, 2026-08-11, Randrianjatovo F."
   },
   {
-    "title": "Clonal biases dictate availability of colonic cancer driver mutations for transformation",
-    "doi": "s41467-026-71944-5",
-    "sent_date": "2026-04-20",
-    "reason": "扩增子测序+计算建模+空间转录组揭示正常结肠中驱动突变克隆的转化命运",
-    "notes": "Nature Communications, 17 Apr 2026"
+    "title": "nf-cavalier: A Nextflow Pipeline for Rare Disease Variant Prioritization and Reporting",
+    "doi": "10.64898/2026.08.06.743410",
+    "sent_date": "2026-08-14",
+    "reason": "六工具共识变异calling+ACMG自动分类，端到端罕见病临床报告Nextflow流程",
+    "notes": "bioRxiv Bioinformatics, 2026-08-06 preprint, 2026-08-10 indexed"
   },
   {
-    "title": "OpenTME: AI-powered H&E Tumor Microenvironment Profiles from TCGA",
-    "arxiv_id": "2604.12075",
-    "sent_date": "2026-04-20",
-    "reason": "AI病理模型生成TCGA肿瘤微环境空间图谱，每张切片>4500特征，开放获取",
-    "notes": "ArXiv, 13 Apr 2026 - AI+空间组学资源化"
+    "title": "Self-Supervised AI Discovery of Histomorphological Phenotypes from Routine Mesothelioma Biopsies",
+    "doi": "10.64898/2026.08.09.743741",
+    "sent_date": "2026-08-14",
+    "reason": "自监督学习小活检形态学表型，多中心验证，为胸膜瘤亚型诊断填补AI空白",
+    "notes": "bioRxiv Cancer Biology, 2026-08-11, Le Quesne/Lille"
   },
   {
-    "title": "Evolution-Guided Tokenization for DNA Language Model",
-    "arxiv_id": "2604.08698",
-    "sent_date": "2026-04-20",
-    "reason": "将跨物种进化信号引入DNA语言模型分词，更好保留功能motif单元",
-    "notes": "ArXiv, 9 Apr 2026 - 分词策略的生物学先验注入"
+    "title": "Siglec-15 is a glyco-immune checkpoint in prostate cancer regulating immune evasion and metastasis",
+    "doi": "10.64898/2026.08.07.743480",
+    "sent_date": "2026-08-14",
+    "reason": "Siglec-15在前列腺癌多细胞表达谱完整解析，糖基化免疫检查点新靶点",
+    "notes": "bioRxiv Cancer Biology, 2026-08-07 preprint, Munkley/Newcastle"
   },
   {
-    "title": "Orthrus: toward evolutionary and functional RNA foundation models",
-    "doi": "s41592-026-03064-3",
-    "sent_date": "2026-04-21",
-    "reason": "Nature Methods 2026-04-17"
+    "title": "LIPOGRID: A HIGH-THROUGHPUT MULTI-OMICS PERTURBATION SCREEN DISSECTS THE GENETIC ARCHITECTURE OF LIPID METABOLISM",
+    "doi": "10.64898/2026.08.12.744385",
+    "sent_date": "2026-08-15",
+    "reason": "LIPOGRID多组学Perturb-seq解析脂质代谢遗传架构，微图案化CRISPR×脂质组×scRNA-seq三模态联合",
+    "notes": "bioRxiv Systems Biology, 12 Aug 2026 - Jacobs/KU Leuven"
   },
   {
-    "title": "Comprehensive profiling of clinically approved kinase inhibitors",
-    "doi": "s41587-026-03090-8",
-    "sent_date": "2026-04-21",
-    "reason": "Nature Biotechnology 2026-04-20"
+    "title": "dbverse scales spatial omics analysis with embedded analytical databases",
+    "doi": "10.64898/2026.08.09.743742",
+    "sent_date": "2026-08-15",
+    "reason": "dbverse嵌入式数据库突破内存瓶颈，普通硬件处理数百万细胞空间组学",
+    "notes": "bioRxiv Bioinformatics, 9 Aug 2026 - Ruiz/Dries (UC Davis→Berkeley)"
   },
   {
-    "title": "Host-microbiome maps via in situ polyadenylation",
-    "doi": "s41592-026-03074-1",
-    "sent_date": "2026-04-21",
-    "reason": "Nature Methods 2026-04-14"
+    "title": "FP8 Inference in Genomic Foundation Models: Theoretical vs. Realized Speedups on GenomeOcean",
+    "arxiv_id": "2608.08958",
+    "sent_date": "2026-08-15",
+    "reason": "FP8量化实验揭示基因组基础模型对低精度推理敏感性，生物保真度损失显著",
+    "notes": "ArXiv q-bio.BM, 9 Aug 2026 - Yu/Shi UCSD"
   },
   {
-    "title": "CUBIC Body/Organ Atlas - whole-body cellomics",
-    "doi": "s41592-026-03072-3",
-    "sent_date": "2026-04-21",
-    "reason": "Nature Methods 2026-04-14"
+    "title": "Trex-QTL: A mixture-model for identification of genetic effects with global effects on molecular phenotypes",
+    "doi": "10.64898/2026.08.07.743622",
+    "sent_date": "2026-08-15",
+    "reason": "Trex-QTL混合模型拯救trans-eQTL检测，全局效应建模突破低信噪比困境",
+    "notes": "bioRxiv Genomics, 7 Aug 2026 - Wu/Gymrek/Goren UCSD"
   },
   {
-    "title": "Intermediate Layers Encode Optimal Biological Representations in Single-Cell Foundation Models",
-    "doi": "arxiv-2026-04-16",
-    "sent_date": "2026-04-21",
-    "reason": "arXiv 2026-04-16"
+    "title": "Structural proteomics reveals a coagulation-complement accessibility signature of macrovascular invasion in hepatocellular carcinoma",
+    "doi": "10.64898/2026.08.12.744566",
+    "sent_date": "2026-08-15",
+    "reason": "CPP结构蛋白组学揭示HCC大血管侵犯血清凝血-补体特征，6蛋白AUC 0.80",
+    "notes": "bioRxiv Systems Biology, 12 Aug 2026 - Son/Kim SNU Korea"
   },
   {
-    "title": "Advancing AI for multi-omics and clinical data integration in basic and translational cancer research",
-    "doi": "s41568-026-00922-2",
-    "sent_date": "2026-04-22",
-    "reason": "多组学+多模态整合的系统性框架综述，AI在癌症精准医疗中的应用",
-    "notes": "Nature Reviews Cancer, 21 Apr 2026"
+    "title": "A leakage-controlled benchmark shows apparent codon-language-model advantages in synonymous-variant prediction are evaluation artifacts",
+    "doi": "10.64898/2026.08.12.744371",
+    "sent_date": "2026-08-16",
+    "reason": "同义变异预测Codon-LM优势是benchmark泄露假象，建立泄露感知评估框架",
+    "notes": "bioRxiv Bioinformatics, 12 Aug 2026 - Liang/Zhu/Pan"
   },
   {
-    "title": "Spatial and single-cell characterization of human glioblastoma tumor microenvironment reveals malignant cellular communities",
-    "doi": "s41593-026-02265-5",
-    "sent_date": "2026-04-22",
-    "reason": "100例GBM患者空间+单细胞整合分析，定义保守恶性细胞群落",
-    "notes": "Nature Neuroscience, 16 Apr 2026"
+    "title": "PanSVmerger: a flexible pipeline for merging multiallelic structural variants in pangenome graphs",
+    "doi": "10.64898/2026.08.13.744739",
+    "sent_date": "2026-08-16",
+    "reason": "三策略合并图泛基因组多等位基因SV冗余，AC≥3位点从62.4%压缩至4.7%",
+    "notes": "bioRxiv Bioinformatics, 13 Aug 2026 - yang/Ruan (CAAS Beijing)"
   },
   {
-    "title": "Subcellular mRNA localization patterns across tissues resolved with spatial transcriptomics",
-    "doi": "s41467-026-72156-7",
-    "sent_date": "2026-04-22",
-    "reason": "空间转录组解析亚细胞mRNA定位，突破分辨率极限",
-    "notes": "Nature Communications, 20 Apr 2026"
+    "title": "Protein language models and the long tail of functional diversity",
+    "doi": "10.64898/2026.08.14.744703",
+    "sent_date": "2026-08-16",
+    "reason": "43% GigaRef单例被主流PLM排除但携带更密集功能域，长尾多样性挑战训练范式",
+    "notes": "bioRxiv Bioinformatics, 14 Aug 2026 - Vinod/Char/Amini (Broad)"
   },
   {
-    "title": "A multi-modal diffusion model with dual-cross-attention for multi-omics data generation and translation",
-    "doi": "s41467-026-71744-x",
-    "sent_date": "2026-04-22",
-    "reason": "扩散模型首次应用于单细胞多组学数据生成，跨模态翻译",
-    "notes": "Nature Communications, 14 Apr 2026"
+    "title": "PlantAI: A Multi-Agent System for Plant Functional Genomics Analysis and Biological Knowledge Interpretation",
+    "doi": "10.64898/2026.08.14.744760",
+    "sent_date": "2026-08-16",
+    "reason": "多智能体协调分析+知识路由，端到端植物功能基因组学框架，RAG证据召回86.7%",
+    "notes": "bioRxiv Bioinformatics, 14 Aug 2026 - Wu/Xia et al. (CAS)"
   },
   {
-    "title": "SpatialCOC: an integrative framework for spatial continuous mapping and cross-omics correction",
-    "doi": "s41467-026-71882-2",
-    "sent_date": "2026-04-22",
-    "reason": "空间多组学整合框架，深度学习实现连续映射和跨组学校正",
-    "notes": "Nature Communications, 16 Apr 2026"
+    "title": "Detection of Spatially Aberrant Cells in Spatial Transcriptomics Data by Conformal Prediction",
+    "doi": "10.64898/2026.08.12.744448",
+    "sent_date": "2026-08-18",
+    "reason": "SPADE将共形预测引入空间转录组，VAE+GMM+不确定性校准检测异常细胞，方法学意义显著",
+    "notes": "bioRxiv Bioinformatics, 15 Aug 2026 - Zhang/Zheng/Yuan/Luo (CityU HK)"
   },
   {
-    "title": "Nested Atoms Model with Application to Clustering Big Population-Scale Single-Cell Data",
-    "arxiv_id": "2604.11731",
-    "sent_date": "2026-04-22",
-    "reason": "贝叶斯非参数方法实现群体规模单细胞双层聚类，OneK1K数据集",
-    "notes": "ArXiv, 13 Apr 2026"
+    "title": "Z-AAT impairs organelle homeostasis and reduces adaptive response to lipids in alpha-1 antitrypsin deficiency models",
+    "doi": "10.64898/2026.08.14.744823",
+    "sent_date": "2026-08-18",
+    "reason": "患者肝类器官多组学揭示AATD代谢灵活性丧失机制，为靶向线粒体功能的治疗提供理论基础",
+    "notes": "bioRxiv Molecular Biology, 15 Aug 2026 - Gil-Martin et al. (Instituto Salud Carlos III)"
   },
   {
-    "title": "Metabolomics across scales: from single cells to population studies",
-    "doi": "s41586-026-10277-1",
-    "sent_date": "2026-04-22",
-    "reason": "代谢组学跨尺度综述，单细胞到人群的应用与挑战",
-    "notes": "Nature, 8 Apr 2026"
+    "title": "Replication fork plasticity is a therapeutic vulnerability in acute myeloid leukemia",
+    "doi": "10.64898/2026.08.13.744634",
+    "sent_date": "2026-08-18",
+    "reason": "单分子复制检测揭示PrimPol为AML中PARP抑制剂耐药机制，精准分型生物标志物+治疗靶点",
+    "notes": "bioRxiv Cancer Biology, 15 Aug 2026 - Doerdelmann/Lopes (Univ Zurich)"
   },
   {
-    "title": "DNA-CRAFT: Conditional Monte Carlo Tree Diffusion for Designing Cell-Type-Specific and Biologically Faithful Regulatory DNA",
-    "arxiv_id": "2604.20488",
-    "sent_date": "2026-04-23",
-    "reason": "离散扩散+MCTS实现调控DNA设计，解决特异性vs保真度两难困境",
-    "notes": "ArXiv, Submitted 22 Apr 2026"
+    "title": "Isotype specific loss of HP1α but not of HP1β uncovers genomic regions that behave as HP1α-dependent common fragile sites",
+    "doi": "10.64898/2026.08.14.744815",
+    "sent_date": "2026-08-18",
+    "reason": "HP1α非经典复制叉保护机制，独立于H3K9me3结合功能，首次揭示HP1α依赖性脆性位点",
+    "notes": "bioRxiv Cell Biology, 15 Aug 2026 - Yaacoub/Cammas (IGH CNRS France)"
   },
   {
-    "title": "AROMA: Augmented Reasoning Over a Multimodal Architecture for Virtual Cell Genetic Perturbation Modeling",
-    "arxiv_id": "2604.20263",
-    "sent_date": "2026-04-23",
-    "reason": "多模态虚拟细胞基因扰动建模，构建PerturbReason数据集49.8万样本",
-    "notes": "ACL 2026 Findings, Submitted 22 Apr 2026"
+    "title": "p140Cap enhances breast cancer chemosensitivity by limiting an ABCC1-enriched stem-like compartment via β-Catenin inhibition",
+    "doi": "10.64898/2026.08.14.744806",
+    "sent_date": "2026-08-18",
+    "reason": "p140Cap通过β-Catenin/ABCC1轴限制乳腺癌干细胞，Wnt通路抑制剂可增敏化疗",
+    "notes": "bioRxiv Cancer Biology, 15 Aug 2026 - Scavuzzo/Salemme (Univ Turin)"
   },
   {
-    "title": "scpFormer: A Foundation Model for Unified Representation and Integration of the Single-Cell Proteomics",
-    "arxiv_id": "2604.20003",
-    "sent_date": "2026-04-23",
-    "reason": "首个单细胞蛋白质组学基础模型，3.9亿细胞预训练，解决抗体面板碎片化问题",
-    "notes": "ArXiv, Submitted 21 Apr 2026"
+    "title": "Unsupervised Learning of Cell Instances with Generative Routing Pyramids",
+    "arxiv_id": "2608.16810",
+    "sent_date": "2026-08-19",
+    "reason": "路由金字塔无监督联合建模细胞实例分割与形态学表征，无需标注释放海量显微图像潜力",
+    "notes": "ArXiv cs.CV; cs.LG; q-bio.QM, 17 Aug 2026 - Ziwen Liu, Martin Weigert"
   },
   {
-    "title": "Shesha: Geometric coherence of single-cell CRISPR perturbations reveals regulatory architecture and predicts cellular stress",
-    "arxiv_id": "2604.16642",
-    "sent_date": "2026-04-23",
-    "reason": "提出扰动稳定性指标，发现效应大小与稳定性解耦揭示调控架构和细胞应激",
-    "notes": "ArXiv, Submitted 17 Apr 2026 - 几何视角分析CRISPR筛选"
+    "title": "PertMind: Eliciting Emergent Biological Reasoning in LLM via Reinforcement Learning on Cellular Perturbation Data",
+    "arxiv_id": "2608.16419",
+    "sent_date": "2026-08-19",
+    "reason": "细胞扰动图谱作为RL环境训练LLM生物推理，零样本涌现双扰动推理和表型筛选排序能力",
+    "notes": "ArXiv cs.LG; cs.AI; q-bio.QM, 17 Aug 2026 - Tang/Xu/Lv et al."
   },
   {
-    "title": "Quantum AI for Cancer Diagnostic Biomarker Discovery",
-    "arxiv_id": "2604.18621",
-    "sent_date": "2026-04-23",
-    "reason": "量子机器学习首次应用于肺癌亚型分类和多组学生物标志物发现",
-    "notes": "ArXiv, Submitted 18 Apr 2026 - 量子计算+精准肿瘤学探索"
+    "title": "Metabolites form a globally connected chemical network across protein families",
+    "doi": "10.64898/2026.08.11.744260",
+    "sent_date": "2026-08-19",
+    "reason": "近百万结合位点分析揭示代谢物跨蛋白家族全局连接网络，古代代谢物多靶向为结构规律",
+    "notes": "bioRxiv Bioinformatics, 17 Aug 2026 - Skolnick/Srinivasan"
   },
   {
-    "title": "Closing the Domain Gap in Biomedical Imaging by In-Context Control Samples",
-    "arxiv_id": "2604.20824",
-    "sent_date": "2026-04-24",
-    "reason": "Meta-learning+负对照样本关闭生物成像批次效应鸿沟，JUMP-CP数据集首次达到接近domain内精度",
-    "notes": "ArXiv, Submitted 22 Apr 2026 - Klambauer组"
+    "title": "VRK1 kinase maintains an undifferentiated proliferative state in neuroblastoma tumor cells",
+    "doi": "10.64898/2026.08.05.742965",
+    "sent_date": "2026-08-19",
+    "reason": "VRK1激酶维持神经母细胞瘤未分化状态，靶向抑制可诱导分化降低恶性程度",
+    "notes": "bioRxiv Cancer Biology, 17 Aug 2026 - Ojeda-Puertas/Vega et al."
   },
   {
-    "title": "Relative Entropy Estimation in Function Space: Theory and Applications to Trajectory Inference",
-    "arxiv_id": "2604.20775",
-    "sent_date": "2026-04-24",
-    "reason": "函数空间KL散度估计为轨迹推断评估提供理论基础，解决TI领域评估指标不一致问题",
-    "notes": "ArXiv, Submitted 22 Apr 2026"
+    "title": "Patient-derived tumour-immune organoids as functional biomarkers of checkpoint-inhibitor response: a systematic review and exploratory meta-analysis",
+    "doi": "10.64898/2026.08.17.26360042",
+    "sent_date": "2026-08-19",
+    "reason": "23项研究荟萃分析肿瘤免疫类器官预测ICI响应能力，定量评估并指出标准化瓶颈",
+    "notes": "medRxiv Oncology, 18 Aug 2026 - Tan/Wang et al."
   },
   {
-    "title": "A Multi-Agent Framework for End-to-End Molecular Dynamics Research",
-    "arxiv_id": "2604.18622",
-    "sent_date": "2026-04-24",
-    "reason": "多智能体系统实现实验问题→模拟→分析的端到端分子动力学研究，案例学习机制支持跨任务迁移",
-    "notes": "ArXiv, Submitted 18 Apr 2026"
+    "title": "Modality-chain reasoning enables multimodal protein modelling and design",
+    "doi": "10.1101/2025.07.21.665832",
+    "sent_date": "2026-08-20",
+    "reason": "模态链推理框架统一蛋白多模态建模，零样本结构预测+in-context蛋白优化超越主流基础模型",
+    "notes": "bioRxiv bioinformatics v3, 18 Aug 2026 - BioMap Research"
   },
   {
-    "title": "Reflective Tool-Augmented Planning for Text-Guided Protein Design",
-    "arxiv_id": "2604.16896",
-    "sent_date": "2026-04-24",
-    "reason": "LLM规划器+工具环境+反思机制的蛋白质设计Agent，ACL 2026 Findings",
-    "notes": "ArXiv, Submitted 18 Apr 2026"
+    "title": "Integrative enhancer discovery identifies functional enhancer dependencies in pediatric acute myeloid leukemia",
+    "doi": "10.64898/2026.08.18.745242",
+    "sent_date": "2026-08-20",
+    "reason": "整合CUT&Tag+CRISPRi系统性发现儿童AML增强子依赖，H-ME→MYB轴RNA独立性验证",
+    "notes": "bioRxiv cancer biology v1, 19 Aug 2026 - Goethe University Frankfurt"
   },
   {
-    "title": "Netrin1 blockade alleviates resistance to chemotherapy in pancreatic cancer",
-    "doi": "s41586-026-10436-4",
-    "sent_date": "2026-04-24",
-    "reason": "Lap-NET1 I期试验：Netrin1抗体联合mFOLFIRINOX逆转胰腺癌化疗耐药，改善PFS和OS",
-    "notes": "Nature, 22 Apr 2026"
+    "title": "Endogenous lipid droplets exhibit profound proteomic and lipidomic differences across neural stem cell states",
+    "doi": "10.64898/2026.08.18.745393",
+    "sent_date": "2026-08-20",
+    "reason": "神经干细胞脂滴蛋白组+脂质组图谱，CIDEB调控静息态，干细胞命运主动调控而非被动储能",
+    "notes": "bioRxiv cell biology v1, 19 Aug 2026 - University of Lausanne"
   },
   {
-    "title": "TorchGWAS: GPU-accelerated GWAS for thousands of quantitative phenotypes",
-    "arxiv_id": "2604.21095",
-    "sent_date": "2026-04-25",
-    "reason": "GPU加速GWAS实现300-1700倍提速，解决高通量表型分析瓶颈",
-    "notes": "ArXiv (cs.DC; q-bio.GN), Submitted 22 Apr 2026"
+    "title": "DMT-Dens: Density-preserving manifold visualization for biological data",
+    "arxiv_id": "2608.17571",
+    "sent_date": "2026-08-20",
+    "reason": "密度保持型单细胞可视化，修复UMAP/t-SNE密度扭曲，稀有种群清晰可辨",
+    "notes": "ArXiv q-bio.QM; cs.AI, 18 Aug 2026 - CityU HK"
   },
   {
-    "title": "DNA-CRAFT: Conditional Monte Carlo Tree Diffusion for Designing Cell-Type-Specific Regulatory DNA",
-    "arxiv_id": "2604.20488",
-    "sent_date": "2026-04-25",
-    "reason": "离散扩散+MCTS设计细胞类型特异性调控DNA，基因治疗新工具",
-    "notes": "ArXiv (q-bio.GN), Submitted 22 Apr 2026"
+    "title": "scDNM-VAE enables directly inspectable deep clustering of single-cell RNA-seq data through signed dendritic gating",
+    "arxiv_id": "2608.17228",
+    "sent_date": "2026-08-20",
+    "reason": "树突gating可解释VAE，scRNA聚类权重/阈值可检验，超越latent centroid黑盒",
+    "notes": "ArXiv q-bio.QM; q-bio.GN, 18 Aug 2026"
   },
   {
-    "title": "Netrin1 blockade alleviates resistance to chemotherapy in pancreatic cancer",
-    "doi": "s41586-026-10436-4",
-    "sent_date": "2026-04-25",
-    "reason": "Lap-NET1 I期试验：NP137联合mFOLFIRINOX逆转胰腺癌化疗耐药，PFS 10.85个月",
-    "notes": "Nature, 22 Apr 2026"
+    "title": "Automating the Construction of Contextualized Biomedical Knowledge Graphs for Scientific Inference",
+    "doi": "10.64898/2026.01.14.699420",
+    "sent_date": "2026-08-20",
+    "reason": "复合三元组编码上下文，零样本DDI/ChemProt/BioRED超越基线3.6~17.8pp，生物医学KG构建自动化",
+    "notes": "bioRxiv bioinformatics v2, 19 Aug 2026 - Sun Yat-sen University"
   },
   {
-    "title": "Caspase 5c amplifies Wnt via APC cleavage to promote intestinal homeostasis",
-    "doi": "s41586-026-10343-8",
-    "sent_date": "2026-04-25",
-    "reason": "CASP5C切割APC促进Wnt信号，维持肠道干细胞稳态，人类特异性发现",
-    "notes": "Nature, 22 Apr 2026"
+    "title": "Monroe: A Molecular Foundation Model for In-Context Probabilistic Inference",
+    "arxiv_id": "2608.18982",
+    "sent_date": "2026-08-21",
+    "reason": "分子基础模型+PFN上下文推理，活动悬崖预测突破",
+    "notes": "ArXiv q-bio.QM, 19 Aug 2026"
   },
   {
-    "title": "A pro-carcinogenic bacterial toxin binds claudin-4 to cleave E-cadherin",
-    "doi": "s41586-026-10375-0",
-    "sent_date": "2026-04-25",
-    "reason": "CRISPR筛选鉴定BFT毒素受体claudin-4，揭示菌群-上皮屏障-炎症-癌症链条",
-    "notes": "Nature, 22 Apr 2026"
+    "title": "STEP-PTMs: Sequential TMT-based Enrichment and Profiling of Post-Translational Modifications",
+    "doi": "10.64898/2026.08.18.745386",
+    "sent_date": "2026-08-21",
+    "reason": "单样本PTM多维整合，TMT序列富集突破样本瓶颈",
+    "notes": "bioRxiv biochemistry, 19 Aug 2026 - Univ Southern Denmark"
   },
   {
-    "title": "HaploC-tools reveal haplotype-specific chromosome conformation and chromatin states",
-    "doi": "s41467-026-72326-7",
-    "sent_date": "2026-04-26",
-    "reason": "Hi-C等位基因特异性染色体构象分析工具，>100数据集分析，发现CTCF SNP和H3K9me3驱动的等位基因分区",
-    "notes": "Nature Communications, 25 Apr 2026 - 3D基因组学方法学突破"
+    "title": "Supervised Learning of Phosphopeptide Sequence Constraints Enables Global Prediction of SH2 Domain Binding",
+    "doi": "10.64898/2026.08.18.744962",
+    "sent_date": "2026-08-21",
+    "reason": "pY位点SH2结合预测，序列约束学习降低搜索空间",
+    "notes": "bioRxiv systems biology, 19 Aug 2026 - Univ Virginia"
   },
   {
-    "title": "An atlas of human siglecs integrates expression, affinity, and cis/trans sialoglycan recognition profiles",
-    "doi": "s41467-026-71086-8",
-    "sent_date": "2026-04-26",
-    "reason": "人类Siglec功能图谱整合表达+亲和力+糖链识别，626个实验覆盖14种Siglec",
-    "notes": "Nature Communications, 25 Apr 2026 - 免疫-糖生物学多组学图谱"
+    "title": "Spatially resolved mapping of tau amplification rates via differentiable simulation of prion-like propagation",
+    "doi": "10.64898/2026.06.02.729568",
+    "sent_date": "2026-08-21",
+    "reason": "可微分模拟反演Tau扩增速率图谱，PET→参数逆问题求解",
+    "notes": "bioRxiv neuroscience v2, 19 Aug 2026 - Nagoya Univ"
   },
   {
-    "title": "Spatial predictors of response to chemo-immunotherapy in microsatellite stable metastatic colorectal cancer",
-    "doi": "s41467-026-72204-2",
-    "sent_date": "2026-04-26",
-    "reason": "MAYA临床试验空间+转录组+免疫整合分析，揭示MSS CRC免疫治疗空间预测因子",
-    "notes": "Nature Communications, 25 Apr 2026 - 空间组学精准肿瘤学临床转化"
+    "title": "Adaptive evolution of polyploid crops",
+    "doi": "10.1038/s41588-026-02707-7",
+    "journal": "Nature Genetics",
+    "sent_date": "2026-08-22",
+    "url": "https://www.nature.com/articles/s41588-026-02707-7"
   },
   {
-    "title": "Telomere-to-Telomere Assembly Using HERRO-Corrected Simplex Nanopore Reads",
-    "doi": "s41586-026-10563-y",
-    "sent_date": "2026-04-28",
-    "reason": "深度学习错误校正ONT Simplex reads实现单平台T2T组装，基因组学方法学突破",
-    "notes": "Nature, 27 Apr 2026 - 基因组组装范式变革"
+    "title": "Multi-omics integration reveals shared genetic architecture and therapeutic targets for blood pressure and chronic kidney disease",
+    "doi": "10.1038/s41598-026-67121-9",
+    "journal": "Scientific Reports",
+    "sent_date": "2026-08-22",
+    "url": "https://www.nature.com/articles/s41598-026-67121-9"
   },
   {
-    "title": "Improving metagenome binning by integrating intrinsic features and taxonomy",
-    "doi": "s41587-026-03098-0",
-    "sent_date": "2026-04-28",
-    "reason": "整合多维特征的宏基因组分箱方法改进，提升bins质量",
-    "notes": "Nature Biotechnology, 27 Apr 2026 - 微生物组学方法学"
+    "title": "Multi-omics pathway integration identifies central hub genes involved in the acute kidney injury to chronic kidney disease transition",
+    "doi": "10.1038/s41598-026-62764-0",
+    "journal": "Scientific Reports",
+    "sent_date": "2026-08-22",
+    "url": "https://www.nature.com/articles/s41598-026-62764-0"
   },
   {
-    "title": "Single-bacterium metabolome revealing heterogeneous cellular states in bacterial populations",
-    "doi": "s41467-026-72373-0",
-    "sent_date": "2026-04-28",
-    "reason": "SinBactM单细菌代谢组学平台，填补单细胞多组学图谱代谢谱空白",
-    "notes": "Nature Communications, 27 Apr 2026 - 单细胞代谢组学"
+    "title": "Navigating multi-omic integration methods for human microbiome research",
+    "doi": "10.1038/s41564-026-02328-0",
+    "journal": "Nature Microbiology",
+    "sent_date": "2026-08-22",
+    "url": "https://www.nature.com/articles/s41564-026-02328-0"
   },
   {
-    "title": "Spatial 5mC-seq profiling of embryos and decidua after implantation in mammals",
-    "doi": "s41592-026-03079-w",
-    "sent_date": "2026-04-28",
-    "reason": "空间5mC甲基化测序新技术，空间表观基因组学补位",
-    "notes": "Nature Methods, 27 Apr 2026 - 空间表观组学"
+    "title": "Deep-learning-enabled multi-omics analyses for prediction of future metastasis in cancer",
+    "doi": "10.1038/s41467-026-76277-x",
+    "journal": "Nature Communications",
+    "sent_date": "2026-08-22",
+    "url": "https://www.nature.com/articles/s41467-026-76277-x"
   },
   {
-    "title": "Confidence-guided Multi-omics Graph Learning for Cancer Subtype Classification",
-    "arxiv_id": "2604.24201",
-    "sent_date": "2026-04-29",
-    "reason": "证据深度学习估计模态可靠性+两阶段解耦融合，多组学整合方法学进步",
-    "notes": "ArXiv, Submitted 27 Apr 2026 - 多组学整合+图学习"
+    "title": "Pretraining Enhances Megabase-Scale Gene Expression Prediction with GeneUnet",
+    "doi": "10.64898/2026.08.13.744387",
+    "sent_date": "2026-08-23",
+    "reason": "基因组基础模型将DNA→表达预测上下文扩展至1Mb，100倍推理加速，突破长程调控元件建模瓶颈",
+    "notes": "bioRxiv Genomics, 22 Aug 2026 - GenBio AI"
   },
   {
-    "title": "Non-destructive transcriptomics via vesicular export",
-    "doi": "s41467-026-72072-w",
-    "sent_date": "2026-04-29",
-    "reason": "病毒样颗粒非破坏性导出mRNA，实现纵向转录组分析，方法学范式突破",
-    "notes": "Nature Communications, 28 Apr 2026 - 转录组学方法学"
+    "title": "CLEAR-ST: Physics-informed probabilistic decontamination of spatial transcriptomics by modeling mRNA lateral diffusion",
+    "doi": "10.64898/2026.08.13.744615",
+    "sent_date": "2026-08-23",
+    "reason": "图-Laplacian物理约束修正Visium类平台mRNA横向扩散，空间组学数据生物学真实性保障新范式",
+    "notes": "bioRxiv Bioinformatics, 22 Aug 2026 - HKU"
   },
   {
-    "title": "V- and VL-scores unveil viral signatures and origins of protein families",
-    "doi": "s41467-026-72028-0",
-    "sent_date": "2026-04-29",
-    "reason": "免注释病毒性指标，将病毒关联蛋白家族提升5-8倍，AVG识别提升17倍",
-    "notes": "Nature Communications, 28 Apr 2026 - 病毒基因组学"
+    "title": "Nationwide multi-omics profiling of Japanese jack mackerel reveals geographic gut microbiome structuring despite host panmixia",
+    "doi": "10.64898/2026.08.20.745924",
+    "sent_date": "2026-08-23",
+    "reason": "宿主基因组无结构≠微生物组无结构，全国尺度多组学揭示高连通海洋鱼类微生物组地理区系分化",
+    "notes": "bioRxiv Microbiology, 22 Aug 2026 - Shimane University"
   },
   {
-    "title": "The evolution of gene regulatory networks",
-    "doi": "s43588-026-00981-3",
-    "sent_date": "2026-04-29",
-    "reason": "GRN推断方法综述，从实验到计算建模的演进与挑战",
-    "notes": "Nature Computational Science, 28 Apr 2026 - 基因调控网络综述"
+    "title": "Cross-Kingdom Multi-Omics Harmonization Uncovers Coordinated Host Defense and Vector Small RNA Regulatory Networks in Begomovirus Transmission",
+    "doi": "10.64898/2026.08.14.744792",
+    "sent_date": "2026-08-23",
+    "reason": "跨界三元多组学锁定SGS3为宿主-媒介-病毒分子对话枢纽，双靶向RNAi防控理论基础",
+    "notes": "bioRxiv Bioinformatics, 22 Aug 2026 - Gorgan U Iran"
   },
   {
-    "title": "Tissue-specific fibroblast lipid cues impose the rate of epithelial cancer invasion",
-    "doi": "s42255-026-01514-y",
-    "sent_date": "2026-04-29",
-    "reason": "组织特异性脂质信号差异驱动鳞癌侵袭，肿瘤微环境代谢新维度",
-    "notes": "Nature Metabolism, 28 Apr 2026 - 肿瘤微环境+脂质代谢"
+    "title": "An Integrated Atlas of the Human Kidney Spanning Health and Diseases",
+    "doi": "10.64898/2026.08.12.744548",
+    "sent_date": "2026-08-24",
+    "reason": "HCA肾脏联盟跨健康与疾病整合图谱，揭示细胞异质性与微环境重构",
+    "notes": "bioRxiv, 2026-08-12 - Human Cell Atlas Kidney Bionetwork"
+  },
+  {
+    "title": "RareEffect is an accurate and computationally efficient Bayesian method for estimating rare variant effect sizes",
+    "doi": "10.1038/s41588-026-02705-9",
+    "sent_date": "2026-08-24",
+    "reason": "首个直接估计罕见变异效应量的贝叶斯框架，显著提升罕见变异PRS准确性",
+    "notes": "Nature Genetics, 2026-08-17 - University of Michigan"
+  },
+  {
+    "title": "Spatial analysis of head and neck cancer identifies two ecosystems with distinct modes of epithelial-to-mesenchymal transition",
+    "doi": "10.1038/s41588-026-02723-7",
+    "sent_date": "2026-08-24",
+    "reason": "头颈癌空间转录组揭示两种EMT定位模式与不同免疫微环境",
+    "notes": "Nature Genetics, 2026-08-14 - Weizmann Institute (Tirosh)"
+  },
+  {
+    "title": "hnRNPK condensates facilitate enhancer–promoter looping and RNA polymerase II recruitment",
+    "doi": "10.1038/s41588-026-02710-y",
+    "sent_date": "2026-08-24",
+    "reason": "RNA结合蛋白hnRNPK通过相分离驱动增强子-启动子环化与转录激活",
+    "notes": "Nature Genetics, 2026-08-12 - Peking University (Xue)"
+  },
+  {
+    "title": "Plasticity of human microglia and brain perivascular macrophages in aging and Alzheimer's disease",
+    "doi": "10.1038/s41588-026-02716-6",
+    "sent_date": "2026-08-24",
+    "reason": "1607例AD前额叶髓系细胞图谱揭示小胶质细胞亚型转换与血管周巨噬细胞异质性",
+    "notes": "Nature Genetics, 2026-08-11 - Mount Sinai (Roussos)"
+  },
+  {
+    "doi": "10.64898/2026.08.18.745433",
+    "title": "Proteomics of human cancer-associated T cells identifies regulators of T cell functionality",
+    "platform": "bioRxiv",
+    "category": "immunology",
+    "sent_date": "2026-08-25"
+  },
+  {
+    "doi": "10.64898/2026.08.20.26360914",
+    "title": "Conditional polygenic enrichment distinguishes causal from tagging disease-critical cell populations in single-cell RNA-seq",
+    "platform": "medRxiv",
+    "category": "genetic and genomic medicine",
+    "sent_date": "2026-08-25"
+  },
+  {
+    "doi": "10.64898/2026.08.20.26360879",
+    "title": "Population-scale integration of tumor transcriptomics into breast cancer care: a decade of the SCAN-B initiative",
+    "platform": "medRxiv",
+    "category": "oncology",
+    "sent_date": "2026-08-25"
+  },
+  {
+    "doi": "2608.20576",
+    "title": "mLS-GKM: Efficient Multi-class Regulatory Sequence Classification with Gapped k-mer SVMs",
+    "platform": "ArXiv",
+    "category": "q-bio.GN",
+    "sent_date": "2026-08-25"
+  },
+  {
+    "doi": "10.64898/2026.08.20.746077",
+    "title": "Sparse autoencoder features from InterPLM predict neuropeptide precursors among secreted proteins",
+    "platform": "bioRxiv",
+    "category": "bioinformatics",
+    "sent_date": "2026-08-25"
+  },
+  {
+    "title": "OmicsFM brings proteomics into the foundation model era",
+    "doi": "10.64898/2026.08.25.747021",
+    "sent_date": "2026-08-29",
+    "reason": "48,837张PRIDE谱图预训练的蛋白组基础模型，样本量少14-93倍仍追平转录组大模型，证明蛋白组可支撑通用表征",
+    "notes": "bioRxiv Bioinformatics, 28 Aug 2026 - Lennart Martens/VIB-UGent"
+  },
+  {
+    "title": "Recurrent non-canonical proteoforms in acute myeloid leukemia identified by integrative proteogenomics",
+    "doi": "10.64898/2026.08.27.747547",
+    "sent_date": "2026-08-29",
+    "reason": "123例AML队列驱动蛋白基因组学发现5849个未注释proteoform，39个在>10%患者复现，14个DIA独立验证",
+    "notes": "bioRxiv Cancer Biology, 28 Aug 2026 - Alex Kentsis/MSKCC"
+  },
+  {
+    "title": "Scalable spatial DNA sequencing from archival tissue maps copy number subclones",
+    "doi": "10.64898/2026.08.24.746226",
+    "sent_date": "2026-08-29",
+    "reason": "ARMS DNAseq在归档FFPE上以亚毫米分辨率获取CNA，766个tile识别bulk WGS遗漏的亚克隆，图像可预测克隆身份",
+    "notes": "bioRxiv Genomics, 27 Aug 2026 - Srinivasa Rao/Univ Oxford"
+  },
+  {
+    "title": "Cross-chemistry single-nucleus RNA-seq identifies gene length and CpG-island promoters as determinants of transcriptional noise",
+    "doi": "10.64898/2026.08.25.747056",
+    "sent_date": "2026-08-29",
+    "reason": "Parse SPLiT-seq vs 10x跨化学基准，去趋势噪声度量可复现，噪声主要由基因总长度与CpG岛启动子决定",
+    "notes": "bioRxiv Genomics, 28 Aug 2026 - Nick Gilbert/MRC HGU Edinburgh"
+  },
+  {
+    "title": "TRACE: A fine-tuned biomedical language model for directionally informed drug repurposing from transcriptome-wide association studies",
+    "doi": "10.64898/2026.08.25.26361263",
+    "sent_date": "2026-08-29",
+    "reason": "BiomedBERT微调做方向一致性分类嵌入确定性流程，TWAS→FDA药物再利用，三队列召回88-93%",
+    "notes": "medRxiv Genetic and Genomic Medicine, 28 Aug 2026 - Todd L. Edwards/Vanderbilt"
+  },
+  {
+    "title": "Functional spatial transcriptomics uncover LMO7 as a fusion-regulated and clinically relevant driver of metastasis in Ewing sarcoma",
+    "doi": "10.64898/2026.08.27.747513",
+    "sent_date": "2026-08-30",
+    "reason": "空间功能转录组定位Ewing肉瘤侵袭前沿低融合活性高LMO7促转移状态，整合蛋白组-转录组锁定EMT枢纽，体内外验证",
+    "notes": "bioRxiv Cancer Biology, 2026-08-28 - Cidre-Aranaz (DKFZ)"
+  },
+  {
+    "title": "Balancing spatial resolution and proteome depth in LC-MS based spatial proteomics",
+    "doi": "10.64898/2026.08.27.747491",
+    "sent_date": "2026-08-30",
+    "reason": "SLACS量化空间蛋白组分辨率-深度权衡，小鼠皮层~6细胞输入仍保留层状分子模式",
+    "notes": "bioRxiv Biochemistry, 2026-08-28 - Piazza (MDC Berlin)"
+  },
+  {
+    "title": "Single-Cell proteomics discerns patient-specific subpopulations in pediatric B-cell acute lymphoblastic leukemia",
+    "doi": "10.64898/2026.08.27.747627",
+    "sent_date": "2026-08-30",
+    "reason": "单细胞蛋白组质谱(SCP-MS)解析儿童B-ALL患者特异性异质亚群，揭示复发易感性表型",
+    "notes": "bioRxiv Cancer Biology, 2026-08-28 - Lange (UBC)"
+  },
+  {
+    "title": "Cross cohort oral microbiome meta-analysis identifies shared OPMD OSCC dysbiosis while machine learning exposes limits of OSCC classifier transportability",
+    "doi": "10.64898/2026.08.28.747776",
+    "sent_date": "2026-08-30",
+    "reason": "跨9队列口腔微生物组荟萃分析锁定共享失衡特征，嵌套留一队列揭示OSCC分类器跨队列泛化局限",
+    "notes": "bioRxiv Cancer Biology, 2026-08-28 - Ghavami (U Manitoba)"
+  },
+  {
+    "title": "A comprehensive atlas of somatic mutation rates and mutational signatures in normal human cells",
+    "doi": "10.64898/2026.08.28.747772",
+    "sent_date": "2026-08-30",
+    "reason": "53种正常人细胞突变率与突变特征参考图谱，速率跨度约30倍，建立体细胞演化基线",
+    "notes": "bioRxiv Genomics, 2026-08-29 - Stratton (Sanger)"
+  },
+  {
+    "title": "Efficient genome-wide mapping of reproducible, context-dependent eQTLs at single-cell resolution",
+    "doi": "10.64898/2026.08.25.747138",
+    "sent_date": "2026-08-31",
+    "reason": "Dynema以真单细胞分辨率全基因组映射动态eQTL，Poisson-CRVE模型解决伪批量方法掩盖细胞状态异质性调控效应的核心问题",
+    "notes": "bioRxiv Genetics, 29 Aug 2026 - Alquicira-Hernandez (Brigham and Women's)"
+  },
+  {
+    "title": "nf_xpatial: A Reproducible Framework for Standardized Preprocessing and Clustering of Xenium Data",
+    "doi": "10.64898/2026.08.25.747147",
+    "sent_date": "2026-08-31",
+    "reason": "首个Xenium标准化Nextflow流程，端到端QC→归一化→多样本整合→参数扫描聚类，解决空间组学可复现性瓶颈",
+    "notes": "bioRxiv Bioinformatics, 29 Aug 2026 - Potter/Ianov (UAB)"
+  },
+  {
+    "title": "Visual LLM-guided consensus spatial domain detection with L-STAR",
+    "doi": "10.64898/2026.08.25.747158",
+    "sent_date": "2026-08-31",
+    "reason": "视觉LLM引导空间领域检测共识，整合多种方法并自适应排名，跨数据集稳健性显著优于单一方法",
+    "notes": "bioRxiv Bioinformatics, 29 Aug 2026 - Zhao/Ji (Duke)"
+  },
+  {
+    "title": "Closing the fusion-detection gap in single-cell RNA-seq with a scalable, probe-based workflow",
+    "doi": "10.64898/2026.08.26.747171",
+    "sent_date": "2026-08-31",
+    "reason": "Flexify探针工作流将癌基因融合检测引入scRNA-seq，单细胞分辨率解析ALL融合阳性和MRD残留疾病",
+    "notes": "bioRxiv Bioinformatics, 29 Aug 2026 - Maksimovic/Sadras (Peter MacCallum Cancer Centre)"
+  },
+  {
+    "title": "Early-Life Wildfire Smoke Exposure Is Associated with Long-Term Systemic Immune Remodeling and Epigenetic Reprogramming",
+    "doi": "10.64898/2026.08.27.742220",
+    "sent_date": "2026-08-31",
+    "reason": "恒河猴队列揭示婴儿期单次野火烟雾暴露→多年后固有免疫改变+CD8+T分化+表观遗传加速老化，真实世界暴露组多组学证据",
+    "notes": "bioRxiv Immunology, 29 Aug 2026 - Layman/Okhovat (Oregon Health & Science Univ)"
+  },
+  {
+    "title": "Survey of the human proteostasis network: the ubiquitin-proteasome system",
+    "doi": "10.64898/2026.03.13.711689",
+    "platform": "bioRxiv",
+    "category": "bioinformatics",
+    "sent_date": "2026-09-01",
+    "reason": "人类UPS系统全面清点1430+蛋白，蛋白质稳态网络3150+组件，是领域里程碑参考框架",
+    "notes": "bioRxiv bioinformatics v3, 30 Aug 2026 - Elsasser/Finley (Harvard Medical School)"
+  },
+  {
+    "title": "Early-Life Wildfire Smoke Exposure Is Associated with Long-Term Systemic Immune Remodeling and Epigenetic Reprogramming",
+    "doi": "10.64898/2026.08.27.742220",
+    "platform": "bioRxiv",
+    "category": "immunology",
+    "sent_date": "2026-09-01",
+    "reason": "恒河猴队列建立生命早期野火烟雾暴露→多年固有免疫重塑+表观遗传加速老化因果链",
+    "notes": "bioRxiv Immunology, 29 Aug 2026 - Layden/Okhovat (OHSU)"
+  },
+  {
+    "title": "Nuclear size is genetically controlled and influences cell fate",
+    "doi": "10.64898/2026.08.26.747275",
+    "sent_date": "2026-09-02",
+    "reason": "核大小独立于细胞大小被180+基因调控，核变小触发H3K27me3重塑与干细胞分化，揭示核体积作为细胞命运物理开关",
+    "notes": "bioRxiv Cell Biology, 27 Aug 2026 - Moriizumi/Shi/Steinmetz/Skotheim/Zatulovskiy (Cambridge)"
+  },
+  {
+    "title": "Txn-Txnrd1 system supports redox rewiring during polyaneuploid transition and protects giant cancer cells at new redox homeostasis",
+    "doi": "10.64898/2026.08.27.746985",
+    "sent_date": "2026-09-02",
+    "reason": "Txn-Txnrd1系统支撑PGCC氧化还原适应性，TP53突变肿瘤双高表达预测化疗耐药，TXNRD1为可药用靶点",
+    "notes": "bioRxiv Cancer Biology, 28 Aug 2026 - Kolacz-Milewska (Univ Lodz)"
+  },
+  {
+    "title": "Hyperactivation of the AXL-ICD/SIRT2 axis by Amyloid-β impairs astrocytic autophagic flux and exacerbates neuroinflammation",
+    "doi": "10.64898/2026.08.23.746508",
+    "sent_date": "2026-09-02",
+    "reason": "AXL-ICD/SIRT2相分离轴将Aβ感知与自噬-神经炎症串联，AxSBiP多肽干预恢复自噬流并减少斑块",
+    "notes": "bioRxiv Neuroscience, 27 Aug 2026 - Kim/Lee (IBS Korea)"
+  },
+  {
+    "title": "A Vibrio parahaemolyticus transcriptome map captures conserved and specific regulators",
+    "doi": "10.64898/2026.08.28.747715",
+    "sent_date": "2026-09-02",
+    "reason": "创伤弧菌100+sRNA图谱，VcrX/FlaX等功能验证，RyhB进化中间态揭示sRNA-蛋白编码基因演化",
+    "notes": "bioRxiv Microbiology, 28 Aug 2026 - Jia/Zhang/Falush/Chao/Svensson (SIMM CAS)"
+  },
+  {
+    "title": "Spatiotemporal lineage tracing reveals the dynamic spatial architecture of tumor growth and metastasis",
+    "doi": "10.1038/s41588-026-02739-z",
+    "sent_date": "2026-09-03",
+    "reason": "Slide-seq/Slide-tags空间转录组×Cas9谱系追踪解析肺腺癌时空演化，转移灶起源于空间受限亚克隆（bioRxiv 2024预印本NG正式版）",
+    "notes": "Nature Genetics Technical Report, 2026-09-02 - Dian Yang/Columbia, Fei Chen/Broad"
+  },
+  {
+    "title": "Spatial chromatin architecture and accessibility co-profiling of mammalian tissues",
+    "doi": "10.1038/s41592-026-03217-4",
+    "sent_date": "2026-09-03",
+    "reason": "组织切片同时捕获空间染色质构象(Hi-C)与可及性(ATAC)，空间表观多模态突破",
+    "notes": "Nature Methods OA, 2026-09-01 - Feng Yue/Northwestern, Rong Fan/Yale"
+  },
+  {
+    "title": "OmicsPred as a centralized resource for genetic prediction of multi-omic traits",
+    "doi": "10.1038/s41588-026-02726-4",
+    "sent_date": "2026-09-03",
+    "reason": "多组学性状遗传预测模型中心化开放平台，可复现元数据+PheWAS靶点发现示范",
+    "notes": "Nature Genetics, 2026-09-01 - Inouye/Lambert (Cambridge), Im (U Chicago)"
+  },
+  {
+    "title": "A single-cell atlas of multiple myeloma defines malignant archetypes and proliferative states",
+    "doi": "10.1038/s41588-026-02725-5",
+    "sent_date": "2026-09-03",
+    "reason": "多发性骨髓瘤单细胞图谱定义恶性archetypes与增殖状态，临床中心合作",
+    "notes": "Nature Genetics, 2026-09-01 - Ido Amit (Weizmann)"
+  },
+  {
+    "title": "Accessible and reproducible deployment reveals the practical boundaries of single-cell foundation models",
+    "doi": "10.64898/2026.01.06.698060",
+    "sent_date": "2026-09-03",
+    "reason": "统一部署框架系统评估13个scFM×近百数据集，揭示单细胞基础模型实用边界",
+    "notes": "bioRxiv Bioinformatics, 2026-09-02 - Xiang Zhou (Yale)"
+  },
+  {
+    "title": "AnnFlux: object-conditioned neural stochastic differential equations for single-cell perturbation dynamics",
+    "doi": "10.1101/2026.09.01.748703",
+    "authors": "Choi, H.; Byeon, G.; Park, H.; Park, J.; Lim, S.; An, J.-Y.",
+    "date": "2026-09-03",
+    "category": "bioinformatics",
+    "server": "bioRxiv",
+    "sent_date": "2026-09-04"
+  },
+  {
+    "title": "spatialMET: an open and scalable framework for spatial metabolomics analysis",
+    "doi": "10.1101/2026.08.27.747606",
+    "authors": "Mekonnen, Y. A.; Ospina, O. E.; Rubio, V.; Welsh, E.; Uddin, R.; Ackerman, H. D.; Soupir, A.; Cox, J.",
+    "date": "2026-09-03",
+    "category": "bioinformatics",
+    "server": "bioRxiv",
+    "sent_date": "2026-09-04"
+  },
+  {
+    "title": "Systems genetics identifies ETS1 as a stress-dependent regulator of adipocyte insulin action and heme-iron homeostasis",
+    "doi": "10.1101/2026.09.01.748508",
+    "authors": "Jiang, Y. L.; Cooke, K. C.; Cutler, H. B.; Potter, M.; Diaz-Vegas, A.; Masson, S. W. C.; Nelson, M.",
+    "date": "2026-09-03",
+    "category": "systems biology",
+    "server": "bioRxiv",
+    "sent_date": "2026-09-04"
+  },
+  {
+    "title": "Modelling human haematopoietic stem cell commitment ex vivo identifies IL-33 as a regulator of megakaryopoiesis",
+    "doi": "10.1101/2026.09.01.748535",
+    "authors": "Calderbank-May, E. F.; Bastos, H. P.; Magnani, L.; Foster, H.; Sham, K.; Wu, C.; Mantica, G.; Johnson, B.",
+    "date": "2026-09-03",
+    "category": "cell biology",
+    "server": "bioRxiv",
+    "sent_date": "2026-09-04"
+  },
+  {
+    "title": "INFORME: coupling information-theoretic experimental design with nonlinear mixed-effects modeling for efficient observation scheduling",
+    "doi": "10.1101/2026.08.28.747735",
+    "authors": "Cho, H.; Tang, T.; Lewis, A.; Storey, K. M.; Phan, T.",
+    "date": "2026-09-03",
+    "category": "systems biology",
+    "server": "bioRxiv",
+    "sent_date": "2026-09-04"
+  },
+  {
+    "title": "Ensuring multiomics data reproducibility for artificial intelligence with reference materials as a common calibrator",
+    "doi": "10.1038/s41587-026-03267-1",
+    "journal": "Nature Biotechnology",
+    "sent_date": "2026-09-05",
+    "reason": "MAQC国际学会共识：SRR标准化框架解决多组学AI数据跨平台可比性危机，2025虚拟细胞大赛警示",
+    "notes": "Nature Biotech Comment, 1 Sep 2026 - Shi/Bao/Culhane et al. (Fudan/SAS/FDA)"
+  },
+  {
+    "title": "AnnFlux: object-conditioned neural stochastic differential equations for single-cell perturbation dynamics",
+    "doi": "10.64898/2026.09.01.748703",
+    "platform": "bioRxiv",
+    "category": "bioinformatics",
+    "sent_date": "2026-09-05",
+    "reason": "对象条件化SDE建模单细胞扰动时序漂移，突破静态图谱建模局限，支持跨扰动组合推断",
+    "notes": "bioRxiv bioinformatics, 3 Sep 2026 - Choi/Byeon/Park et al."
+  },
+  {
+    "title": "spatialMET: an open and scalable framework for spatial metabolomics analysis",
+    "doi": "10.64898/2026.08.27.747606",
+    "platform": "bioRxiv",
+    "category": "bioinformatics",
+    "sent_date": "2026-09-05",
+    "reason": "开源空间代谢组学端到端pipeline，整合MSI全流程分析，填补工具链空白提升可重复性",
+    "notes": "bioRxiv bioinformatics, 3 Sep 2026 - Mekonnen/Ospina/Cox et al. (Moffitt/Emory)"
+  },
+  {
+    "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
+    "arxiv_id": "2609.03377",
+    "platform": "ArXiv",
+    "category": "q-bio.BM",
+    "sent_date": "2026-09-05",
+    "reason": "单阶段联合建模取代两阶段tokenize流水线，减少序列-结构信息传递损失",
+    "notes": "ArXiv q-bio.BM, 3 Sep 2026 - Lu/Wang/Zhang/Gu/Jaitly (CMU)"
+  },
+  {
+    "title": "Subcellularly Resolved Single-Cell Embedding Learning with Transcriptomic data, Protein Structure and Localization Information",
+    "arxiv_id": "2609.02344",
+    "platform": "ArXiv",
+    "category": "q-bio.GN",
+    "sent_date": "2026-09-05",
+    "reason": "整合scRNA+ESM-2+AlphaFold2三维结构信息，亚细胞分辨率嵌入突破整体细胞黑盒",
+    "notes": "ArXiv q-bio.GN, 2 Sep 2026 - Zhou/Li/Liu/Pan/Shen (SJTU)"
+  },
+  {
+    "title": "Scalable, generalizable and uncertainty-aware integration of spatial multiomics across diverse modalities and platforms with SCIGMA",
+    "doi": "10.1038/s41588-026-02706-8",
+    "journal": "Nature Genetics",
+    "sent_date": "2026-09-06",
+    "reason": "SCIGMA深度学习框架整合5种空间组学模态，跨平台泛化+不确定性感知，标志空间多组学整合基础设施成熟",
+    "notes": "Nature Genetics, 3 Sep 2026 - Chang/Fleischmann/Ma et al."
+  },
+  {
+    "title": "Integrative multi-omics QTL colocalization maps regulatory architecture in aging human brain",
+    "doi": "10.1101/2025.04.17.25326042",
+    "platform": "medRxiv",
+    "category": "neurology",
+    "sent_date": "2026-09-06",
+    "reason": "ColocBoost多任务梯度提升QTL共定位，ROSMAP队列16,503共定位事件，AD遗传力2倍提升",
+    "notes": "medRxiv neurology v3, 4 Sep 2026 - Cao/Wang (Columbia)"
+  },
+  {
+    "title": "Adding layers of information to scRNA-seq data using pre-trained language models",
+    "doi": "10.1101/2025.08.23.671699",
+    "platform": "bioRxiv",
+    "category": "bioinformatics",
+    "sent_date": "2026-09-06",
+    "reason": "文本-scRNA配对训练集微调轻量生物医学LM，学习文献增强表征，为单细胞分析增添可解释功能注释",
+    "notes": "bioRxiv bioinformatics v3, 4 Sep 2026 - Krissmer/Hackenberg (Freiburg)"
+  },
+  {
+    "title": "Implication of a rare variant in OPA1 in Cardiac Pathophysiology: From Cristae Remodelling to Contractile Dysfunction",
+    "doi": "10.64898/2026.08.31.748193",
+    "sent_date": "2026-09-06",
+    "reason": "DCM家系WES发现OPA1 c.563C>T去novo变异，线粒体嵴重塑→ATP下降→凋亡完整机制链",
+    "notes": "bioRxiv genetics v1, 4 Sep 2026 - Gupta/Mohapatra (BHU)"
   }
 ]
