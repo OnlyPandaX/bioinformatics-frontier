@@ -1,0 +1,133 @@
+# 🧬 多组学研究简报
+**2026年9月19日（周六）| 近48小时精选**
+
+> 搜索范围：2026-09-17 ~ 2026-09-19 | 数据源：Nature, ArXiv, bioRxiv, medRxiv
+
+---
+
+## 📊 整体趋势评述
+
+本期48小时窗口呈现「AI工具下沉+空间多模态深化」双主线。一方面，大语言模型/基础模型正从学术概念走向临床与消费级部署——万亿参数生物LLM在笔记本上完成肿瘤WGS分析、LLM Agent自动做遗传病严重度分级；另一方面，空间转录组与空间多组学持续向疾病微环境解析渗透，IDH突变胶质瘤和阿尔茨海默症模型均见高分辨率空间应用。值得注意的是，工程化纳米孔首次实现单通道同时识别糖/氨基酸/肽/核苷酸四类生物分子，标志单分子多组学传感迈出关键一步。
+
+---
+
+## 📑 精选论文
+
+### 🔬 论文 1：工程化纳米孔同时识别四类生物分子
+
+**标题**：An engineered nanopore identifies saccharides, amino acids, peptides and ribonucleotides
+
+**作者**：Lang Yao, Zixuan Wang, Jialu Chen, et al.
+**机构**：Nanjing University（黄硕课题组）
+**平台**：Nature Biotechnology | **日期**：2026-09-14 | **DOI**：10.1038/s41587-026-03308-9
+**链接**：https://www.nature.com/articles/s41587-026-03308-9
+
+**一句话概要**：工程化改造纳米孔实现单通道同时识别糖、氨基酸、肽和核苷酸四类生物分子及其修饰。
+
+**主要贡献**：
+- 首次在单一工程化纳米孔中实现四大类生物分子（糖/氨基酸/肽/核苷酸）的同步区分
+- 可检测分子修饰（如磷酸化等），扩展单分子检测的化学维度
+- 为单分子多组学传感提供通用平台，突破质谱对样品量的依赖
+
+**🔍 Critical 简评**：⭐⭐⭐⭐⭐
+纳米孔单分子检测此前已在DNA测序（ONT）和蛋白质检测中取得突破，但同时识别多种生物分子类别一直是大挑战。本研究通过工程化改造孔道内壁相互作用位点，使四种基本生物分子类别产生特征性电信号指纹，实现了"一孔多识"。突破点在于将单分子检测从"专项传感器"推向"通用多组学平台"概念。局限方面，实际生物样品中的复杂背景干扰、通量限制和定量准确性仍需验证；从概念验证到临床/工业应用仍有距离。值得关注的是，若该平台能进一步与微流控和AI信号解码结合，可能成为下一代单分子多组学分析的核心技术。
+
+---
+
+### 🔬 论文 2：Oncohistone抑制重塑弥漫中线胶质瘤肿瘤微环境通讯
+
+**标题**：Oncohistone inhibition reshapes tumor–microenvironment communication in Diffuse Midline Glioma (DMG)
+
+**作者**：Niloofar Khairkhah, Mostafa M. H. Ibrahim, Sienna L. Galban, et al.
+**机构**：University of Michigan（Galban/Zhao课题组）
+**平台**：bioRxiv Cancer Biology | **日期**：2026-09-16 | **DOI**：10.64898/2026.06.17.731637
+**链接**：https://doi.org/10.64898/2026.06.17.731637
+
+**一句话概要**：可诱导可逆的H3K27M oncohistone模型揭示其在已建立肿瘤中通过染色质重塑调控TME免疫抑制。
+
+**主要贡献**：
+- 开发四环素诱导型PiggyBac系统，实现H3K27M表达的精确开关控制
+- 染色质可及性分析揭示oncohistone ON/OFF状态下的PD1介导免疫抑制机制差异
+- 首次系统展示oncohistone对肿瘤微环境（免疫+基质）的动态调控而非仅驱动肿瘤起始
+
+**🔍 Critical 简评**：⭐⭐⭐⭐☆
+DMG是儿童脑肿瘤最致命亚型之一，H3K27M oncohistone被认为是核心驱动因子，但既往研究主要聚焦其在肿瘤起始中的作用。本研究的关键创新在于"可逆开关"模型——可以在已建立的肿瘤中关闭oncohistone观察效应回退，这更贴近临床治疗场景。发现oncohistone关闭后PD1介导免疫抑制通路的变化具有治疗启示意义。局限在于小鼠模型的TME与人类DMG存在差异，且oncohistone抑制策略目前仍缺乏临床可转化的药物手段。未来值得结合空间转录组验证TME重塑的空间分布特征。
+
+---
+
+### 🔬 论文 3：IDH突变胶质瘤恶性转化空间转录组图谱
+
+**标题**：Spatially resolved gene expression and tumour–microenvironment interactions across malignant transformation in IDH-mutant glioma
+
+**作者**：Ivanova, A.; Ayyadhury, S.; Munoz, D. G.; Hopkins, M.; et al.
+**机构**：University of Toronto（Pugh/Wu课题组）
+**平台**：bioRxiv Cancer Biology | **日期**：2026-09-16 | **DOI**：10.64898/2026.09.08.749421
+**链接**：https://doi.org/10.64898/2026.09.08.749421
+
+**一句话概要**：空间转录组解析IDH突变胶质瘤从低级别到胶质母细胞瘤恶性转化的TME空间重构。
+
+**主要贡献**：
+- 跨恶性转化阶段的空间转录组图谱，覆盖IDH突变胶质瘤进展全谱
+- 揭示肿瘤-微环境空间互作在恶性转化中的动态变化
+- 为IDH突变胶质瘤的 spatial heterogeneity 和治疗抵抗机制提供新视角
+
+**🔍 Critical 简评**：⭐⭐⭐⭐☆
+IDH突变胶质瘤的恶性转化是预后恶化的关键事件，但对其空间维度的理解有限。本研究填补了从低级别到GBM转化过程中空间转录组系统分析的空白，对于理解TME空间重构如何驱动恶性进展具有重要意义。局限在于样本规模和平台分辨率信息（从摘要推断为Visium或类似平台），具体空间特征需结合全文验证。与上述DMG研究形成互补——两者从不同角度揭示了表观/空间调控在胶质瘤恶性进展中的核心角色。
+
+---
+
+### 🔬 论文 4：LLM Agent实现遗传病严重度自动分级
+
+**标题**：Large Language Model Agents for Evidence Based Genetic Disease Severity Classification
+
+**作者**：Tohid Ghasemnejad, Ahmadreza Argha, Mark Grosser, et al.
+**机构**：UNSW Sydney（Alinejad-Rokny课题组）
+**平台**：ArXiv q-bio.GN | **日期**：2026-09-17 | **arXiv ID**：2609.19569
+**链接**：https://arxiv.org/abs/2609.19569
+
+**一句话概要**：ReAct+RAG的AI Agent自动对10,211个HPO术语进行遗传病严重度分级，准确率93.55%。
+
+**主要贡献**：
+- 整合ReAct推理框架与RAG文献检索，实现ACMG/ACOG标准下的自动严重度分类
+- 覆盖10,211个Human Phenotype Ontology术语，82.6%-91.4%的推理链有直接文献证据支撑
+- 独立验证模块确保AI推理链可追溯、可审计
+
+**🔍 Critical 简评**：⭐⭐⭐⭐☆
+遗传病严重度分级目前高度依赖专家主观判断，是基因组筛查的临床瓶颈。本研究展示了LLM Agent在标准化临床决策流程中的实用潜力——不仅准确率高，更重要的是通过RAG实现证据可追溯，这比纯黑盒预测更符合临床规范。局限在于HPO术语级别的评估仍需在真实临床队列中验证；"严重度"本身的定义在不同指南间存在分歧；且LLM可能对罕见病缺乏充分文献支撑。但从AI工具化角度看，这是LLM从"对话助手"走向"临床决策基础设施"的重要信号。
+
+---
+
+### 🔬 论文 5：AI驱动的纳米级空间定位映射揭示5xFAD阿尔茨海默症新靶点
+
+**标题**：Autonomous AI-Driven Nanoscale Spatial Mapping Reveals Novel Targets and Ternary Architectures in 5xFAD Alzheimer's Disease Model
+
+**作者**：Suissa, M. V.; Koutures, A.; Harker, S.; et al.
+**平台**：bioRxiv Systems Biology | **日期**：2026-09-16 | **DOI**：10.64898/2026.09.09.750448
+**链接**：https://doi.org/10.64898/2026.09.09.750448
+
+**一句话概要**：自主AI驱动纳米级空间映射在5xFAD小鼠中揭示Aβ/tau三元复合物架构及新治疗靶点。
+
+**主要贡献**：
+- AI自动化纳米级空间映射技术实现Aβ和tau蛋白的超分辨率空间分析
+- 发现新的三元分子架构和候选靶点
+- 为AD病理机制研究提供空间蛋白质组学新维度
+
+**🔍 Critical 简评**：⭐⭐⭐☆☆
+阿尔茨海默症的空间生物学研究正在快速发展，本研究将AI自动化分析与纳米级空间映射结合，试图突破传统成像的空间分辨率限制。发现的三元架构如果能在独立队列中验证，可能为AD提供新的治疗靶点思路。局限在于5xFAD模型是转基因过度表达系统，与散发性AD的病理生理差异需要谨慎对待；且"自主AI驱动"的具体算法和验证策略需结合全文评估。作为方法学探索值得关注，但临床转化价值仍需更多验证。
+
+---
+
+## 📋 近48小时其他相关发现
+
+| 平台 | 论文 | 关键词 | 备注 |
+|------|------|--------|------|
+| ArXiv | Democratizing Clinical Tumor WGS (2609.17620) | 万亿参数LLM/消费级GPU/18h WGS | 工程突破，RTX 4060上跑万亿参数生物LLM |
+| bioRxiv | KSTAR v1.2: kinase activity inference (751568) | 磷酸化蛋白组/激酶活性 | 工具升级，可访问性提升 |
+| bioRxiv | CTLH-MKLN1 E3 ligase substrate recruitment (750665) | 泛素连接酶/degron/蛋白降解 | 生物化学机制研究 |
+| bioRxiv | Comparison of cell-cycle gene expression dynamics (751360) | 细胞周期/多能性/种间差异 | 系统生物学比较研究 |
+| medRxiv | Plasma p-tau217 model for MCI-to-Dementia (26363045) | p-tau217/MCI/痴呆进展 | 神经退行性疾病生物标志物 |
+
+---
+
+*Generated by multi-omics-briefing v1.7.0*
+*搜索时间窗口：2026-09-17 00:00 UTC ~ 2026-09-19 00:00 UTC*
