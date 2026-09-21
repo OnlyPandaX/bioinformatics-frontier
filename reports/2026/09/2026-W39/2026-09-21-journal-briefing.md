@@ -7,59 +7,37 @@
 ---
 
 ## 📊 统计
-- **今日相关论文**: 2 篇
+- **今日新增相关论文**: 0 篇
+- **抓取候选（已去重跳过）**: 1 篇
 
 ### 期刊分布
-- **Science Advances**: 2 篇
+- 今日新增：无
 
 ---
 
-## 📰 论文详情
+## 📰 去重说明（今日无新增，按规则跳过）
 
-### 🔬 论文1:Erratum for the Research Article, "Coinhibition of topoisomerase 1 and BRD4-mediated pause release selectively kills pancreatic cancer via readthrough transcription" by D. Cameron et al.
+今日抓取到 1 篇候选，经去重检查确认已于 2026-09-20 推送，本期为同一勘误声明的重复抓取，按去重规则跳过，不重复发送：
 
-**作者**: (作者信息无法确认)
-**平台**: Science Advances
-**日期**: 2026 Sep 18
-**DOI**: 10.1126/sciadv.aem0114
-**链接**: https://doi.org/10.1126/sciadv.aem0114
-
-**一句话概要**: topoisomerase 1 and BRD4-mediated pause release selectively kills pancreatic cancer via readthrough transcription" by D. Cameron et al的erratum for the research article, "coinhibition研究。
-
-**主要贡献**
-- 为肿瘤诊疗提供了新思路
-
-**🔍 Critical 简评**: 肿瘤生物学研究正从描述性向机制性转变。本研究针对癌症发生发展中的特定分子事件,为揭示肿瘤进化路径和耐药机制提供了新见解。
-
----
-
-### 🔬 论文2:Erratum for the Research Article, "Coinhibition of topoisomerase 1 and BRD4-mediated pause release selectively kills pancreatic cancer via readthrough transcription" by D. Cameron et al.
-
-**作者**: (作者信息无法确认)
-**平台**: Science Advances
-**日期**: 2026 Sep 18
-**DOI**: 10.1126/sciadv.aem0114
-**链接**: https://doi.org/10.1126/sciadv.aem0114
-
-**一句话概要**: topoisomerase 1 and BRD4-mediated pause release selectively kills pancreatic cancer via readthrough transcription" by D. Cameron et al的erratum for the research article, "coinhibition研究。
-
-**主要贡献**
-- 为肿瘤诊疗提供了新思路
-
-**🔍 Critical 简评**: 肿瘤生物学研究正从描述性向机制性转变。本研究针对癌症发生发展中的特定分子事件,为揭示肿瘤进化路径和耐药机制提供了新见解。
+- **Erratum for the Research Article, "Coinhibition of topoisomerase 1 and BRD4-mediated pause release selectively kills pancreatic cancer via readthrough transcription"** by D. Cameron et al.
+  - **平台**: Science Advances
+  - **日期**: 2026 Sep 18
+  - **DOI**: 10.1126/sciadv.aem0114
+  - **链接**: https://doi.org/10.1126/sciadv.aem0114
+  - **说明**: 该条目已于 2026-09-20 推送（原勘误对应论文 sciadv.adg5109, Cameron et al., 2023）。本期为邮件重复抓取，无重大后续进展/新引用，故跳过。
 
 ---
 
 ## 💡 整体趋势
 
 📊 **期刊分布**:
-- Science Advances: 2 篇
+- 今日新增：无
 
 📈 **领域热度**:
-- 肿瘤/免疫: 2 篇
+- 本期无新增相关论文
 
 💡 **本期综合评述**:
-- 本期相关论文较少,持续关注后续更新
+- 本期仅抓取到 1 篇候选，且为已推送过的勘误（重复抓取），按去重规则跳过，今日无新增相关论文。持续关注后续更新。
 
 ---
 
