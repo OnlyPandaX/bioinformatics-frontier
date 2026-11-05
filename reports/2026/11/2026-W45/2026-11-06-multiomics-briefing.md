@@ -1,0 +1,110 @@
+# 多组学研究简报
+**2026年11月6日（周五）| 近48小时精选**
+
+> 搜索范围：2026-11-03 23:31 ~ 2026-11-05 23:31 UTC | 数据源：Nature 系列、arXiv、bioRxiv、medRxiv
+
+## 整体趋势评述
+
+本期研究共同呈现出从静态分子图谱走向可解释、可更新的动态推断：单细胞表达与免疫受体被联合建模以刻画治疗相关细胞状态，遗传关联与转录调控证据被整合以细化疾病风险基因，而新一代实验和 AI 方法则尝试在时间维度追踪细胞变化或依据新观测修正预测。人群代表性也成为基因组资源建设中的核心设计问题。
+
+## 精选论文
+
+### 论文 1：以信息论量化 T 细胞克隆与表型关系
+
+**标题**：An information-theoretic framework for inferring T cell dynamics from single-cell RNA and T cell receptor sequencing
+
+**作者**：Nicholas Ceglia, Sohrab Salehi, Zachary M. Sethna, et al.
+**机构**：通讯作者 Benjamin D. Greenbaum：Memorial Sloan Kettering Cancer Center、Columbia University、Weill Cornell Medicine
+**平台**：Nature Genetics | **日期**：2026-11-05 | **DOI**：10.1038/s41588-026-02781-x
+**链接**：https://doi.org/10.1038/s41588-026-02781-x
+
+**一句话概要**：以层级贝叶斯模型联合刻画 TCR 克隆型与单细胞转录表型。
+
+**主要贡献**：
+- 提出 TCRi，将克隆型、表型及患者、组织或时间等协变量纳入联合概率建模，而非先将表型离散化后再做富集。
+- 从联合分布导出克隆型熵、表型熵、表型通量和互信息等指标，显式表征克隆与状态关系及其不确定性。
+- 在四个真实队列、共 167,118 个接受免疫检查点治疗患者的 CD8 T 细胞数据中，报告互信息可区分治疗应答。
+
+**Critical 简评**：既有 TCR 多样性指标能概括克隆组成，却难以回答特定克隆对应何种功能状态；TCRi 的关键推进是将克隆—表型耦合表示为概率分布，并借助层级先验在克隆和样本间共享信息。当前临床证据主要来自观察性队列，尚不能证明互信息具有独立预测价值。后续需在独立前瞻队列中验证其相对临床变量和转录特征的增量，并检验批次、注释及克隆定义对估计的影响。
+
+### 论文 2：跨祖源 IBD 遗传关联与转录组整合
+
+**标题**：Multi-ancestry genome-wide and transcriptome-wide association analyses identify new risk loci and genes for inflammatory bowel disease
+
+**作者**：Linshuoshuo Lyu, Qing Li, Chao Li, et al.
+**机构**：通讯作者 Xingyi Guo：Vanderbilt University（作者列出的相关单位包括 Vanderbilt University School of Medicine 与 Vanderbilt University Medical Center）
+**平台**：Nature Communications | **日期**：2026-11-04 | **DOI**：10.1038/s41467-026-79302-1
+**链接**：https://doi.org/10.1038/s41467-026-79302-1
+
+**一句话概要**：整合跨祖源 GWAS 与结肠转录组证据，扩展 IBD 风险基因图谱。
+
+**主要贡献**：
+- 基于 63,415 例欧洲与东亚病例开展跨祖源 GWAS 荟萃分析，报告 60 个此前未报道的易感位点。
+- 整合 TWAS、细胞类型特异性 TWAS、可变剪接和多聚腺苷酸化分析，提出 441 个候选风险基因，其中 291 个获得共定位或基于汇总数据的孟德尔随机化支持。
+- 报告 44 个可成药基因及其关联药物，并以单细胞和空间组学证据支持部分基因的转录异常。
+
+**Critical 简评**：单一祖源的遗传图谱对全球 IBD 风险解释和转化存在覆盖不足；跨祖源分析结合多层转录证据，为定位候选基因及潜在药物靶点提供了更细的证据链。当前 GWAS 样本仍以欧洲和东亚病例为主，其他祖源代表性及跨祖源效应异质性需要更大规模队列检验。候选药物关联不等于因果靶点或临床疗效，后续仍需功能实验和前瞻性验证。
+
+### 论文 3：可随新观测更新的单细胞世界模型
+
+**标题**：CellCanon: An Agentic Cellular World Model for Prediction, Explanation, and Observation-Driven Updating
+
+**作者**：Zhaokang Liang, Shuyang Zhuang, Xiaoran Jiao, Hao Chen
+**机构**：arXiv 页面未提供作者机构，无法核实
+**平台**：arXiv q-bio.QM | **日期**：2026-11-04 03:29:21 UTC（v1 提交时间） | **DOI**：10.48550/arXiv.2611.05890（arXiv 页面列示；DataCite 注册待完成）
+**链接**：https://arxiv.org/abs/2611.05890v1
+
+**一句话概要**：把单细胞表达预测、证据解释与实验反馈更新整合进同一模型。
+
+**主要贡献**：
+- 提出 CellCanon，以共享的世界状态连接表达预测、来源可追溯的证据解释和新观测更新。
+- 在 SciPlex3 的 339 个留出条件、三个细胞系上评估差异表达预测，并报告相对各自最佳基线的 AUPRC 与 Macro-F1 提升。
+- 在模拟实验反馈中，模型无需更新权重即可利用测量结果改进预测；作者还报告其按基因逐项推理的 token 使用量显著降低。
+
+**Critical 简评**：扰动响应模型常在未观测条件外推，且通常将预测、解释和新实验数据吸收分开处理；CellCanon 将三者纳入可修订的状态表示，强调证据来源及更新过程。当前基准集中于特定细胞系和药物条件，实验反馈结果为模拟设置，不能直接代表真实实验闭环中的稳健性。未来应在跨实验室、多模态扰动数据及真实迭代实验中检验预测校准、错误传播和更新收益。
+
+### 论文 4：对活细胞进行纵向单细胞 RNA 测序
+
+**标题**：Live Droplet Single-Cell RNA Sequencing
+
+**作者**：David E. Reynolds, Sangmo Lee, Daniel Oh, et al.
+**机构**：通讯作者 Jina Ko：University of Pennsylvania（Bioengineering；Pathology and Laboratory Medicine）
+**平台**：bioRxiv | **日期**：2026-11-04（v1） | **DOI**：10.64898/2026.11.03.763484
+**链接**：https://doi.org/10.64898/2026.11.03.763484
+
+**一句话概要**：以可重复采样追踪同一活细胞谱系的转录变化。
+
+**主要贡献**：
+- 提出 Live D-seq，将活细胞纵向胞内采样、细胞条形码、液滴乳化和水凝胶微珠条形码组合起来。
+- 通过跨物种实验、细胞与微珠条形码映射评估技术流程及交叉污染。
+- 在 A549 细胞中追踪上皮—间质转化过程，展示同一细胞谱系的重复、非破坏性表达测量。
+
+**Critical 简评**：常规单细胞 RNA-seq 多为裂解后的终点快照，难以直接描绘同一细胞随时间变化；Live D-seq 的价值在于尝试把纵向测量带入单细胞转录组实验。当前摘要展示的生物学验证集中于 A549 的 EMT 场景，尚不足以说明方法适用于不同细胞类型和状态。长期重复采样对细胞状态、存活和转录扰动的影响，以及跨细胞类型的通量和重现性仍需系统量化，后续可与成像或其他功能读出配对验证。
+
+### 论文 5：扩充全球免疫等位基因资源
+
+**标题**：A Global Atlas of Immune Alleles Reveals Health-Relevant Variation Across Groups
+
+**作者**：William T. Harvey, Anne-Katrin Emde, Fredrick E. Kakembo, et al.
+**机构**：通讯作者 Stephane E. Castel：Variant Bio Inc.（平台页面列示；利益冲突声明称其为 Variant Bio 员工、顾问或股权持有人之一）
+**平台**：medRxiv | **日期**：2026-11-04（v1） | **DOI**：10.64898/2026.11.02.26367118
+**链接**：https://doi.org/10.64898/2026.11.02.26367118
+
+**一句话概要**：以全球基因组数据补足免疫等位基因数据库中的人群代表性缺口。
+
+**主要贡献**：
+- 对 20,248 人的全基因组测序数据分析 HLA、IGHC 和 FCGR 位点，并对撒哈拉以南非洲、东南亚岛屿及太平洋人群进行过度抽样。
+- 报告 GAIA 使 Allele Frequency Net Database 的等位基因目录增加 38%，并指出数据库中若干群体代表不足。
+- 提出 majority allelic diversity（MAD-X）指标，量化达到目标群体覆盖率所需的等位基因数；作者报告 HLA-B 达到 90% 覆盖时，代表性不足群体所需等位基因数最高为西北欧祖源群体的 2.7 倍。
+
+**Critical 简评**：免疫遗传数据库偏向少数被充分测序的人群，会限制药物基因组学建议和疫苗设计的普适性；GAIA 将人群代表性作为资源建设重点，并用覆盖率指标展示其对等位基因组合选择的影响。不同群体样本量与地理覆盖仍不均衡，群体标签也不能替代个体遗传背景。药物筛查和疫苗覆盖的现实获益需要独立临床队列与前瞻性验证，研究团队的商业利益关系也应持续透明披露。
+
+## 检索与核验说明
+
+- Nature 系列通过 Nature 文章页面及 Crossref 出版商记录检索并逐篇核对；arXiv 使用其 Atom API 检索 q-bio.GN、q-bio.QM、q-bio.CB；bioRxiv 与 medRxiv 分别使用各自的官方 details API，并核对预印本落地页。
+- Nature、bioRxiv 和 medRxiv 页面提供的发布日期精度为日级，未提供可核实的时分秒；这些论文均标注为 2026-11-04 或之后。除 arXiv 明列提交时刻的论文外，无法从公开页面判断其是否恰好跨越 48 小时窗口边界，故不推断具体发布时间。
+- medRxiv 为预印本；报告中的结论概述基于平台摘要，不代表独立复核全文或临床有效性。
+
+*Generated by multi-omics-briefing v1.7.0*
+
+*搜索时间窗口：2026-11-03 23:31 UTC ~ 2026-11-05 23:31 UTC*
